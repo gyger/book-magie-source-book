@@ -1,4 +1,5 @@
 #import "@preview/mousse-notes:2.0.1": *
+#import "@preview/wrap-it:0.1.1": wrap-content
 
 #let spk(name) = [#smallcaps(name).]
 
@@ -40,12 +41,19 @@ _A motion is said to be equally or uniformly accelerated when, starting from res
 
 _The speeds acquired by one and the same body moving down planes of different inclinations are equal when the heights of these planes are equal._
 
-By the height of an inclined plane we mean the perpendicular let fall from the upper end of the plane upon the horizontal line drawn through the lower end of the same plane. Thus, to illustrate, let the line _AB_ (@fig_01) be horizontal, and let the planes _CA_ and _CD_ be inclined to it; then the Author calls the perpendicular _CB_ the "height" of the planes _CA_ and _CD_; he supposes that the speeds acquired by one and the same body, descending along the planes _CA_ and _CD_ to the terminal points _A_ and _D_ are equal since the heights of these planes are the same, _CB_; and also it must be understood that this speed is that which would be acquired by the same body falling from _C_ to _B_.
-
-#figure(
-  image("figures/fig01.svg", width: 48%),
-  caption: [Inclined planes _CA_ and _CD_ of equal height _CB_.],
-) <fig_01>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig01.svg", width: 4.6cm, alt: "Inclined planes CA and CD of equal height CB."),
+      caption: [],
+    ) <fig_01>
+  ],
+  [
+    By the height of an inclined plane we mean the perpendicular let fall from the upper end of the plane upon the horizontal line drawn through the lower end of the same plane. Thus, to illustrate, let the line _AB_ (@fig_01) be horizontal, and let the planes _CA_ and _CD_ be inclined to it; then the Author calls the perpendicular _CB_ the "height" of the planes _CA_ and _CD_; he supposes that the speeds acquired by one and the same body, descending along the planes _CA_ and _CD_ to the terminal points _A_ and _D_ are equal since the heights of these planes are the same, _CB_; and also it must be understood that this speed is that which would be acquired by the same body falling from _C_ to _B_.
+  ],
+)
 
 #spk[Sagr] Your assumption appears to me so reasonable that it ought to be conceded without question, provided of course there are no chance or outside resistances, and that the planes are hard and smooth, and that the figure of the moving body is perfectly round, so that neither plane nor moving body is rough. All resistance and opposition having been removed, my reason tells me at once that a heavy and perfectly round ball descending along the lines _CA_, _CD_, _CB_ would reach the terminal points _A_, _D_, _B_, with equal momenta.
 
@@ -54,8 +62,8 @@ By the height of an inclined plane we mean the perpendicular let fall from the u
 Imagine this page to represent a vertical wall, with a nail driven into it; and from the nail let there be suspended a lead bullet of one or two ounces by means of a fine vertical thread, _AB_ (@fig_02), say from four to six feet long; on this wall draw a horizontal line _DC_, at right angles to the vertical thread _AB_, which hangs about two finger-breadths in front of the wall. Now bring the thread _AB_ with the attached ball into the position _AC_ and set it free; first it will be observed to descend along the arc _CBD_, to pass the point _B_, and to travel along the arc _BD_, till it almost reaches the horizontal _CD_, a slight shortage being caused by the resistance of the air and the string; from this we may rightly infer that the ball in its descent through the arc _CB_ acquired a momentum on reaching _B_, which was just sufficient to carry it through a similar arc _BD_ to the same height. Having repeated this experiment many times, let us now drive a nail into the wall close to the perpendicular _AB_, say at _E_ or _F_, so that it projects out some five or six finger-breadths in order that the thread, again carrying the bullet through the arc _CB_, may strike upon the nail _E_ when the bullet reaches _B_, and thus compel it to traverse the arc _BG_, described about _E_ as center. From this we can see what can be done by the same momentum which previously starting at the same point _B_ carried the same body through the arc _BD_ to the horizontal _CD_. Now, gentlemen, you will observe with pleasure that the ball swings to the point _G_ in the horizontal, and you would see the same thing happen if the obstacle were placed at some lower point, say at _F_, about which the ball would describe the arc _BI_, the rise of the ball always terminating exactly on the line _CD_. But when the nail is placed so low that the remainder of the thread below it will not reach to the height _CD_ (which would happen if the nail were placed nearer _B_ than to the intersection of _AB_ with the horizontal _CD_) then the thread leaps over the nail and twists itself about it.
 
 #figure(
-  image("figures/fig02.svg", width: 65%),
-  caption: [Galileo's pendulum-and-nail experiment.],
+  image("figures/fig02.svg", width: 65%, alt: "Galileo's pendulum-and-nail experiment."),
+  caption: [],
 ) <fig_02>
 
 This experiment leaves no room for doubt as to the truth of our supposition; for since the two arcs _CB_ and _DB_ are equal and similarly placed, the momentum acquired by the fall through the arc _CB_ is the same as that gained by fall through the arc _DB_; but the momentum acquired at _B_, owing to fall through _CB_, is able to lift the same body through the arc _BD_; therefore, the momentum acquired in the fall _BD_ is equal to that which lifts the same body through the same arc from _B_ to _D_; so, in general, every momentum acquired by fall through an arc is equal to that which can lift the same body through the same arc. But all these momenta which cause a rise through the arcs _BD_, _BG_, and _BI_ are equal, since they are produced by the same momentum, gained by fall through _CB_, as experiment shows. Therefore all the momenta gained by fall through the arcs _DB_, _GB_, _IB_ are equal.
@@ -72,12 +80,19 @@ In striking these planes some of its momentum will be lost and it will not be ab
 
 _The time in which any space is traversed by a body starting from rest and uniformly accelerated is equal to the time in which that same space would be traversed by the same body moving at a uniform speed whose value is the mean of the highest speed and the speed just before acceleration began._
 
-Let us represent by the line _AB_ (@fig_03) the time in which the space _CD_ is traversed by a body which starts from rest at _C_ and is uniformly accelerated; let the final and highest value of the speed gained during the interval _AB_ be represented by the line _EB_ drawn at right angles to _AB_; draw the line _AE_, then all lines drawn from equidistant points on _AB_ and parallel to _BE_ will represent the increasing values of the speed, beginning with the instant _A_. Let the point _F_ bisect the line _EB_; draw _FG_ parallel to _BA_, and _GA_ parallel to _FB_, thus forming a parallelogram _AGFB_ which will be equal in area to the triangle _AEB_, since the side _GF_ bisects the side _AE_ at the point _I_; for if the parallel lines in the triangle _AEB_ are extended to _GI_, then the sum of all the parallels contained in the quadrilateral is equal to the sum of those contained in the triangle _AEB_; for those in the triangle _IEF_ are equal to those contained in the triangle _GIA_, while those included in the trapezium _AIFB_ are common. Since each and every instant of time in the time-interval _AB_ has its corresponding point on the line _AB_, from which points parallels drawn in and limited by the triangle _AEB_ represent the increasing values of the growing velocity, and since parallels contained within the rectangle represent the values of a speed which is not increasing, but constant, it appears, in like manner, that the momenta assumed by the moving body may also be represented, in the case of the accelerated motion, by the increasing parallels of the triangle _AEB_, and, in the case of the uniform motion, by the parallels of the rectangle _GB_. For, what the momenta may lack in the first part of the accelerated motion (the deficiency of the momenta being represented by the parallels of the triangle _AGI_) is made up by the momenta represented by the parallels of the triangle _IEF_.
-
-#figure(
-  image("figures/fig03.svg", width: 26%),
-  caption: [Mean-speed diagram for Theorem I, Proposition I.],
-) <fig_03>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig03.svg", width: 2.4cm, alt: "Mean-speed diagram for Theorem I, Proposition I."),
+      caption: [],
+    ) <fig_03>
+  ],
+  [
+    Let us represent by the line _AB_ (@fig_03) the time in which the space _CD_ is traversed by a body which starts from rest at _C_ and is uniformly accelerated; let the final and highest value of the speed gained during the interval _AB_ be represented by the line _EB_ drawn at right angles to _AB_; draw the line _AE_, then all lines drawn from equidistant points on _AB_ and parallel to _BE_ will represent the increasing values of the speed, beginning with the instant _A_. Let the point _F_ bisect the line _EB_; draw _FG_ parallel to _BA_, and _GA_ parallel to _FB_, thus forming a parallelogram _AGFB_ which will be equal in area to the triangle _AEB_, since the side _GF_ bisects the side _AE_ at the point _I_; for if the parallel lines in the triangle _AEB_ are extended to _GI_, then the sum of all the parallels contained in the quadrilateral is equal to the sum of those contained in the triangle _AEB_; for those in the triangle _IEF_ are equal to those contained in the triangle _GIA_, while those included in the trapezium _AIFB_ are common. Since each and every instant of time in the time-interval _AB_ has its corresponding point on the line _AB_, from which points parallels drawn in and limited by the triangle _AEB_ represent the increasing values of the growing velocity, and since parallels contained within the rectangle represent the values of a speed which is not increasing, but constant, it appears, in like manner, that the momenta assumed by the moving body may also be represented, in the case of the accelerated motion, by the increasing parallels of the triangle _AEB_, and, in the case of the uniform motion, by the parallels of the rectangle _GB_. For, what the momenta may lack in the first part of the accelerated motion (the deficiency of the momenta being represented by the parallels of the triangle _AGI_) is made up by the momenta represented by the parallels of the triangle _IEF_.
+  ],
+)
 
 Hence it is clear that equal spaces will be traversed in equal times by two bodies, one of which, starting from rest, moves with a uniform acceleration, while the momentum of the other, moving with uniform speed, is one-half its maximum momentum under accelerated motion. #h(1fr) Q. E. D.
 
@@ -87,12 +102,19 @@ _The spaces described by a body falling from rest with a uniformly accelerated m
 
 Let the time beginning with any instant _A_ be represented by the straight line _AB_ (@fig_04) in which are taken any two time-intervals _AD_ and _AE_. Let _HI_ represent the distance through which the body, starting from rest at _H_, falls with uniform acceleration. If _HL_ represents the space traversed during the time-interval _AD_, and _HM_ that covered during the interval _AE_, then the space _MH_ stands to the space _LH_ in a ratio which is the square of the ratio of the time _AE_ to the time _AD_; or we may say simply that the distances _HM_ and _HL_ are related as the squares of _AE_ and _AD_.
 
-Draw the line _AC_ making any angle whatever with the line _AB_; and from the points _D_ and _E_, draw the parallel lines _DO_ and _EP_; of these two lines, _DO_ represents the greatest velocity attained during the interval _AD_, while _EP_ represents the maximum velocity acquired during the interval _AE_. But it has just been proved that so far as distances traversed are concerned it is precisely the same whether a body falls from rest with a uniform acceleration or whether it falls during an equal time-interval with a constant speed which is one-half the maximum speed attained during the accelerated motion. It follows therefore that the distances _HM_ and _HL_ are the same as would be traversed, during the time-intervals _AE_ and _AD_, by uniform velocities equal to one-half those represented by _DO_ and _EP_ respectively. If, therefore, one can show that the distances _HM_ and _HL_ are in the same ratio as the squares of the time-intervals _AE_ and _AD_, our proposition will be proven.
-
-#figure(
-  image("figures/fig04.svg", width: 20%),
-  caption: [Time-distance relation for Theorem II, Proposition II.],
-) <fig_04>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig04.svg", width: 1.9cm, alt: "Time-distance relation for Theorem II, Proposition II."),
+      caption: [],
+    ) <fig_04>
+  ],
+  [
+    Draw the line _AC_ making any angle whatever with the line _AB_; and from the points _D_ and _E_, draw the parallel lines _DO_ and _EP_; of these two lines, _DO_ represents the greatest velocity attained during the interval _AD_, while _EP_ represents the maximum velocity acquired during the interval _AE_. But it has just been proved that so far as distances traversed are concerned it is precisely the same whether a body falls from rest with a uniform acceleration or whether it falls during an equal time-interval with a constant speed which is one-half the maximum speed attained during the accelerated motion. It follows therefore that the distances _HM_ and _HL_ are the same as would be traversed, during the time-intervals _AE_ and _AD_, by uniform velocities equal to one-half those represented by _DO_ and _EP_ respectively. If, therefore, one can show that the distances _HM_ and _HL_ are in the same ratio as the squares of the time-intervals _AE_ and _AD_, our proposition will be proven.
+  ],
+)
 
 But in the fourth proposition of the first book it has been shown that the spaces traversed by two particles in uniform motion bear to one another a ratio which is equal to the product of the ratio of the velocities by the ratio of the times. But in this case the ratio of the velocities is the same as the ratio of the time-intervals (for the ratio of _AE_ to _AD_ is the same as that of $1/2 E P$ to $1/2 D O$ or of _EP_ to _DO_). Hence the ratio of the spaces traversed is the same as the squared ratio of the time-intervals. #h(1fr) Q. E. D.
 
@@ -122,12 +144,19 @@ For the measurement of time, we employed a large vessel of water placed in an el
 
 Secondly, it follows that, starting from any initial point, if we take any two distances, traversed in any time-interval whatsoever, these time-intervals bear to one another the same ratio as one of the distances to the mean proportional of the two distances.
 
-For if we take two distances _ST_ and _SY_ (@fig_05) measured from the initial point _S_, the mean proportional of which is _SX_, the time of fall through _ST_ is to the time of fall through _SY_ as _ST_ is to _SX_; or one may say the time of fall through _SY_ is to the time of fall through _ST_ as _SY_ is to _SX_. Now since it has been shown that the spaces traversed are in the same ratio as the squares of the times; and since, moreover, the ratio of the space _SY_ to the space _ST_ is the square of the ratio _SY_ to _SX_, it follows that the ratio of the times of fall through _SY_ and _ST_ is the ratio of the respective distances _SY_ and _SX_.
-
-#figure(
-  image("figures/fig05.svg", width: 12%),
-  caption: [Mean proportional distance _SX_ between _ST_ and _SY_.],
-) <fig_05>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig05.svg", width: 1.5cm, alt: "Mean proportional distance SX between ST and SY."),
+      caption: [],
+    ) <fig_05>
+  ],
+  [
+    For if we take two distances _ST_ and _SY_ (@fig_05) measured from the initial point _S_, the mean proportional of which is _SX_, the time of fall through _ST_ is to the time of fall through _SY_ as _ST_ is to _SX_; or one may say the time of fall through _SY_ is to the time of fall through _ST_ as _SY_ is to _SX_. Now since it has been shown that the spaces traversed are in the same ratio as the squares of the times; and since, moreover, the ratio of the space _SY_ to the space _ST_ is the square of the ratio _SY_ to _SX_, it follows that the ratio of the times of fall through _SY_ and _ST_ is the ratio of the respective distances _SY_ and _SX_.
+  ],
+)
 
 ==== Scholium
 
@@ -143,12 +172,19 @@ The above corollary has been proven for the case of vertical fall; but it holds 
 
 The speed reaches a maximum along a vertical direction, and for other directions diminishes as the plane diverges from the vertical. Therefore the impetus, ability, energy, or, one might say, the momentum of descent of the moving body is diminished by the plane upon which it is supported and along which it rolls.
 
-For the sake of greater clearness erect the line _AB_ (@fig_06) perpendicular to the horizontal _AC_; next draw _AD_, _AE_, _AF_, etc., at different inclinations to the horizontal. Then I say that all the momentum of the falling body is along the vertical and is a maximum when it falls in that direction; the momentum is less along _DA_ and still less along _EA_, and even less yet along the more inclined plane _FA_. Finally on the horizontal plane _CA_ the momentum vanishes altogether; the body finds itself in a condition of indifference as to motion or rest; has no inherent tendency to move in any direction, and offers no resistance to being set in motion. For just as a heavy body or system of bodies cannot of itself move upwards, or recede from the common center toward which all heavy things tend, so it is impossible for any body of its own accord to assume any motion other than one which carries it nearer to the aforesaid common center. Hence, along the horizontal, by which we understand a surface, every point of which is equidistant from this same common center, the body will have no momentum whatever.
-
-#figure(
-  image("figures/fig06.svg", width: 42%),
-  caption: [Momenta along planes of different inclinations and equilibrium of weights _G_ and _H_.],
-) <fig_06>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig06.svg", width: 4.4cm, alt: "Momenta along planes of different inclinations and equilibrium of weights G and H."),
+      caption: [],
+    ) <fig_06>
+  ],
+  [
+    For the sake of greater clearness erect the line _AB_ (@fig_06) perpendicular to the horizontal _AC_; next draw _AD_, _AE_, _AF_, etc., at different inclinations to the horizontal. Then I say that all the momentum of the falling body is along the vertical and is a maximum when it falls in that direction; the momentum is less along _DA_ and still less along _EA_, and even less yet along the more inclined plane _FA_. Finally on the horizontal plane _CA_ the momentum vanishes altogether; the body finds itself in a condition of indifference as to motion or rest; has no inherent tendency to move in any direction, and offers no resistance to being set in motion. For just as a heavy body or system of bodies cannot of itself move upwards, or recede from the common center toward which all heavy things tend, so it is impossible for any body of its own accord to assume any motion other than one which carries it nearer to the aforesaid common center. Hence, along the horizontal, by which we understand a surface, every point of which is equidistant from this same common center, the body will have no momentum whatever.
+  ],
+)
 
 This change of momentum being clear, it is here necessary for me to explain something which our Academician wrote when in Padua, embodying it in a treatise on mechanics prepared solely for the use of his students, and proving it at length and conclusively when considering the origin and nature of that marvellous machine, the screw. What he proved is the manner in which the momentum varies with the inclination of the plane, as for instance that of the plane _FA_, one end of which is elevated through a vertical distance _FC_. This direction _FC_ is that along which the momentum of a heavy body becomes a maximum; let us discover what ratio this momentum bears to that of the same body moving along the inclined plane _FA_. This ratio, I say, is the inverse of that of the aforesaid lengths. Such is the lemma preceding the theorem which I hope to demonstrate a little later.
 
@@ -164,12 +200,19 @@ _If a body falls freely along smooth planes inclined at any angle whatsoever, bu
 
 First we must recall the fact that on a plane of any inclination whatever a body starting from rest gains speed or momentum in direct proportion to the time, in agreement with the definition of naturally accelerated motion given by the Author. Hence, as he has shown in the preceding proposition, the distances traversed are proportional to the squares of the times and therefore to the squares of the speeds. The speed relations are here the same as in the motion first studied [i.e. vertical motion], since in each case the gain of speed is proportional to the time.
 
-Let _AB_ (@fig_07) be an inclined plane whose height above the level _BC_ is _AC_. As we have seen above, the force impelling a body to fall along the vertical _AC_ is to the force which drives the same body along the inclined plane _AB_ as _AB_ is to _AC_. On the incline _AB_, lay off _AD_ a third proportional to _AB_ and _AC_; then the force producing motion along _AC_ is to that along _AB_ (i.e., along _AD_) as the length _AC_ is to the length _AD_. And therefore the body will traverse the space _AD_, along the incline _AB_, in the same time which it would occupy in falling the vertical distance _AC_, (since the forces are in the same ratio as these distances); also the speed at _C_ is to the speed at _D_ as the distance _AC_ is to the distance _AD_. But, according to the definition of accelerated motion, the speed at _B_ is to the speed of the same body at _D_ as the time required to traverse _AB_ is to the time required for _AD_; and, according to the last corollary of the second proposition, the time of passing through the distance _AB_ bears to the time of passing through _AD_ the same ratio as the distance _AC_ (a mean proportional between _AB_ and _AD_) to _AD_. Accordingly the two speeds at _B_ and _C_ each bear to the speed at _D_ the same ratio, namely, that of the distances _AC_ and _AD_; hence they are equal. This is the theorem which I set out to prove.
-
-#figure(
-  image("figures/fig07.svg", width: 42%),
-  caption: [Inclined plane _AB_ of height _AC_ with third proportional _AD_.],
-) <fig_07>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig07.svg", width: 4.4cm, alt: "Inclined plane AB of height AC with third proportional AD."),
+      caption: [],
+    ) <fig_07>
+  ],
+  [
+    Let _AB_ (@fig_07) be an inclined plane whose height above the level _BC_ is _AC_. As we have seen above, the force impelling a body to fall along the vertical _AC_ is to the force which drives the same body along the inclined plane _AB_ as _AB_ is to _AC_. On the incline _AB_, lay off _AD_ a third proportional to _AB_ and _AC_; then the force producing motion along _AC_ is to that along _AB_ (i.e., along _AD_) as the length _AC_ is to the length _AD_. And therefore the body will traverse the space _AD_, along the incline _AB_, in the same time which it would occupy in falling the vertical distance _AC_, (since the forces are in the same ratio as these distances); also the speed at _C_ is to the speed at _D_ as the distance _AC_ is to the distance _AD_. But, according to the definition of accelerated motion, the speed at _B_ is to the speed of the same body at _D_ as the time required to traverse _AB_ is to the time required for _AD_; and, according to the last corollary of the second proposition, the time of passing through the distance _AB_ bears to the time of passing through _AD_ the same ratio as the distance _AC_ (a mean proportional between _AB_ and _AD_) to _AD_. Accordingly the two speeds at _B_ and _C_ each bear to the speed at _D_ the same ratio, namely, that of the distances _AC_ and _AD_; hence they are equal. This is the theorem which I set out to prove.
+  ],
+)
 
 From the above we are better able to demonstrate the following third proposition of the Author in which he employs the following principle, namely, the time required to traverse an inclined plane is to that required to fall through the vertical height of the plane in the same ratio as the length of the plane to its height.
 
@@ -206,8 +249,8 @@ As to the times of vibration of bodies suspended by threads of different lengths
 Let us imagine an elevated horizontal line or plane _ab_ (@fig_08) along which a body moves with uniform speed from _a_ to _b_. Suppose this plane to end abruptly at _b_; then at this point the body will, on account of its weight, acquire also a natural motion downwards along the perpendicular _bn_. Draw the line _be_ along the plane _ba_ to represent the flow, or measure, of time; divide this line into a number of segments, _bc_, _cd_, _de_, representing equal intervals of time; from the points _b_, _c_, _d_, _e_, let fall lines which are parallel to the perpendicular _bn_. On the first of these lay off any distance _ci_, on the second a distance four times as long, _df_; on the third, one nine times as long, _eh_; and so on, in proportion to the squares of _cb_, _db_, _eb_, or, we may say, in the squared ratio of these same lines. Accordingly we see that while the body moves from _b_ to _c_ with uniform speed, it also falls perpendicularly through the distance _ci_, and at the end of the time-interval _bc_ finds itself at the point _i_. In like manner at the end of the time-interval _bd_, which is the double of _bc_, the vertical fall will be four times the first distance _ci_; for it has been shown in a previous discussion that the distance traversed by a freely falling body varies as the square of the time; in like manner the space _eh_ traversed during the time _be_ will be nine times _ci_; thus it is evident that the distances _eh_, _df_, _ci_ will be to one another as the squares of the lines _be_, _bd_, _bc_. Now from the points _i_, _f_, _h_ draw the straight lines _io_, _fg_, _hl_ parallel to _be_; these lines _hl_, _fg_, _io_ are equal to _eb_, _db_, and _cb_, respectively; so also are the lines _bo_, _bg_, _bl_ respectively equal to _ci_, _df_, and _eh_. The square of _hl_ is to that of _fg_ as the line _lb_ is to _bg_; and the square of _fg_ is to that of _io_ as _gb_ is to _bo_; therefore the points _i_, _f_, _h_, lie on one and the same parabola. In like manner it may be shown that, if we take equal time-intervals of any size whatever, and if we imagine the particle to be carried by a similar compound motion, the positions of this particle, at the ends of these time-intervals, will lie on one and the same parabola. #h(1fr) Q. E. D.
 
 #figure(
-  image("figures/fig08.svg", width: 62%),
-  caption: [Parabolic path of a horizontally projected body.],
+  image("figures/fig08.svg", width: 62%, alt: "Parabolic path of a horizontally projected body."),
+  caption: [],
 ) <fig_08>
 
 #spk[Salv] This conclusion follows from the converse of the first of the two propositions given above. For, having drawn a parabola through the points _b_ and _h_, any other two points, _f_ and _i_, not falling on the parabola must lie either within or without; consequently the line _fg_ is either longer or shorter than the line which terminates on the parabola. Therefore the square of _hl_ will not bear to the square of _fg_ the same ratio as the line _lb_ to _bg_, but a greater or smaller; the fact is, however, that the square of _hl_ does bear this same ratio to the square of _fg_. Hence the point _f_ does lie on the parabola, and so do all the others.
@@ -240,12 +283,19 @@ _Given._ Let _ABC_ (@fig_09) be a triangle with its plane perpendicular to the h
 
 _Required._ It is to be demonstrated that as the side _AB_ 2 is to the side _BC_ 1 so the force or power of the weight _E_ is to that of _D_.
 
-#figure(
-  image("figures/fig09.svg", width: 50%),
-  caption: [Stevinus's wreath of fourteen spheres on the inclined planes _AB_ and _BC_.],
-) <fig_09>
-
-_Preparation._ Let there be arranged about the triangle a set of fourteen spheres, equal in weight and in size, and set at equal distances from each other, such as _D_, _E_, _F_, _G_, _H_, _I_, _K_, _L_, _M_, _N_, _O_, _P_, _Q_, _R_, strung on a line passing through their centers, so that they can turn about their respective centers, and so placed that there are two spheres on the side _BC_ and four on _BA_, then as the one line is to the other line so is the number of the spheres on the one to the number of the spheres on the other; also in _S_, _T_, _V_, let there be three rigidly fixed points, over which the line or the thread can slide, so that the two parts of it above the triangle are parallel to the sides _AB_, _BC_; in such a way that the whole string can run freely and without catching over the sides _AB_, _BC_.
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig09.svg", width: 4.8cm, alt: "Stevinus's wreath of fourteen spheres on the inclined planes AB and BC."),
+      caption: [],
+    ) <fig_09>
+  ],
+  [
+    _Preparation._ Let there be arranged about the triangle a set of fourteen spheres, equal in weight and in size, and set at equal distances from each other, such as _D_, _E_, _F_, _G_, _H_, _I_, _K_, _L_, _M_, _N_, _O_, _P_, _Q_, _R_, strung on a line passing through their centers, so that they can turn about their respective centers, and so placed that there are two spheres on the side _BC_ and four on _BA_, then as the one line is to the other line so is the number of the spheres on the one to the number of the spheres on the other; also in _S_, _T_, _V_, let there be three rigidly fixed points, over which the line or the thread can slide, so that the two parts of it above the triangle are parallel to the sides _AB_, _BC_; in such a way that the whole string can run freely and without catching over the sides _AB_, _BC_.
+  ],
+)
 
 ==== Demonstration
 
@@ -255,21 +305,35 @@ _Conclusion._ Therefore if a triangle has its plane, etc.
 
 ==== Corollary 1
 
-Let _ABC_ (@fig_10) be a triangle as before, and _AB_ twice as great as _BC_, and let _D_ be a sphere on _AB_ twice as massive as _E_, which is on _BC_; at _F_ let there be a rigidly fixed point over which the line _DFE_ can slide freely, and so that _DF_, _FE_, are parallel to the sides of the triangle _ABC_, drawn from the centers of the spheres; it is plain that _D_, _E_, will still be in equilibrium, just as before _P_, _Q_, _R_, _D_, were in equilibrium with _E_, _F_, because as _AB_ is to _BC_ so is the sphere _D_ to the sphere _E_.
-
-#figure(
-  image("figures/fig10.svg", width: 46%),
-  caption: [Two unequal spheres _D_ and _E_ in equilibrium on planes _AB_ and _BC_.],
-) <fig_10>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig10.svg", width: 4.6cm, alt: "Two unequal spheres D and E in equilibrium on planes AB and BC."),
+      caption: [],
+    ) <fig_10>
+  ],
+  [
+    Let _ABC_ (@fig_10) be a triangle as before, and _AB_ twice as great as _BC_, and let _D_ be a sphere on _AB_ twice as massive as _E_, which is on _BC_; at _F_ let there be a rigidly fixed point over which the line _DFE_ can slide freely, and so that _DF_, _FE_, are parallel to the sides of the triangle _ABC_, drawn from the centers of the spheres; it is plain that _D_, _E_, will still be in equilibrium, just as before _P_, _Q_, _R_, _D_, were in equilibrium with _E_, _F_, because as _AB_ is to _BC_ so is the sphere _D_ to the sphere _E_.
+  ],
+)
 
 ==== Corollary 2
 
-Further, let one of the sides of the triangle, like _BC_ (@fig_11) (which is half the length of the other side _AB_), be perpendicular to _AC_; the sphere _D_ which is twice the mass _E_ will still be in equilibrium with _E_, for as the side _AB_ is to _BC_ so is the sphere _D_ to the sphere _E_.
-
-#figure(
-  image("figures/fig11.svg", width: 42%),
-  caption: [Equilibrium with vertical side _BC_.],
-) <fig_11>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig11.svg", width: 4.2cm, alt: "Equilibrium with vertical side BC."),
+      caption: [],
+    ) <fig_11>
+  ],
+  [
+    Further, let one of the sides of the triangle, like _BC_ (@fig_11) (which is half the length of the other side _AB_), be perpendicular to _AC_; the sphere _D_ which is twice the mass _E_ will still be in equilibrium with _E_, for as the side _AB_ is to _BC_ so is the sphere _D_ to the sphere _E_.
+  ],
+)
 
 _In Corollary 3 a pulley is substituted for the fixed point at the top of the plane, and in Corollary 4 the sphere on the plane is replaced by a column or cylinder with its axis perpendicular to the slant face of the plane._
 
@@ -278,8 +342,8 @@ _In Corollary 3 a pulley is substituted for the fixed point at the top of the pl
 Let a perpendicular be drawn from the center of the column _D_ (@fig_12), such as _DK_, cutting the side of it at _L_; then the triangle _LDI_ will be similar to the triangle _ABC_, for the angles _C_ and _LID_ are right-angles, _LD_ is parallel to _BC_, and _DI_ to _AB_; wherefore as _AB_ is to _BC_ so is _LD_ to _DI_; but as _AB_ is to _BC_ so is the weight of the column to the weight _E_, by the fourth corollary: therefore as _LD_ is to _DI_ so is the weight of the column to _E_: so that if in _KD_ we apply a lifting force _M_ in equilibrium with the column, it will be equal in weight to it by the fourteenth proposition: and finally as _LD_ is to _DI_ so is _M_ to _E_.
 
 #figure(
-  image("figures/fig12.svg", width: 58%),
-  caption: [Equilibrium of a column _D_ on an inclined plane with pulley and balance.],
+  image("figures/fig12.svg", width: 58%, alt: "Equilibrium of a column D on an inclined plane with pulley and balance."),
+  caption: [],
 ) <fig_12>
 
 ==== Corollary 6
@@ -287,16 +351,23 @@ Let a perpendicular be drawn from the center of the column _D_ (@fig_12), such a
 Let us draw the line _BN_ (@fig_13) cutting _AC_ produced in _N_, and also _DO_, cutting _LI_ produced in _O_, in such a way that the angle _IDO_ is equal to the angle _CBN_, and then let there be applied the direct force _P_ along _DO_, holding the column in position (having removed the weights _M_, _E_); then, in as much as _LD_ is homologous to _BA_ in the triangle _BAC_, and _DI_ to _BC_, it follows, since _BA_ is to _BC_ as the weight on _BA_ is to the weight on _BC_, by the second Corollary, that also _DL_ is to _DI_ as the weight belonging to _DL_ is to the weight belonging to _DI_, as _M_ to _E_; similarly, the three lines _LD_, _DI_, _DO_ being homologous to the three lines _AB_, _BC_, _BN_; then _BA_ being to _BN_ as the weights pertaining to them so also _LD_ will be to _DO_ as the weights pertaining to them, that is to say, as _M_ to _P_: and the same would be true if _BN_ were drawn on the other side of the perpendicular _BC_, that is, between _AB_ and _BC_, and similarly _DO_ between _DL_ and _DI_, and this proportion holds not only when the elevation _DI_ is perpendicular to the axis but for every angle.
 
 #figure(
-  image("figures/fig13.svg", width: 62%),
-  caption: [Oblique supporting force _P_ along _DO_.],
+  image("figures/fig13.svg", width: 62%, alt: "Oblique supporting force P along DO."),
+  caption: [],
 ) <fig_13>
 
-The above also may be applied to a sphere on the line _AB_ (@fig_14) as here represented, where we shall say as before: that as _LD_ is to _DO_ so is _M_ to _P_ (provided that _CL_ is at right-angles to _AB_, that is to say, parallel to the axis _HG_ of the sphere _D_) and so the weight of the sphere is to _P_ as _LD_ is to _DO_; but since _LD_, _DO_ cannot be easily drawn inside the sphere let the perpendicular _CE_ be drawn; then we shall have a triangle _CEO_ outside the solid sphere, similar to _LDO_: of which the homologous sides are _LD_, _CE_, also _DO_, _EO_; wherefore as _LD_ is to _DO_, that is to say as _CE_ is to _EO_, so the weight of the sphere is to _P_.
-
-#figure(
-  image("figures/fig14.svg", width: 52%),
-  caption: [Application of the oblique force relation to a sphere _D_.],
-) <fig_14>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig14.svg", width: 5.0cm, alt: "Application of the oblique force relation to a sphere D."),
+      caption: [],
+    ) <fig_14>
+  ],
+  [
+    The above also may be applied to a sphere on the line _AB_ (@fig_14) as here represented, where we shall say as before: that as _LD_ is to _DO_ so is _M_ to _P_ (provided that _CL_ is at right-angles to _AB_, that is to say, parallel to the axis _HG_ of the sphere _D_) and so the weight of the sphere is to _P_ as _LD_ is to _DO_; but since _LD_, _DO_ cannot be easily drawn inside the sphere let the perpendicular _CE_ be drawn; then we shall have a triangle _CEO_ outside the solid sphere, similar to _LDO_: of which the homologous sides are _LD_, _CE_, also _DO_, _EO_; wherefore as _LD_ is to _DO_, that is to say as _CE_ is to _EO_, so the weight of the sphere is to _P_.
+  ],
+)
 
 _There follows a diagram in which all the lines have been removed except those of the triangle COE, and the result is announced that as CE is to EO so is the weight of the sphere D to the weight P. The author adds here that this relation holds true not only for spheres but for all sorts of solid bodies._
 
@@ -460,12 +531,19 @@ Whatever draws or presses another is as much drawn or pressed by that other. If 
 
 _A body by two forces conjoined will describe the diagonal of a parallelogram, in the same time that it would describe the sides, by those forces apart._
 
-If a body in a given time, by the force _M_ impressed apart in the place _A_ (@fig_15), should with an uniform motion be carried from _A_ to _B_; and by the force _N_ impressed apart in the same place, should be carried from _A_ to _C_; complete the parallelogram _ABCD_, and, by both forces acting together, it will in the same time be carried in the diagonal from _A_ to _D_. For since the force _N_ acts in the direction of the line _AC_, parallel to _BD_, this force (by the second law) will not at all alter the velocity generated by the other force _M_, by which the body is carried towards the line _BD_. The body therefore will arrive at the line _BD_ in the same time, whether the force _N_ be impressed or not; and therefore at the end of that time it will be found somewhere in the line _BD_. By the same argument, at the end of the same time it will be found somewhere in the line _CD_. Therefore it will be found in the point _D_, where both lines meet. But it will move in a right line from _A_ to _D_, by Law I.
-
-#figure(
-  image("figures/fig15.svg", width: 45%),
-  caption: [Parallelogram of forces _ABCD_.],
-) <fig_15>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig15.svg", width: 4.5cm, alt: "Parallelogram of forces ABCD."),
+      caption: [],
+    ) <fig_15>
+  ],
+  [
+    If a body in a given time, by the force _M_ impressed apart in the place _A_ (@fig_15), should with an uniform motion be carried from _A_ to _B_; and by the force _N_ impressed apart in the same place, should be carried from _A_ to _C_; complete the parallelogram _ABCD_, and, by both forces acting together, it will in the same time be carried in the diagonal from _A_ to _D_. For since the force _N_ acts in the direction of the line _AC_, parallel to _BD_, this force (by the second law) will not at all alter the velocity generated by the other force _M_, by which the body is carried towards the line _BD_. The body therefore will arrive at the line _BD_ in the same time, whether the force _N_ be impressed or not; and therefore at the end of that time it will be found somewhere in the line _BD_. By the same argument, at the end of the same time it will be found somewhere in the line _CD_. Therefore it will be found in the point _D_, where both lines meet. But it will move in a right line from _A_ to _D_, by Law I.
+  ],
+)
 
 ==== Corollary II
 
@@ -493,18 +571,25 @@ _If bodies, any how moved among themselves, are urged in the direction of parall
 
 ==== Scholium
 
-Hitherto I have laid down such principles as have been received by mathematicians, and are confirmed by abundance of experiments. By the first two Laws and the first two Corollaries, Galileo discovered that the descent of bodies observed the duplicate ratio of the time, and that the motion of projectiles was in the curve of a parabola; experience agreeing with both, unless so far as these motions are a little retarded by the resistance of the air. When a body is falling, the uniform force of its gravity acting equally, impresses, in equal particles of time, equal forces upon that body and therefore generates equal velocities; and in the whole time impresses a whole force, and generates a whole velocity proportional to the time. And the spaces described in proportional times are as the velocities and the times conjunctly; that is, in a duplicate ratio of the times. And when a body is thrown upwards, its uniform gravity impresses forces and takes off velocities proportional to the times; and the times of ascending to the greatest heights are as the velocities to be taken off, and those heights are as the velocities and the times conjunctly, or in the duplicate ratio of the velocities. And if a body be projected in any direction, the motion arising from its projection is compounded with the motion arising from its gravity. As if the body _A_ (@fig_16) by its motion of projection alone could describe in a given time the right line _AB_, and with its motion of falling alone would describe in the same time the altitude _AC_; complete the parallelogram _ABCD_, and the body by that compounded motion will at the end of the time be found in the place _D_; and the curve line _AED_, which that body describes, will be a parabola, to which the right line _AB_ will be a tangent in _A_; and whose ordinate _BD_ will be as the square of the line _AB_.
-
-#figure(
-  image("figures/fig16.svg", width: 32%),
-  caption: [Compound parabolic motion of a projectile _AED_.],
-) <fig_16>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig16.svg", width: 3.4cm, alt: "Compound parabolic motion of a projectile AED."),
+      caption: [],
+    ) <fig_16>
+  ],
+  [
+    Hitherto I have laid down such principles as have been received by mathematicians, and are confirmed by abundance of experiments. By the first two Laws and the first two Corollaries, Galileo discovered that the descent of bodies observed the duplicate ratio of the time, and that the motion of projectiles was in the curve of a parabola; experience agreeing with both, unless so far as these motions are a little retarded by the resistance of the air. When a body is falling, the uniform force of its gravity acting equally, impresses, in equal particles of time, equal forces upon that body and therefore generates equal velocities; and in the whole time impresses a whole force, and generates a whole velocity proportional to the time. And the spaces described in proportional times are as the velocities and the times conjunctly; that is, in a duplicate ratio of the times. And when a body is thrown upwards, its uniform gravity impresses forces and takes off velocities proportional to the times; and the times of ascending to the greatest heights are as the velocities to be taken off, and those heights are as the velocities and the times conjunctly, or in the duplicate ratio of the velocities. And if a body be projected in any direction, the motion arising from its projection is compounded with the motion arising from its gravity. As if the body _A_ (@fig_16) by its motion of projection alone could describe in a given time the right line _AB_, and with its motion of falling alone would describe in the same time the altitude _AC_; complete the parallelogram _ABCD_, and the body by that compounded motion will at the end of the time be found in the place _D_; and the curve line _AED_, which that body describes, will be a parabola, to which the right line _AB_ will be a tangent in _A_; and whose ordinate _BD_ will be as the square of the line _AB_.
+  ],
+)
 
 On the same Laws and Corollaries depend those things which have been demonstrated concerning the times of the vibration of pendulums, and are confirmed by the daily experiments of pendulum clocks. By the same, together with the third Law, Sir Christ. Wren, Dr. Wallis, and Mr. Huygens, the greatest geometers of our times, did severally determine the rules of the congress and reflexion of hard bodies, and much about the same time communicated their discoveries to the Royal Society, exactly agreeing among themselves as to those rules. Dr. Wallis, indeed, was something more early in the publication; then followed Sir Christopher Wren, and, lastly, Mr. Huygens. But Sir Christopher Wren confirmed the truth of the thing before the Royal Society by the experiment of pendulums, which Mr. Mariotte soon after thought fit to explain in a treatise entirely upon that subject. But to bring this experiment to an accurate agreement with the theory, we are to have a due regard as well to the resistance of the air as to the elastic force of the concurring bodies. Let the spherical bodies _A_, _B_ (@fig_17) be suspended by the parallel and equal strings _AC_, _BD_, from the centres _C_, _D_. About these centres, with those intervals, describe the semicircles _EAF_, _GBH_, bisected by the radii _CA_, _DB_. Bring the body _A_ to any point _R_ of the arc _EAF_, and (withdrawing the body _B_) let it go from thence, and after one oscillation suppose it to return to the point _V_: then _RV_ will be the retardation arising from the resistance of the air. Of this _RV_ let _ST_ be a fourth part, situated in the middle, to wit, so as _RS_ and _TV_ may be equal, and _RS_ may be to _ST_ as 3 to 2: then will _ST_ represent very nearly the retardation during the descent from _S_ to _A_. Restore the body _B_ to its place: and, supposing the body _A_ to be let fall from the point _S_, the velocity thereof in the place of reflexion _A_, without sensible error, will be the same as if it had descended _in vacuo_ from the point _T_. Upon which account this velocity may be represented by the chord of the arc _TA_. For it is a proposition well known to geometers, that the velocity of a pendulous body in the lowest point is as the chord of the arc which it has described in its descent. After reflexion, suppose the body _A_ comes to the place _s_, and the body _B_ to the place _k_. Withdraw the body _B_, and find the place _v_, from which if the body _A_, being let go, should after one oscillation return to the place _r_, _st_ may be a fourth part of _rv_, so placed in the middle thereof as to leave _rs_ equal to _tv_, and let the chord of the arc _tA_ represent the velocity which the body _A_ had in the place _A_ immediately after reflexion. For _t_ will be the true and correct place to which the body _A_ should have ascended, if the resistance of the air had been taken off. In the same way we are to correct the place _k_ to which the body _B_ ascends, by finding the place _l_ to which it should have ascended _in vacuo_. And thus everything may be subjected to experiment, in the same manner as if we were really placed _in vacuo_.
 
 #figure(
-  image("figures/fig17.svg", width: 64%),
-  caption: [Newton's colliding pendulum apparatus for testing the third law of motion.],
+  image("figures/fig17.svg", width: 64%, alt: "Newton's colliding pendulum apparatus for testing the third law of motion."),
+  caption: [],
 ) <fig_17>
 
 These things being done, we are to take the product (if I may so say) of the body _A_, by the chord of the arc _TA_ (which represents its velocity), that we may have its motion in the place _A_ immediately before reflexion; and then by the chord of the arc _tA_, that we may have its motion in the place _A_ immediately after reflexion. And so we are to take the product of the body _B_ by the chord of the arc _Bl_, that we may have the motion of the same immediately after reflexion. And in like manner, when two bodies are let go together from different places, we are to find the motion of each, as well before as after reflexion; and then we may compare the motions between themselves, and collect the effects of the reflexion. Thus trying the thing with pendulums of ten feet, in unequal as well as equal bodies, and making the bodies to concur after a descent through large spaces, as of 8, 12, or 16 feet, I found always, without an error of 3 inches, that when the bodies concurred together directly, equal changes towards the contrary parts were produced in their motions, and, of consequence, that the action and reaction were always equal. As, if the body _A_ impinged upon the body _B_ at rest with 9 parts of motion, and losing 7, proceeded after reflexion with 2, the body _B_ was carried backwards with those 7 parts. If the bodies concurred with contrary motions, _A_ with twelve parts of motion, and _B_ with six, then if _A_ receded with 2, _B_ receded with 8; to wit, with a deduction of 14 parts of motion on each side. For from the motion of _A_ subducting twelve parts, nothing will remain; but subducting 2 parts more, a motion will be generated of 2 parts towards the contrary way; and so, from the motion of the body _B_ of 6 parts, subducting 14 parts, a motion is generated of 8 parts towards the contrary way. But if the bodies were made both to move towards the same way, _A_, the swifter, with 14 parts of motion, _B_, the slower, with 5, and after reflexion _A_ went on with 5, _B_ likewise went on with 14 parts; 9 parts being transferred from _A_ to _B_. And so in other cases. By the congress and collision of bodies, the quantity of motion, collected from the sum of the motions directed towards the same way, or from the difference of those that are directed towards contrary ways, was never changed. For the error of an inch or two in measures may be easily ascribed to the difficulty of executing everything with accuracy. It was not easy to let go the two pendulums so exactly together that the bodies should impinge one upon the other in the lowermost place _AB_; nor to mark the places _s_, and _k_, to which the bodies ascended after congress. Nay, and some errors, too, might have happened from the unequal density of the parts of the pendulous bodies themselves, and from the irregularity of the texture proceeding from other causes.
@@ -513,12 +598,19 @@ But to prevent an objection that may perhaps be alledged against the rule, for t
 
 In attractions, I briefly demonstrate the thing after this manner. Suppose an obstacle is interposed to hinder the congress of any two bodies _A_, _B_, mutually attracting one the other: then if either body, as _A_, is more attracted towards the other body _B_, than that other body _B_ is towards the first body _A_, the obstacle will be more strongly urged by the pressure of the body _A_ than by the pressure of the body _B_, and therefore will not remain _in equilibrio_: but the stronger pressure will prevail, and will make the system of the two bodies, together with the obstacle, to move directly towards the parts on which _B_ lies; and in free spaces, to go forward _in infinitum_ with a motion perpetually accelerated; which is absurd and contrary to the first Law. For, by the first Law, the system ought to persevere in its state of rest, or of moving uniformly forward in a right line; and therefore the bodies must equally press the obstacle, and be equally attracted one by the other. I made the experiment on the loadstone and iron. If these, placed apart in proper vessels, are made to float by one another in standing water, neither of them will propel the other; but, by being equally attracted, they will sustain each other's pressure, and rest at last in an equilibrium.
 
-So the gravitation betwixt the earth and its parts is mutual. Let the earth _FI_ (@fig_18) be cut by any plane _EG_ into two parts _EGF_ and _EGI_, and their weights one towards the other will be mutually equal. For if by another plane _HK_, parallel to the former _EG_, the greater part _EGI_ is cut into two parts _EGKH_ and _HKI_, whereof _HKI_ is equal to the part _EGF_ first cut off, it is evident that the middle part _EGKH_, will have no propension by its proper weight towards either side, but will hang as it were, and rest in an equilibrium betwixt both. But the one extreme part _HKI_ will with its whole weight bear upon and press the middle part towards the other extreme part _EGF_; and therefore the force with which _EGI_, the sum of the parts _HKI_ and _EGKH_, tends towards the third part _EGF_, is equal to the weight of the part _HKI_, that is, to the weight of the third part _EGF_. And therefore the weights of the two parts _EGI_ and _EGF_, one towards the other, are equal, as I was to prove. And indeed if those weights were not equal, the whole earth floating in the non-resisting aether would give way to the greater weight, and, retiring from it, would be carried off _in infinitum_.
-
-#figure(
-  image("figures/fig18.svg", width: 44%),
-  caption: [Mutual gravitation of parts _EGF_ and _EGI_ of the earth _FI_.],
-) <fig_18>
+#wrap-content(
+  align: left,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig18.svg", width: 4.4cm, alt: "Mutual gravitation of parts EGF and EGI of the earth FI."),
+      caption: [],
+    ) <fig_18>
+  ],
+  [
+    So the gravitation betwixt the earth and its parts is mutual. Let the earth _FI_ (@fig_18) be cut by any plane _EG_ into two parts _EGF_ and _EGI_, and their weights one towards the other will be mutually equal. For if by another plane _HK_, parallel to the former _EG_, the greater part _EGI_ is cut into two parts _EGKH_ and _HKI_, whereof _HKI_ is equal to the part _EGF_ first cut off, it is evident that the middle part _EGKH_, will have no propension by its proper weight towards either side, but will hang as it were, and rest in an equilibrium betwixt both. But the one extreme part _HKI_ will with its whole weight bear upon and press the middle part towards the other extreme part _EGF_; and therefore the force with which _EGI_, the sum of the parts _HKI_ and _EGKH_, tends towards the third part _EGF_, is equal to the weight of the part _HKI_, that is, to the weight of the third part _EGF_. And therefore the weights of the two parts _EGI_ and _EGF_, one towards the other, are equal, as I was to prove. And indeed if those weights were not equal, the whole earth floating in the non-resisting aether would give way to the greater weight, and, retiring from it, would be carried off _in infinitum_.
+  ],
+)
 
 And as those bodies are equipollent in the congress and reflexion, whose velocities are reciprocally as their innate forces, so in the use of mechanic instruments those agents are equipollent, and mutually sustain each the contrary pressure of the other, whose velocities, estimated according to the determination of the forces, are reciprocally as the forces.
 
@@ -553,8 +645,8 @@ If on the two contiguous sides _AB_, _AC_ (@fig_19) of any parallelogram _ABDC_,
 I. That when the point _S_ is in the complement _BAF_ or _CAK_ which with the capital angle _BAC_ makes two right angles as in the figure, then the triangle _ASD_ constructed on the diagonal _AD_ of the parallelogram _ABDC_ will be equal to the sum of the two other triangles _ASC_, _ASB_, constructed on the sides _AC_, _AB_, of the capital angle _BAC_, that is to say, that in this case we shall always have $A S D = A S C + A S B$.
 
 #figure(
-  image("figures/fig19.svg", width: 52%),
-  caption: [Varignon's construction for the theorem of moments.],
+  image("figures/fig19.svg", width: 52%, alt: "Varignon's construction for the theorem of moments."),
+  caption: [],
 ) <fig_19>
 
 ==== Demonstration
@@ -585,12 +677,19 @@ Here is his explanation of what he understands by the word _energy_, in the lett
 
 Conceive (says he) several different forces which are acting along different lines or directions of tendency to maintain in equilibrium a point, a line, a surface, or a body; conceive also that we impress on the whole system of forces a small displacement, either parallel to itself along any direction, or about any fixed point; it is easy to see that by this displacement each of these forces will advance or recede in its direction, unless some one or more of the forces have their directions perpendicular to the direction of the small displacement; in which case the force or the forces will neither advance nor recede: for these advancements or recessions, which I call _virtual velocities_, are nothing other than the amounts by which each line of tendency increases or decreases because of the small displacement; and these increments or decrements are found by drawing a perpendicular from the end of each line of tendency which will cut off from the line of tendency of each force in the neighboring position, to which it has been brought by the small displacement, a small portion which will be the measure of the _virtual velocity_ of this force.
 
-For example, let _P_ (@fig_20) be a point in the system of forces which is in equilibrium; let _F_ be one of these forces, which pushes or pulls the point _P_ in the direction _FP_ or _PF_, let _Pp_ be a small straight line which the point _P_ describes in a small displacement, by which the line of tendency _FP_ takes the position _fp_, which will either be exactly parallel to _FP_, if the displacement of the system is so made that all its points move parallel to a given straight line; or, prolonged, will make with _FP_ an infinitely small angle, if the displacement of the system takes place around a fixed point. Now draw _PC_ perpendicular to _fp_, and you will have _Cp_ representing the virtual velocity of the force _F_, so that $F times C p$ is what I call the _energy_. Notice that _Cp_ is either positive or negative with respect to other similar lines: it is positive, if the point _P_ is pushed by the force _F_ and the angle _FPp_ is obtuse; and negative if the angle _FPp_ is acute; but on the contrary, if the point _P_ is pulled by the force, _Cp_ is negative, if the angle _FPp_ is obtuse, and positive, if it is acute. All this being well understood, I lay down (says M. Bernoulli) the following
-
-#figure(
-  image("figures/fig20.svg", width: 24%),
-  caption: [Jean Bernoulli's virtual velocity _Cp_ for a small displacement _Pp_.],
-) <fig_20>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig20.svg", width: 2.5cm, alt: "Jean Bernoulli's virtual velocity Cp for a small displacement Pp."),
+      caption: [],
+    ) <fig_20>
+  ],
+  [
+    For example, let _P_ (@fig_20) be a point in the system of forces which is in equilibrium; let _F_ be one of these forces, which pushes or pulls the point _P_ in the direction _FP_ or _PF_, let _Pp_ be a small straight line which the point _P_ describes in a small displacement, by which the line of tendency _FP_ takes the position _fp_, which will either be exactly parallel to _FP_, if the displacement of the system is so made that all its points move parallel to a given straight line; or, prolonged, will make with _FP_ an infinitely small angle, if the displacement of the system takes place around a fixed point. Now draw _PC_ perpendicular to _fp_, and you will have _Cp_ representing the virtual velocity of the force _F_, so that $F times C p$ is what I call the _energy_. Notice that _Cp_ is either positive or negative with respect to other similar lines: it is positive, if the point _P_ is pushed by the force _F_ and the angle _FPp_ is obtuse; and negative if the angle _FPp_ is acute; but on the contrary, if the point _P_ is pulled by the force, _Cp_ is negative, if the angle _FPp_ is obtuse, and positive, if it is acute. All this being well understood, I lay down (says M. Bernoulli) the following
+  ],
+)
 
 ==== General Proposition, Theorem XL
 
@@ -621,8 +720,8 @@ Most mathematicians, when they see, in the cases of the five mechanical powers, 
 But I, that I may show how much difference there is between these two ideas, assume, _first_, that a body falling from a certain height acquires a force sufficient to raise it to the same height, if it is given the proper direction and no external forces interfere: for example, that a pendulum will return precisely to the height from which it has been released, unless the resistance of the air and other slight obstacles absorb some of its strength, which we need not consider. I assume, _secondly_, that as much force is needed to raise a body _A_ weighing one pound to the height _CD_ of four ells, as to raise a body _B_ weighing four pounds to the height _EF_ of one ell. These assumptions are conceded by the Cartesians as well as by other philosophers and mathematicians of our times. Hence it follows that the body _A_ (@fig_21) let fall from the height _CD_ acquires exactly as much force as the body _B_ let fall from the height _EF_. For the body _A_, after that by its fall from _C_ it reaches _D_, there has the force of ascending again to _C_, by assumption 1, that is, the force sufficient to raise a body weighing one pound (that is, its own body) to the height of four ells. And similarly the body _B_, after that by its fall from _E_ it reaches _F_, there has the force of ascending again to _E_ by assumption 1, that is, the force sufficient to raise a body weighing four pounds (that is its own body) to the height of one ell. Therefore by assumption 2 the force of the body _A_ when it reaches _D_ and the force of the body _B_ when it reaches _F_ are equal.
 
 #figure(
-  image("figures/fig21.svg", width: 56%),
-  caption: [Leibnitz's comparison of a 1-pound body falling four ells and a 4-pound body falling one ell.],
+  image("figures/fig21.svg", width: 56%, alt: "Leibnitz's comparison of a 1-pound body falling four ells and a 4-pound body falling one ell."),
+  caption: [],
 ) <fig_21>
 
 Now let us see if the quantity of motion also is the same for both. And here quite unexpectedly a great difference appears. This I show as follows: It has been demonstrated by Galileo that the velocity acquired by the fall _CD_ is twice the velocity acquired by the fall _EF_. If therefore we multiply the body _A_, which may be taken as one, by its velocity, which may be taken as two, the product or the quantity of motion will be two. Again if we multiply the body _B_, which may be taken as four, by its velocity, which may be taken as one, the product or the quantity of motion will be four. Therefore the quantity of motion of the body _A_ when at the point _D_ is half that of the body _B_ when at the point _F_, and yet just now the forces of both of these bodies have been found to be equal. And so there is a great difference between motive force and quantity of motion, so that one of these magnitudes cannot be determined from the other; which we have undertaken to show. From this it appears in what way the force should be estimated, from the quantity of the effect which it is able to produce; for example, from the height to which it can lift a heavy body of known magnitude and nature, not from the velocity which it can impress on the body. For there is need not of twice the force but more than that to give twice the velocity to the same body. No one should be surprised that in ordinary machines, such as the lever, the wheel and axle, the pulley, the wedge, the screw, and the like, there is equilibrium when the size of one body is compensated by the velocity of the other, which is brought about by the arrangement of the machine; or when the magnitudes (the same sort of body being assumed) are reciprocally as the velocities, or when the same quantity of motion is produced in any other way, for then it will happen that there will be the same quantity of effect in both the bodies, or the same height of ascent or descent, on whichever side of the equilibrated system you choose to produce the motion. And so by accident it happens in this case that the force can be estimated from the quantity of motion. But other cases occur, such as that which we have previously dealt with, where they are not the same.
@@ -723,20 +822,27 @@ _The extract which follows from the Éléments de Statique, as translated by Tho
 
 68. Let there be any number of forces, $P, P', P''$, etc. applied in any manner whatever in space, to a body or free system.
 
-First consider any one of them, $P$, for instance (@fig_22), which is applied at the point _B_. Then at the point _A_ arbitrarily taken in the body, or without the body (provided we suppose it to be rigidly connected therewith) apply two opposite forces, $P', -P'$, equal and parallel to the force $P$. It is clear that nothing will be altered in the state of the system.
-
-#figure(
-  image("figures/fig22.svg", width: 28%),
-  caption: [Transfer of a force $P$ from _B_ to _A_, generating the couple $(P, -P')$.],
-) <fig_22>
+#wrap-content(
+  align: right,
+  column-gutter: 1.2em,
+  [
+    #figure(
+      image("figures/fig22.svg", width: 3.0cm, alt: "Transfer of a force P from B to A, generating the couple (P, -P')."),
+      caption: [],
+    ) <fig_22>
+  ],
+  [
+    First consider any one of them, $P$, for instance (@fig_22), which is applied at the point _B_. Then at the point _A_ arbitrarily taken in the body, or without the body (provided we suppose it to be rigidly connected therewith) apply two opposite forces, $P', -P'$, equal and parallel to the force $P$. It is clear that nothing will be altered in the state of the system.
+  ],
+)
 
 But we may now consider, instead of the force $P$ applied at _B_, the force $P'$ applied at _A_, and the couple $(P, -P')$ acting on the straight line _AB_. If, for the sake of greater clearness, we transfer this couple elsewhere, into any plane whatever, parallel to its own, there will only remain at the point _A_ the force $P'$, equal and parallel to the force $P$, which is nothing more than this force $P$ which we have transferred parallel to itself from _B_ to _A_.
 
 If we make the same transformations for all the forces of the system, with respect to the same point _A_, it is manifest that all those forces will be assembled there parallel to themselves, but that there will also be in the system as many couples applied, in consequence of each transformation. But all the forces applied at _A_ will compound into a single one $R$, and all the couples into a single couple $(S, -S)$ (@fig_23) applied to a certain straight line _BC_.
 
 #figure(
-  image("figures/fig23.svg", width: 48%),
-  caption: [Reduction of a system of forces to a single resultant force at _A_ and a single couple $(S, -S)$ on _BC_.],
+  image("figures/fig23.svg", width: 48%, alt: "Reduction of a system of forces to a single resultant force at A and a single couple (S, -S) on BC."),
+  caption: [],
 ) <fig_23>
 
 Hence we learn that _any number of forces, applied in any manner to a body, can always be reduced to a single force which passes through any proposed point, and to a single couple, whose plane will be, in general, inclined to the direction of the force._
@@ -762,3 +868,4 @@ _Which contains the laws of the equilibrium of any free system._
 So that, all the forces applied to the system being transferred parallel to themselves to any point in the system, or in space, must be in equilibrium with one another; and all the couples which they produce by their transference to this point, must be also in equilibrium with one another.
 
 #align(center)[. . . . . . . . . . . . . . .]
+

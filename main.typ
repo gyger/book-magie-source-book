@@ -6,6 +6,8 @@
 )
 
 #set page(paper: "iso-b5")
+#set figure(supplement: [Fig.])
+#set figure.caption(separator: [.])
 
 // This must be the last show or set rule for mousse-notes indent handling.
 #show: style

@@ -1,35 +1,41 @@
 #import "@preview/mousse-notes:2.0.1": *
 
+#let edition_version = sys.inputs.at("version", default: "v1.0")
+#let edition_tag_date = sys.inputs.at("tag-date", default: datetime.today().display("[year]-[month]-[day]"))
+
 #title-page(
   subtitle: upper[Source Books in the History of the Sciences],
   primary: upper[
     William Francis Magie \
     _Late Professor of Physics, Princeton University_
   ],
-  secondary: upper[
-    Harvard University Press \
-    Cambridge, Massachusetts \
-    1935
+  secondary: [
+    #upper[
+      Harvard University Press \
+      Cambridge, Massachusetts \
+      1935
+    ]
+    #v(2.2em)
+    #rect(
+      width: 100%,
+      inset: 10pt,
+      stroke: 0.6pt,
+      radius: 2pt,
+    )[
+      #set align(left)
+      #set text(size: 8.5pt)
+      #set par(first-line-indent: 0pt, justify: true, leading: 0.55em)
+      #text(weight: "bold")[Digital Edition Note] \
+      #v(0.3em)
+      This digital Typst edition of _A Source Book in Physics_ (William Francis Magie, Harvard University Press, 1935) was transcribed from high-resolution page scans using large language models (LLMs) with iterative review and feedback from multiple models. All diagrams were reconstructed programmatically as vector SVGs and verified pixel-by-pixel against the original scans.
+    ]
+    #v(0.6em)
+    #text(size: 8.5pt)[#edition_version — #edition_tag_date]
   ],
 )
 
 #set page(numbering: none)
 #v(1fr)
-#align(center)[
-  #rect(
-    width: 88%,
-    inset: 14pt,
-    stroke: 0.6pt,
-    radius: 2pt,
-  )[
-    #set align(left)
-    #set par(first-line-indent: 0pt, justify: true)
-    #text(weight: "bold")[Digital Edition Note] \
-    #v(0.4em)
-    This digital Typst edition of _A Source Book in Physics_ (William Francis Magie, Harvard University Press, 1935) was transcribed from high-resolution page scans using large language models (LLMs) with iterative review and feedback from multiple models. All diagrams were reconstructed programmatically as vector SVGs and verified pixel-by-pixel against the original scans.
-  ]
-]
-#v(2fr)
 #align(center)[
   #text(size: 8.5pt)[
     Original edition copyright 1935, 1963 by the President and Fellows of Harvard College. \

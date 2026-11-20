@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1835" height="1384" viewBox="0 0 1835 1384">
+  <polyline points="44,1272 382,1020 1798,1020 1528,1272 44,1272" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="44,1272 44,1364 118,1364 148,1332 192,1318 1388,1318 1430,1332 1454,1366 1530,1366 1530,1272" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="44" y1="1318" x2="1530" y2="1318" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <polyline points="1530,1366 1570,1330 1570,1286 1736,1142 1776,1142 1804,1114 1804,1020" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="172,1200 390,1006 1648,1006 1446,1200 172,1200" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="172,1200 172,1244 1446,1244 1446,1200" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="206,1184 400,1020 1614,1020 1430,1184 206,1184" fill="none" stroke="#000000" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="316" y1="1072" x2="1554" y2="1072" stroke="#000000" stroke-width="3.85" stroke-linecap="round"/>
+  <rect x="196" y="96" width="1248" height="1086" fill="none" stroke="#000000" stroke-width="5.5"/>
+  <line x1="392" y1="0" x2="392" y2="1006" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <line x1="1634" y1="0" x2="1634" y2="1006" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <line x1="196" y1="96" x2="304" y2="0" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="1444" y1="96" x2="1552" y2="0" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <rect x="406" y="976" width="980" height="10" fill="#ffffff" stroke="#000000" stroke-width="4.12"/>
+  <rect x="438" y="1106" width="926" height="12" fill="#ffffff" stroke="#000000" stroke-width="4.12"/>
+  <rect x="422" y="960" width="12" height="174" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <ellipse cx="428" cy="1152" rx="32" ry="16" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <rect x="1356" y="960" width="12" height="174" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <ellipse cx="1362" cy="1152" rx="32" ry="16" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <path d="M 476 1080 L 476 382 Q 476 350, 514 350 L 620 350" fill="none" stroke="#000000" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 488 1080 L 488 388 Q 488 362, 518 362 L 620 362" fill="none" stroke="#000000" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="482" cy="1104" rx="28" ry="14" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <path d="M 1412 1080 L 1412 388 Q 1412 362, 1380 362 L 1280 362" fill="none" stroke="#000000" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1424 1080 L 1424 382 Q 1424 350, 1386 350 L 1280 350" fill="none" stroke="#000000" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="1418" cy="1104" rx="28" ry="14" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <rect x="612" y="322" width="684" height="10" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <rect x="628" y="314" width="42" height="26" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <rect x="1234" y="314" width="42" height="26" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <circle cx="620" cy="356" r="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <circle cx="1284" cy="356" r="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <rect x="932" y="316" width="48" height="36" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <rect x="948" y="232" width="14" height="84" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <path d="M 954 232 Q 950 186, 944 152" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="944" cy="144" r="9" fill="#ffffff" stroke="#000000" stroke-width="4.67"/>
+  <path d="M 638 340 L 638 912 Q 638 926, 654 926 L 1246 926 Q 1262 926, 1262 912 L 1262 340" fill="none" stroke="#000000" stroke-width="4.95" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 648 340 L 648 906 Q 648 916, 658 916 L 1242 916 Q 1252 916, 1252 906 L 1252 340" fill="none" stroke="#000000" stroke-width="4.12" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="194" cy="1110" rx="32" ry="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <path d="M 162.0 1110.0 Q 170.0 1150.0, 194.0 1156.0 Q 218.0 1150.0, 226.0 1110.0" fill="#ffffff" stroke="#000000" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="194" cy="1166" rx="24" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <ellipse cx="272" cy="1044" rx="32" ry="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <path d="M 240.0 1044.0 Q 248.0 1084.0, 272.0 1090.0 Q 296.0 1084.0, 304.0 1044.0" fill="#ffffff" stroke="#000000" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="272" cy="1100" rx="24" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <ellipse cx="1598" cy="1110" rx="32" ry="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <path d="M 1566.0 1110.0 Q 1574.0 1150.0, 1598.0 1156.0 Q 1622.0 1150.0, 1630.0 1110.0" fill="#ffffff" stroke="#000000" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="1598" cy="1166" rx="24" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <ellipse cx="1666" cy="1044" rx="32" ry="12" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <path d="M 1634.0 1044.0 Q 1642.0 1084.0, 1666.0 1090.0 Q 1690.0 1084.0, 1698.0 1044.0" fill="#ffffff" stroke="#000000" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="1666" cy="1100" rx="24" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <line x1="1736" y1="38" x2="1736" y2="356" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <rect x="1720" y="198" width="32" height="34" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <line x1="1724" y1="166" x2="1724" y2="260" stroke="#000000" stroke-width="4.4" stroke-linecap="round"/>
+  <polygon points="1740,496 1764,646 1740,804 1716,646" fill="#ffffff" stroke="#000000" stroke-width="4.95" stroke-linejoin="round"/>
+  <rect x="1728" y="610" width="24" height="72" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <circle cx="1692" cy="648" r="9" fill="#ffffff" stroke="#000000" stroke-width="4.4"/>
+  <text x="904" y="134" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">H</text>
+  <text x="990" y="264" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">V</text>
+  <text x="956" y="386" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">G</text>
+  <text x="672" y="286" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+  <text x="1222" y="286" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
+  <text x="772" y="366" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">O</text>
+  <text x="1116" y="366" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Z</text>
+  <text x="606" y="396" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">X</text>
+  <text x="1296" y="396" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Y</text>
+  <text x="518" y="618" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">P</text>
+  <text x="1374" y="618" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Q</text>
+  <text x="680" y="888" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="1216" y="888" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="430" y="932" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="1358" y="932" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="134" y="1132" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">R</text>
+  <text x="222" y="1004" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">S</text>
+  <text x="1544" y="1196" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">T</text>
+  <text x="1724" y="1044" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">U</text>
+  <text x="366" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">M</text>
+  <text x="506" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">I</text>
+  <text x="652" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">K</text>
+  <text x="1220" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">L</text>
+  <text x="1312" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>
+  <text x="1428" y="1148" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">J</text>
+  <text x="42" y="1212" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">m</text>
+  <text x="1682" y="1200" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">n</text>
+  <text x="1736" y="18" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="1696" y="152" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <text x="1768" y="178" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
+  <text x="1706" y="262" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="1772" y="240" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
+  <text x="1742" y="382" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="1740" y="464" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="1788" y="588" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <text x="1692" y="618" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
+  <text x="1696" y="698" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="1812" y="646" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
+  <text x="1748" y="826" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+</svg>

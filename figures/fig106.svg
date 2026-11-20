@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1312" height="345" viewBox="0 0 1312 345">
+  <polyline points="136,198 136,128 1194,128 1194,218" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="136" y1="286" x2="136" y2="344" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="1194" y1="286" x2="1194" y2="344" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="1048" y1="128" x2="1048" y2="218" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="1048" y1="286" x2="1048" y2="344" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <polyline points="890,224 890,190 488,190 488,304 890,304 890,264" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="36" y1="248" x2="488" y2="248" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <text x="100" y="130" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+  <text x="1218" y="132" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
+  <text x="166" y="218" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
+  <text x="456" y="194" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="458" y="300" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="916" y="194" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="920" y="300" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="852" y="248" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">α</text>
+  <text x="1018" y="226" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β′</text>
+  <text x="1160" y="226" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1145" viewBox="0 0 1700 1145">
+  <polyline points="306,210 306,626 702,626 702,210" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="306" y1="210" x2="364" y2="210" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="408" y1="210" x2="452" y2="210" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="558" y1="210" x2="604" y2="210" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="652" y1="210" x2="702" y2="210" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <polyline points="452,210 452,552 558,552 558,210" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="604" y1="210" x2="588" y2="168" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="652" y1="210" x2="678" y2="168" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 364 210 C 330 110, 200 104, 96 228" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 408 210 C 370 50, 180 42, 60 198" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="60,198 76,208 80,218 96,228" fill="none" stroke="#000000" stroke-width="6.38" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="306" y1="626" x2="192" y2="1110" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="702" y1="626" x2="822" y2="1138" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="246" y1="878" x2="762" y2="878" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <rect x="420" y="778" width="174" height="100" fill="#ffffff" stroke="#000000" stroke-width="6.75"/>
+  <path d="M 494 778 C 468 746, 470 704, 488 674 C 496 658, 504 646, 508 634 C 514 648, 524 662, 534 680 C 554 714, 554 750, 518 778" fill="none" stroke="#000000" stroke-width="5.62" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 502 778 C 492 752, 496 720, 508 696 C 520 722, 522 752, 512 778" fill="none" stroke="#000000" stroke-width="4.12" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="1066,210 1164,626 1699,626" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1164" y1="626" x2="1066" y2="1116" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <polyline points="1390,214 1390,552 1498,552 1498,214" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1392" y1="552" x2="1392" y2="626" stroke="#000000" stroke-width="6.38" stroke-dasharray="14,10" stroke-linecap="round"/>
+  <line x1="1500" y1="552" x2="1500" y2="626" stroke="#000000" stroke-width="6.38" stroke-dasharray="14,10" stroke-linecap="round"/>
+  <text x="30" y="190" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">z</text>
+  <text x="426" y="186" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">z</text>
+  <text x="506" y="224" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">x</text>
+  <text x="508" y="526" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">x</text>
+  <text x="734" y="200" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">y</text>
+  <text x="734" y="490" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="1092" y="490" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="1446" y="244" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">x</text>
+  <text x="1446" y="522" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">x</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2255" height="1550" viewBox="0 0 2255 1550">
+  <path d="M 1408 0 L 1408 214 L 1236 214 Q 1208 232, 1236 250 L 1408 250 L 1408 820" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1522" y1="0" x2="1522" y2="820" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M 1414 140 Q 1465 156, 1516 140" fill="none" stroke="#000000" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1408 820 C 1180 848, 980 960, 860 1054 L 776 1064 C 724 1070, 724 1158, 776 1164 L 860 1172 C 990 1280, 1210 1414, 1480 1414 C 1740 1414, 1940 1280, 2060 1172 L 2140 1166 C 2194 1160, 2194 1068, 2140 1062 L 2060 1054 C 1930 950, 1740 842, 1522 820" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1465" y1="146" x2="1465" y2="1140" stroke="#000000" stroke-width="4.88" stroke-linecap="round"/>
+  <circle cx="1465" cy="198" r="7" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <circle cx="1465" cy="380" r="7" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <circle cx="1465" cy="600" r="7" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <circle cx="1465" cy="808" r="7" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <path d="M 1465 1138 Q 1428 1152, 1424 1214 L 1465 1214" fill="none" stroke="#000000" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1462" cy="1192" r="18" fill="none" stroke="#000000" stroke-width="5"/>
+  <line x1="1442" y1="1174" x2="1482" y2="1210" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <line x1="1482" y1="1174" x2="1442" y2="1210" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 1522 1316 L 1526 998 Q 1542 970, 1558 998 L 1556 1304 L 1522 1316 Z" fill="#ffffff" stroke="#000000" stroke-width="5.85" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1542" y1="1310" x2="1552" y2="1430" stroke="#000000" stroke-width="5.52" stroke-linecap="round"/>
+  <polygon points="1534,1344 1556,1344 1566,1416 1536,1416" fill="#ffffff" stroke="#000000" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="878" cy="1114" rx="13" ry="34" fill="#ffffff" stroke="#000000" stroke-width="6.5"/>
+  <line x1="744" y1="1114" x2="865" y2="1114" stroke="#000000" stroke-width="5.2" stroke-linecap="round"/>
+  <rect x="746" y="1098" width="96" height="32" fill="#ffffff" stroke="#000000" stroke-width="5" rx="10"/>
+  <ellipse cx="2044" cy="1114" rx="13" ry="34" fill="#ffffff" stroke="#000000" stroke-width="6.5"/>
+  <line x1="2057" y1="1114" x2="2180" y2="1114" stroke="#000000" stroke-width="5.2" stroke-linecap="round"/>
+  <rect x="2082" y="1098" width="96" height="32" fill="#ffffff" stroke="#000000" stroke-width="5" rx="10"/>
+  <line x1="1896" y1="1020" x2="1954" y2="960" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <polygon points="1912,996 1944,964 1956,976 1924,1008" fill="#ffffff" stroke="#000000" stroke-width="4.5" stroke-linejoin="round"/>
+  <rect x="236" y="1304" width="716" height="156" fill="#ffffff" stroke="#000000" stroke-width="6.5" rx="16"/>
+  <path d="M 920 1318 L 964 1318 A 18 64 0 0 1 964 1446 L 920 1446" fill="#ffffff" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="254" y1="1308" x2="248" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="270" y1="1308" x2="264" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="286" y1="1308" x2="280" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="302" y1="1308" x2="296" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="318" y1="1308" x2="312" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="334" y1="1308" x2="328" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="350" y1="1308" x2="344" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="366" y1="1308" x2="360" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="382" y1="1308" x2="376" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="398" y1="1308" x2="392" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="414" y1="1308" x2="408" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="430" y1="1308" x2="424" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="446" y1="1308" x2="440" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="462" y1="1308" x2="456" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="478" y1="1308" x2="472" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="494" y1="1308" x2="488" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="510" y1="1308" x2="504" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="526" y1="1308" x2="520" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="542" y1="1308" x2="536" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="558" y1="1308" x2="552" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="574" y1="1308" x2="568" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="590" y1="1308" x2="584" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="606" y1="1308" x2="600" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="622" y1="1308" x2="616" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="638" y1="1308" x2="632" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="654" y1="1308" x2="648" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="670" y1="1308" x2="664" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="686" y1="1308" x2="680" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="702" y1="1308" x2="696" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="718" y1="1308" x2="712" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="734" y1="1308" x2="728" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="750" y1="1308" x2="744" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="766" y1="1308" x2="760" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="782" y1="1308" x2="776" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="798" y1="1308" x2="792" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="814" y1="1308" x2="808" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="830" y1="1308" x2="824" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="846" y1="1308" x2="840" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="862" y1="1308" x2="856" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="878" y1="1308" x2="872" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="894" y1="1308" x2="888" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <line x1="910" y1="1308" x2="904" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
+  <rect x="100" y="1368" width="86" height="34" fill="#ffffff" stroke="#000000" stroke-width="5.5" rx="6"/>
+  <rect x="108" y="1494" width="92" height="34" fill="#ffffff" stroke="#000000" stroke-width="5.5" rx="6"/>
+  <path d="M 186 1384 Q 214 1384, 224 1326 Q 232 1300, 250 1304" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 200 1510 Q 230 1510, 238 1456" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 992 1350 Q 1002 1382, 990 1414" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="704" y="1114" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">+</text>
+  <text x="922" y="1114" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="1396" y="1192" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <text x="1586" y="1196" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
+  <text x="1940" y="932" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="2002" y="1114" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="2224" y="1114" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">−</text>
+  <text x="1030" y="1388" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">S</text>
+  <text x="1548" y="1474" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Elevation</text>
+</svg>

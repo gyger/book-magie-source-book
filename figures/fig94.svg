@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1453" height="644" viewBox="0 0 1453 644">
+  <line x1="90" y1="332" x2="1448" y2="332" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
+  <line x1="18" y1="322" x2="20" y2="643" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
+  <line x1="1446" y1="332" x2="1448" y2="643" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 18 322 Q 46 322, 54 352 Q 62 380, 78 380 Q 90 380, 90 332 L 210 332" fill="none" stroke="#000000" stroke-width="6.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 18 328 Q 42 332, 46 356 Q 50 382, 66 376 Q 74 370, 70 350 Q 66 332, 90 326" fill="none" stroke="#000000" stroke-width="5.95" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 204 332 Q 228 326, 228 294 L 228 60 Q 228 20, 268 20 L 1354 18 Q 1396 18, 1396 60 L 1396 332" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 206 334 Q 228 344, 228 370 L 228 566 Q 228 606, 268 606 L 1358 608 Q 1400 608, 1400 568 L 1400 334" fill="none" stroke="#000000" stroke-width="6.3" stroke-dasharray="22,16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 714 332 L 714 316 Q 714 312, 720 312 L 892 312 L 892 300 L 916 300 L 916 312 L 1076 312 Q 1082 312, 1082 316 L 1082 332" fill="none" stroke="#000000" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="904" y1="300" x2="904" y2="332" stroke="#000000" stroke-width="4.9" stroke-linecap="round"/>
+  <text x="190" y="250" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="782" y="248" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>
+  <text x="1428" y="252" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="782" y="502" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+</svg>

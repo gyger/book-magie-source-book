@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="434" height="1285" viewBox="0 0 434 1285">
+  <path d="M 122 420 L 122 136 A 62 62 0 0 1 246 136 L 246 420" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="0,250 114,250 114,420" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="420,250 258,250 258,420" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="2" y="420" width="180" height="100" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  <rect x="204" y="420" width="174" height="100" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  <path d="M 127 520 L 127 1126 A 61 61 0 0 0 249 1126 L 249 520" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="4" y="520" width="80" height="576" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  <line x1="4" y1="800" x2="84" y2="800" stroke="#000000" stroke-width="8.1" stroke-linecap="round"/>
+  <rect x="290" y="520" width="88" height="576" fill="#ffffff" stroke="#000000" stroke-width="9"/>
+  <line x1="290" y1="800" x2="378" y2="800" stroke="#000000" stroke-width="8.1" stroke-linecap="round"/>
+  <line x1="156" y1="1150" x2="220" y2="1150" stroke="#000000" stroke-width="9.9" stroke-linecap="round"/>
+  <line x1="188" y1="1150" x2="188" y2="1230" stroke="#000000" stroke-width="9.9" stroke-linecap="round"/>
+  <text x="184" y="146" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="58" y="350" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">S</text>
+  <text x="340" y="350" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>
+  <text x="108" y="472" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="298" y="472" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="190" y="804" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="180" y="1258" font-size="68" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1762" viewBox="0 0 1340 1762">
+  <path d="M 122 746 L 122 158 A 188 114 0 0 1 498 158 L 498 746 Q 528 746, 528 762 Q 528 778, 498 778 L 500 1356 A 190 220 0 0 1 122 1356 C 122 1320, 74 1344, 74 1420 L 74 1742 Q 46 1762, 20 1742 L 20 1420 C 20 1330, 122 1320, 122 1280 L 122 778 Q 86 778, 86 762 Q 86 746, 122 746 Z" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="96" y1="762" x2="518" y2="762" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <rect x="188" y="750" width="118" height="12" fill="#000000" stroke="none" stroke-width="4"/>
+  <rect x="318" y="750" width="118" height="12" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="242" cy="26" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="226,38 234,126 250,126 258,38" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="254.5" y1="60" x2="229.5" y2="60" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="253.48" y1="74.96" x2="230.52" y2="74.96" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="252.52" y1="89.04" x2="231.48" y2="89.04" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="251.56" y1="103.12" x2="232.44" y2="103.12" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="250.72" y1="115.44" x2="233.28" y2="115.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="242" y1="126" x2="242" y2="180" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <line x1="212" y1="180" x2="276" y2="180" stroke="#000000" stroke-width="7.15" stroke-linecap="round"/>
+  <circle cx="362" cy="26" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="346,38 354,126 370,126 378,38" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="374.5" y1="60" x2="349.5" y2="60" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="373.48" y1="74.96" x2="350.52" y2="74.96" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="372.52" y1="89.04" x2="351.48" y2="89.04" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="371.56" y1="103.12" x2="352.44" y2="103.12" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="370.72" y1="115.44" x2="353.28" y2="115.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="362,126 374,160 362,198 350,160" fill="#000000" stroke="none" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="518" cy="444" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="506,428 413,436 413,452 506,460" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="482.75" y1="456.5" x2="482.75" y2="431.5" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="466.94" y1="455.48" x2="466.94" y2="432.52" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="452.06" y1="454.52" x2="452.06" y2="433.48" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="437.18" y1="453.56" x2="437.18" y2="434.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="424.16" y1="452.72" x2="424.16" y2="435.28" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="413" y1="444" x2="262" y2="444" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <line x1="262" y1="444" x2="374" y2="444" stroke="#000000" stroke-width="9.75" stroke-linecap="round"/>
+  <circle cx="520" cy="1124" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="508,1108 415,1116 415,1132 508,1140" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="484.75" y1="1136.5" x2="484.75" y2="1111.5" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="468.94" y1="1135.48" x2="468.94" y2="1112.52" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="454.06" y1="1134.52" x2="454.06" y2="1113.48" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="439.18" y1="1133.56" x2="439.18" y2="1114.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="426.16" y1="1132.72" x2="426.16" y2="1115.28" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="415" y1="1124" x2="264" y2="1124" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <line x1="264" y1="1124" x2="376" y2="1124" stroke="#000000" stroke-width="9.75" stroke-linecap="round"/>
+  <circle cx="246" cy="1596" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="262,1584 254,1496 238,1496 230,1584" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="233.5" y1="1562" x2="258.5" y2="1562" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="234.52" y1="1547.04" x2="257.48" y2="1547.04" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="235.48" y1="1532.96" x2="256.52" y2="1532.96" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="236.44" y1="1518.88" x2="255.56" y2="1518.88" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="237.28" y1="1506.56" x2="254.72" y2="1506.56" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="246,1496 258,1468 246,1434 234,1468" fill="#000000" stroke="none" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="368" cy="1598" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="384,1586 376,1502 360,1502 352,1586" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="355.5" y1="1565" x2="380.5" y2="1565" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="356.52" y1="1550.72" x2="379.48" y2="1550.72" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="357.48" y1="1537.28" x2="378.52" y2="1537.28" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="358.44" y1="1523.84" x2="377.56" y2="1523.84" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="359.28" y1="1512.08" x2="376.72" y2="1512.08" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="336" y1="1502" x2="402" y2="1502" stroke="#000000" stroke-width="7.15" stroke-linecap="round"/>
+  <circle cx="1078" cy="434" r="222" fill="none" stroke="#000000" stroke-width="6.5"/>
+  <circle cx="1078" cy="434" r="196" fill="none" stroke="#000000" stroke-width="5.52"/>
+  <path d="M 920 326 Q 1078 240, 1236 326" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 920 542 Q 1078 628, 1236 542" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="1078,294 1224,434 1078,574 932,434" fill="#ffffff" stroke="#000000" stroke-width="6.5" stroke-linejoin="round"/>
+  <circle cx="1074" cy="1200" r="198" fill="none" stroke="#000000" stroke-width="6.5"/>
+  <polygon points="1146,1200 1107.26,1213.78 1124.91,1250.91 1087.78,1233.26 1074,1272 1060.22,1233.26 1023.09,1250.91 1040.74,1213.78 1002,1200 1040.74,1186.22 1023.09,1149.09 1060.22,1166.74 1074,1128 1087.78,1166.74 1124.91,1149.09 1107.26,1186.22" fill="#ffffff" stroke="#000000" stroke-width="5.52" stroke-linejoin="round"/>
+  <circle cx="1074" cy="1200" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1056" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1092" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1056" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1092" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <line x1="1146" y1="1200" x2="1185" y2="1200" stroke="#000000" stroke-width="5.85" stroke-linecap="round"/>
+  <circle cx="1308" cy="1200" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="1296,1184 1190,1192 1190,1208 1296,1216" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
+  <line x1="1269.5" y1="1212.5" x2="1269.5" y2="1187.5" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="1251.48" y1="1211.48" x2="1251.48" y2="1188.52" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="1234.52" y1="1210.52" x2="1234.52" y2="1189.48" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="1217.56" y1="1209.56" x2="1217.56" y2="1190.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="1202.72" y1="1208.72" x2="1202.72" y2="1191.28" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="242" y="214" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
+  <text x="360" y="224" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
+  <text x="304" y="480" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="148" y="738" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="404" y="796" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="310" y="1164" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <text x="244" y="1412" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
+  <text x="368" y="1474" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">h</text>
+  <text x="916" y="382" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="1226" y="382" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="1076" y="444" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="1096" y="694" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of a, b</text>
+  <text x="1088" y="1456" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of c and d</text>
+</svg>

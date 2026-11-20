@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="998" height="1671" viewBox="0 0 998 1671">
+  <path d="M 412 152 C 412 90, 412 50, 466 50 C 520 50, 536 90, 540 152 C 776 184, 948 380, 948 616 C 948 800, 840 946, 728 1020 C 660 1076, 636 1190, 622 1380 C 614 1480, 558 1536, 488 1536 C 424 1536, 376 1500, 356 1446 C 336 1410, 310 1424, 310 1470 L 310 1600 Q 290 1660, 266 1600 L 260 1450 C 260 1396, 316 1384, 344 1364 C 366 1344, 352 1240, 336 1160 C 316 1068, 252 1018, 198 972 C 84 876, 18 756, 18 616 C 18 378, 184 188, 412 152 Z" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="466" cy="36" r="12" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <polygon points="450,48 482,48 474,118 458,118" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <line x1="466" y1="118" x2="466" y2="134" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
+  <line x1="440" y1="134" x2="496" y2="134" stroke="#000000" stroke-width="7.15" stroke-linecap="round"/>
+  <path d="M 200 956 A 352 352 0 0 0 764 950" fill="none" stroke="#000000" stroke-width="9.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 442 1088 Q 478 1220, 470 1420" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 518 1088 Q 486 1220, 508 1420" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="486" y1="1088" x2="492" y2="1544" stroke="#000000" stroke-width="5.85" stroke-linecap="round"/>
+  <polygon points="466,1424 514,1424 534,1528 444,1528" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <circle cx="492" cy="1556" r="12" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <line x1="260" y1="1012" x2="804" y2="290" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="328" y1="1052" x2="702" y2="212" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="402" y1="1078" x2="596" y2="174" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="484" y1="1086" x2="468" y2="136" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="584" y1="1072" x2="332" y2="182" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="658" y1="1034" x2="226" y2="236" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <line x1="724" y1="984" x2="138" y2="316" stroke="#000000" stroke-width="5.2" stroke-dasharray="24,16" stroke-linecap="round"/>
+  <polygon points="404,718 748,622 756,642 428,732" fill="#ffffff" stroke="#000000" stroke-width="5.85" stroke-linejoin="round"/>
+  <path d="M 744 630 Q 770 618, 788 646 Q 820 682, 870 682" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="866,672 944,666 944,706 866,696" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <circle cx="968" cy="686" r="12" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
+  <text x="500" y="104" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="670" y="686" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="966" y="742" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <text x="606" y="1100" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+</svg>

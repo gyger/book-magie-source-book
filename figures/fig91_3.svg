@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="377" viewBox="0 0 590 377">
+  <polyline points="516,20 232,20 250,50 534,50" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="232" y1="20" x2="232" y2="118" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="250" y1="50" x2="250" y2="140" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <polyline points="268,50 268,190 562,190" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="588,250 332,250 350,286 588,286" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="332" y1="250" x2="332" y2="326" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="350" y1="286" x2="350" y2="376" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M 204 98 Q 214 84, 230 88 L 346 376 L 322 376 L 204 98 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 36 178 Q 160 170, 260 182 Q 298 188, 298 220 Q 298 242, 288 250" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 36 188 Q 160 180, 258 192 Q 288 198, 288 220 Q 288 234, 282 242" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 58 254 Q 168 256, 268 252" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 58 263 Q 168 264, 272 260" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="96" y1="160" x2="174" y2="160" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="174,160 146,170 146,150" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="208" y1="285" x2="126" y2="285" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="126,285 154,275 154,295" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="26" y="144" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">P</text>
+  <text x="36" y="292" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>
+</svg>

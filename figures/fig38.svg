@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1025" height="940" viewBox="0 0 1025 940">
+  <line x1="25" y1="82" x2="30" y2="862" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="333" y1="102" x2="335" y2="858" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="691" y1="102" x2="693" y2="855" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="995" y1="82" x2="1002" y2="856" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <path d="M 30 862 C 85 934, 255 936, 335 858" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="335" y1="857" x2="693" y2="855" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <path d="M 693 855 C 765 924, 925 924, 1002 856" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 25 82 C 25 18, 250 8, 326 68 L 696 70 C 772 10, 995 22, 995 82" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 39 82 C 39 32, 245 22, 324 79 L 698 80 C 776 24, 982 34, 982 82" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 39 82 C 39 148, 248 158, 328 98 L 694 99 C 776 160, 982 150, 982 82" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 25 82 C 25 160, 250 172, 333 108 L 691 109 C 774 174, 995 162, 995 82" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 64 267 A 110 105 0 0 1 284 267 L 284 673 A 110 105 0 0 1 64 673 Z" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 146 168 L 146 154 C 146 146, 206 146, 206 154 L 206 168 C 206 177, 146 177, 146 168 Z" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 150 142 C 154 116, 198 116, 202 142" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="162" cy="162" r="4.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="187" cy="162" r="4.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <path d="M 737 267 A 110.5 105 0 0 1 958 267 L 958 659 A 110.5 105 0 0 1 737 659 Z" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="147,778 147,800 458,798 458,616" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="235,764 422,761 422,616" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="230" y1="769" x2="422" y2="766" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="870,764 870,793 562,795 562,616" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="786,754 598,756 598,616" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="792" y1="760" x2="598" y2="762" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <rect x="414" y="548" width="58" height="60" fill="none" stroke="#000000" stroke-width="6.2"/>
+  <polygon points="442,563 456,577 442,591 428,577" fill="none" stroke="#000000" stroke-width="4.8" stroke-linejoin="round"/>
+  <rect x="547" y="548" width="61" height="60" fill="none" stroke="#000000" stroke-width="6.2"/>
+  <polygon points="576,563 590,577 576,591 562,577" fill="none" stroke="#000000" stroke-width="4.8" stroke-linejoin="round"/>
+  <rect x="491" y="532" width="39" height="94" fill="none" stroke="#000000" stroke-width="6.2"/>
+  <circle cx="510" cy="550" r="5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="510" cy="608" r="5" fill="#000000" stroke="none" stroke-width="4"/>
+  <line x1="472" y1="567" x2="491" y2="567" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="472" y1="596" x2="491" y2="596" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="530" y1="567" x2="547" y2="567" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <line x1="530" y1="596" x2="547" y2="596" stroke="#000000" stroke-width="6.2" stroke-linecap="round"/>
+  <text x="174" y="452" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">R</text>
+  <text x="846" y="448" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+  <text x="769" y="823" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+</svg>

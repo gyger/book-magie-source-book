@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="737" height="3095" viewBox="0 0 737 3095">
+  <ellipse cx="325.25" cy="95" rx="21.25" ry="9.5" fill="none" stroke="#000000" stroke-width="8"/>
+  <line x1="304" y1="95" x2="320.5" y2="2915" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="346.5" y1="95" x2="362.5" y2="2915" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="470.5" y1="2796" x2="470.5" y2="2915" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="515.5" y1="2796" x2="515.5" y2="2915" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 362.5 2915 A 54 57 0 0 0 470.5 2915" fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 320.5 2915 A 97.5 101 0 0 0 515.5 2915" fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 470.5 2794.75 A 124.5 124.5 0 1 1 515.5 2796.04" fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22" y1="2798" x2="715" y2="2798" stroke="#000000" stroke-width="6" stroke-dasharray="28,22" stroke-linecap="round"/>
+  <text x="326" y="48" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="484" y="2508" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="280" y="2766" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="544" y="2828" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+  <text x="414" y="3048" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+</svg>

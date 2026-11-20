@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1441" height="978" viewBox="0 0 1441 978">
+  <polygon points="248,926.5 1047.5,458 1047.5,926.5" fill="none" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <polygon points="428,818 540,754 358,428 248,492" fill="none" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <line x1="303" y1="460" x2="484" y2="786" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="77.5" y1="393.5" x2="393.5" y2="393.5" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="243.5" y1="393.5" x2="243.5" y2="122" stroke="#000000" stroke-width="9.5" stroke-linecap="round"/>
+  <line x1="77.5" y1="393.5" x2="77.5" y2="578" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="393.5" y1="393.5" x2="393.5" y2="616" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 77.5 578 C 102 586, 130 634, 130 682 C 130 726, 108 750, 77.5 750 C 47 750, 26 726, 26 682 C 26 634, 53 586, 77.5 578 Z" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 194 34 C 193.33 37.67, 188.67 49.67, 190 56 C 191.33 62.33, 197.33 71, 202 72 C 206.67 73, 210.67 62, 218 62 C 225.33 62, 235.33 69.83, 246 72 C 256.67 74.17, 271 76, 282 75 C 293 74, 304.33 70.83, 312 66 C 319.67 61.17, 324 52.67, 328 46 C 332 39.33, 334.67 29.33, 336 26" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 202 72 C 200.33 75.67, 196.67 86.33, 192 94 C 187.33 101.67, 178 109, 174 118 C 170 127, 168.67 139.33, 168 148 C 167.33 156.67, 168 165.33, 170 170 C 172 174.67, 178.33 175, 180 176" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 186 118 C 185 123, 180.67 137.33, 180 148 C 179.33 158.67, 179.67 174, 182 182 C 184.33 190, 190.67 193.33, 194 196 C 197.33 198.67, 200.67 197.67, 202 198" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 200 132 C 199.67 137.67, 198 155.33, 198 166 C 198 176.67, 197.67 189.33, 200 196 C 202.33 202.67, 208.33 204, 212 206 C 215.67 208, 220.33 207.67, 222 208" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 218 140 C 217.33 145.67, 214 162.67, 214 174 C 214 185.33, 215.67 200.33, 218 208 C 220.33 215.67, 224.33 217, 228 220 C 231.67 223, 238 225, 240 226" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 238 152 C 237.17 157, 233.33 173, 233 182 C 232.67 191, 235.5 202, 236 206" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 282 75 C 282 81.5, 282 100.83, 282 114 C 282 127.17, 283.33 142.33, 282 154 C 280.67 165.67, 277.67 175.67, 274 184 C 270.33 192.33, 264.33 200.33, 260 204 C 255.67 207.67, 250 205.67, 248 206" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 268 134 C 266.33 138, 260.67 149, 258 158 C 255.33 167, 253.67 180.33, 252 188 C 250.33 195.67, 248.67 201.33, 248 204" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 246 130 C 247.67 132.33, 253.33 140.67, 256 144 C 258.67 147.33, 261 149, 262 150" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="393.5" y1="616" x2="1183.14" y2="161.98" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <line x1="1312.5" y1="240" x2="1312.5" y2="476" stroke="#000000" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 1312.5 476 C 1326 488, 1340 524, 1338 552 C 1336 570, 1326 578, 1314 578 C 1302 578, 1294 568, 1294 550 C 1294 522, 1304 488, 1312.5 476 Z" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1228" cy="240" r="90" fill="#ffffff" stroke="#000000" stroke-width="7.5"/>
+  <polygon points="1111,914 1192,846 1420,846 1336,914" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <polygon points="1111,914 1336,914 1336,976 1111,976" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <polygon points="1336,914 1420,846 1420,916 1336,976" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <polygon points="1206.5,228 1248,228 1260,882 1206.5,882" fill="#ffffff" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <line x1="1238.5" y1="236" x2="1238.5" y2="882" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <circle cx="1228" cy="240" r="10" fill="#ffffff" stroke="#000000" stroke-width="6"/>
+  <text x="76" y="668" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">M</text>
+  <text x="268" y="444" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">H</text>
+  <text x="422" y="378" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">K</text>
+  <text x="424" y="466" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">L</text>
+  <text x="474" y="594" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">I</text>
+  <text x="368" y="636" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="488" y="822" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">G</text>
+  <text x="248" y="956" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="1044" y="422" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="1044" y="956" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="1152" y="116" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
+  <text x="1368" y="536" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+</svg>

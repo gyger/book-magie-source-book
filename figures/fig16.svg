@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="911" viewBox="0 0 705 911">
+  <polygon points="92.2,212.5 652,23 644.5,700.3 97.4,864.9" fill="none" stroke="#000000" stroke-width="9.5" stroke-linejoin="round"/>
+  <path d="M 92.2 212.5 C 101 210.17, 127.87 201.42, 145 198.5 C 162.13 195.58, 178.33 194.83, 195 195 C 211.67 195.17, 228.33 196.92, 245 199.5 C 261.67 202.08, 278.33 205.42, 295 210.5 C 311.67 215.58, 328.33 221.25, 345 230 C 361.67 238.75, 378.33 250.33, 395 263 C 411.67 275.67, 428.33 290, 445 306 C 461.67 322, 478.33 338.67, 495 359 C 511.67 379.33, 528.33 399.83, 545 428 C 561.67 456.17, 581 496.83, 595 528 C 609 559.17, 620.75 586.28, 629 615 C 637.25 643.72, 641.92 686.08, 644.5 700.3" fill="none" stroke="#000000" stroke-width="8.5" stroke-dasharray="30,18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="218" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="675" y="48" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="62" y="864" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="672" y="688" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="474" y="286" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+</svg>

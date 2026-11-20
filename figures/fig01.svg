@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1063" height="701" viewBox="0 0 1063 701">
+  <line x1="82" y1="641.5" x2="1014.5" y2="641.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
+  <line x1="1014.5" y1="641.5" x2="1014.5" y2="76" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
+  <line x1="82" y1="641.5" x2="1014.5" y2="76" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
+  <line x1="470" y1="641.5" x2="1014.5" y2="76" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
+  <text x="84" y="668" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="470" y="668" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="1014" y="668" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="1009" y="48" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+</svg>

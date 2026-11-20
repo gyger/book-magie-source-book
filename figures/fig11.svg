@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1015" height="745" viewBox="0 0 1015 745">
+  <polygon points="30,657.5 840.5,186 840.5,657.5" fill="none" stroke="#000000" stroke-width="7.5" stroke-linejoin="round"/>
+  <polyline points="328,414 890,88 888,404" fill="none" stroke="#000000" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="328" cy="414" r="62" fill="none" stroke="#000000" stroke-width="7.5"/>
+  <circle cx="888" cy="404" r="48" fill="none" stroke="#000000" stroke-width="7.5"/>
+  <text x="56" y="702" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="842" y="162" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="836" y="694" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="218" y="412" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="968" y="412" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
+  <text x="886" y="52" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
+</svg>

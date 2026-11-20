@@ -1,0 +1,10 @@
+[project]
+name = "figures-src"
+version = "0.1.0"
+description = "Programmatic SVG figure generators and verification tools for A Source Book in Physics"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "pillow>=11.0",
+    "pymupdf>=1.25",
+]

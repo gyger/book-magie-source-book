@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="602" viewBox="0 0 226 602">
+  <line x1="134.5" y1="2" x2="134.5" y2="560" stroke="#000000" stroke-width="10.5" stroke-linecap="round"/>
+  <line x1="120.5" y1="119" x2="148.5" y2="119" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="120.5" y1="250" x2="148.5" y2="250" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="120.5" y1="558" x2="148.5" y2="558" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <text x="178" y="114" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">T</text>
+  <text x="180" y="246" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">X</text>
+  <text x="180" y="556" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Y</text>
+</svg>

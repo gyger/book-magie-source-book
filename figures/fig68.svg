@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="815" height="1059" viewBox="0 0 815 1059">
+  <line x1="260" y1="82" x2="457" y2="82" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="635" y1="82" x2="791" y2="82" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="457" y1="82" x2="635" y2="82" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <line x1="457" y1="82" x2="62" y2="1035" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="511" y1="82" x2="62" y2="1035" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="589" y1="82" x2="62" y2="1035" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="635" y1="82" x2="62" y2="1035" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+  <text x="449" y="46" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
+  <text x="509" y="46" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="587" y="46" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
+  <text x="643" y="46" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
+  <text x="106" y="1011" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
+</svg>

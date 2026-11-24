@@ -7,10 +7,10 @@
   <line x1="194" y1="183.5" x2="1450" y2="183.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="194" y1="167.5" x2="194" y2="199.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1450" y1="167.5" x2="1450" y2="199.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-  <text x="162" y="181.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="162" y="181.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">α</text>
   <text x="1490" y="181.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
   <line x1="824.5" y1="170.5" x2="824.5" y2="196.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="824.5" y="231.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
+  <text x="824.5" y="225.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
   <line x1="200" y1="355.5" x2="1456" y2="355.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="200" y1="339.5" x2="200" y2="371.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1456" y1="339.5" x2="1456" y2="371.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
@@ -19,12 +19,12 @@
   <line x1="204" y1="497.5" x2="1458" y2="497.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="204" y1="481.5" x2="204" y2="513.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1458" y1="481.5" x2="1458" y2="513.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-  <text x="172" y="495.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="172" y="495.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">α</text>
   <text x="1498" y="495.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">δ</text>
   <line x1="622" y1="484.5" x2="622" y2="510.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="622" y="545.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
+  <text x="622" y="539.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
   <line x1="1046.5" y1="484.5" x2="1046.5" y2="510.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="1046.5" y="545.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
+  <text x="1046.5" y="539.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
   <line x1="204" y1="666.5" x2="1458" y2="666.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="204" y1="650.5" x2="204" y2="682.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1458" y1="650.5" x2="1458" y2="682.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
@@ -33,14 +33,14 @@
   <line x1="208" y1="808.5" x2="1458" y2="808.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="208" y1="792.5" x2="208" y2="824.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1458" y1="792.5" x2="1458" y2="824.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-  <text x="176" y="806.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="176" y="806.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">α</text>
   <text x="1498" y="806.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">ε</text>
   <line x1="522.5" y1="795.5" x2="522.5" y2="821.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="522.5" y="856.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
+  <text x="522.5" y="850.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">β</text>
   <line x1="833.5" y1="795.5" x2="833.5" y2="821.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="833.5" y="856.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
+  <text x="833.5" y="850.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
   <line x1="1148.5" y1="795.5" x2="1148.5" y2="821.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="1148.5" y="856.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">δ</text>
+  <text x="1148.5" y="850.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">δ</text>
   <line x1="208" y1="977.5" x2="1458" y2="977.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="208" y1="961.5" x2="208" y2="993.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1458" y1="961.5" x2="1458" y2="993.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
@@ -51,10 +51,10 @@
   <line x1="209" y1="1118.5" x2="1460" y2="1118.5" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="209" y1="1102.5" x2="209" y2="1134.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <line x1="1460" y1="1102.5" x2="1460" y2="1134.5" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-  <text x="177" y="1116.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="177" y="1116.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">α</text>
   <text x="1500" y="1116.5" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">η</text>
   <line x1="630.5" y1="1105.5" x2="630.5" y2="1131.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="630.5" y="1166.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
+  <text x="630.5" y="1160.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">γ</text>
   <line x1="1051.5" y1="1105.5" x2="1051.5" y2="1131.5" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <text x="1051.5" y="1166.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">ε</text>
+  <text x="1051.5" y="1160.5" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">ε</text>
 </svg>

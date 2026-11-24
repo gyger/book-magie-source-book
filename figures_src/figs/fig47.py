@@ -93,9 +93,11 @@ def build(src_png: Path, out_svg: Path) -> None:
     in_bank = (yy >= 445) & (yy <= 585) & (xx >= 420) & (xx <= w - 20)
     # Also bushes just inside left circle between y=340 and 460
     in_bush = (xx >= 565) & (xx <= 880) & (yy >= 340) & (yy <= 470) & (((xx - cx) ** 2 + (yy - cy) ** 2) < (r - 12) ** 2)
-    ray_y = 140.0 + (474.0 - 140.0) * (xx - 165.0) / (958.0 - 165.0)
-    on_ray = (xx > 340) & (np.abs(yy - ray_y) < 18)
-    woodcut = arr & (in_player | in_bank | in_bush) & (~on_ray)
+    # Exclude the original woodcut incident ray (between player and B) and original letter A
+    wood_ray_y = 220.5 + (456.0 - 220.5) * (xx - 380.0) / (958.0 - 380.0)
+    on_ray = (xx > 345) & (xx < 945) & (np.abs(yy - wood_ray_y) < 18)
+    on_label_a = (xx >= 545) & (xx <= 630) & (yy >= 190) & (yy <= 290)
+    woodcut = arr & (in_player | in_bank | in_bush) & (~on_ray) & (~on_label_a)
     d_wood = _trace_mask_svg_path(woodcut, step=2, eps=0.9)
     if d_wood:
         s.path(d_wood, fill="#000000", stroke="none", fill_rule="evenodd")
@@ -107,19 +109,19 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Vertical F line outside circle on right
     s.line(1404.0, 276.0, 1404.0, 868.0, stroke_width=sw)
 
-    # Incident ray from racket (165, 140) through A to B
-    s.line(165.0, 140.0, cx, cy, stroke_width=sw_thin)
+    # Incident ray from player's torso through A to B
+    s.line(340.0, 204.0, cx, cy, stroke_width=sw_thin)
     # Dashed continuation B -> D
     s.line(cx, cy, 1312.0, 628.0, stroke_width=sw_thin, dash="14,12")
     # Reflected ray B -> L -> beyond
     s.line(cx, cy, 1388.0, 290.0, stroke_width=sw_thin)
 
     # Labels
-    lib.label(s, 916.0, 140.0, "H", size=58.0, italic=False, bold=True)
-    lib.label(s, 594.0, 250.0, "A", size=58.0, italic=False, bold=True)
-    lib.label(s, 1338.0, 260.0, "L", size=58.0, italic=False, bold=True)
-    lib.label(s, 1446.0, 315.0, "F", size=58.0, italic=False, bold=True)
-    lib.label(s, 1344.0, 650.0, "D", size=58.0, italic=False, bold=True)
-    lib.label(s, 922.0, 815.0, "G", size=58.0, italic=False, bold=True)
+    lib.label(s, 912.0, 112.0, "H", size=72.0, italic=False, bold=True)
+    lib.label(s, 590.0, 240.0, "A", size=72.0, italic=False, bold=True)
+    lib.label(s, 1334.0, 250.0, "L", size=72.0, italic=False, bold=True)
+    lib.label(s, 1450.0, 290.0, "F", size=76.0, italic=False, bold=True)
+    lib.label(s, 1340.0, 640.0, "D", size=72.0, italic=False, bold=True)
+    lib.label(s, 917.0, 804.0, "G", size=72.0, italic=False, bold=True)
 
     s.save(out_svg)

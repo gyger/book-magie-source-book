@@ -26,7 +26,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     cx, cy = 394.0, 396.0
     # Reflected wavefront N (symmetric to G across AB)
     gx, gy = 890.0, 1114.0
-    nx, ny = 905.0, 396.0
+    nx, ny = 912.0, 404.0
 
     # AC, BG, BN, AN
     s.line(ax, ay, cx, cy, stroke_width=sw_thin)
@@ -75,38 +75,45 @@ def build(src_png: Path, out_svg: Path) -> None:
         ly = ky + (cy - ay) * (1.0 - t)
         s.line(kx, ky, lx, ly, stroke_width=3.6)
 
-        ox = kx + (nx - bx) * (1.0 - t)
-        oy = ky + (ny - by) * (1.0 - t)
-        # Wait: O_i is on AN, and K_i -> O_i is parallel to BN!
+        ox = kx + (nx - bx) * t
+        oy = ky + (ny - by) * t
+        # O_i is on AN, and K_i -> O_i is parallel to BN
         s.line(kx, ky, ox, oy, stroke_width=3.6)
 
-    # Wavelet arcs centered at A, K1, K2, K3 tangent to BN!
-    # Distance from point (kx, ky) to line BN:
-    # Since A-N is perpendicular to B-N, dist(A, BN) = |AN| = hypot(nx - ax, ny - ay)
+    # Wavelet arcs centered at A, K1, K2, K3 tangent to BN
+    # Distance from A to BN is |AN| = hypot(nx - ax, ny - ay)
     r_a = math.hypot(nx - ax, ny - ay)
-    ang_an = math.degrees(math.atan2(ny - ay, nx - ax))  # ~ -26.5 deg
-    # Arc centered at A through N up to S
-    s.arc(ax, ay, r_a, ang_an - 35.0, ang_an + 27.0, stroke_width=sw_thin, sweep=1)
+    ang_an = math.degrees(math.atan2(ny - ay, nx - ax))  # ~ -25.7 deg
+    # Arc centered at A through N up past S
+    s.arc(ax, ay, r_a, ang_an - 38.5, 0.0, stroke_width=sw_thin, sweep=1)
 
-    # Also extra upper-left arcs through N (S arcs in scan)
+    # Secondary wavelets centered at K1, K2, K3 tangent to BN
+    # Left tails extend further in angular span for the smaller inner arcs
+    wavelet_left_spans = {1: 48.0, 2: 58.0, 3: 68.0}
     for i in (1, 2, 3):
         t = i / 4.0
         kx = ax + (bx - ax) * t
         ky = ay
         rk = r_a * (1.0 - t)
-        s.arc(kx, ky, rk, ang_an - 42.0, ang_an + 27.0, stroke_width=sw_thin, sweep=1)
+        s.arc(kx, ky, rk, ang_an - wavelet_left_spans[i], 0.0, stroke_width=sw_thin, sweep=1)
 
-    # Also tangent extension of BN upward-left to S
+    # Tangent extension of BN upward-left to S
     ux_bn = (nx - bx) / math.hypot(nx - bx, ny - by)
     uy_bn = (ny - by) / math.hypot(nx - bx, ny - by)
-    s.line(nx, ny, nx + ux_bn * 440.0, ny + uy_bn * 440.0, stroke_width=sw_thin)
+    s.line(nx, ny, nx + ux_bn * 412.0, ny + uy_bn * 412.0, stroke_width=sw_thin)
 
     # Labels
-    lib.label(s, 616.0, 48.0, "S", size=48.0, italic=False, bold=True)
+    lib.label(s, 622.0, 46.0, "S", size=48.0, italic=False, bold=True)
     lib.label(s, 405.0, 362.0, "C", size=48.0, italic=False, bold=True)
-    lib.label(s, 940.0, 388.0, "N", size=48.0, italic=False, bold=True)
-    lib.label(s, 558.0, 434.0, "L", size=44.0, italic=False, bold=True)
-    lib.label(s, 728.0, 444.0, "O", size=44.0, italic=False, bold=True)
+    lib.label(s, 948.0, 398.0, "N", size=48.0, italic=False, bold=True)
+    # Three L labels along CB
+    lib.label(s, 568.0, 444.0, "L", size=44.0, italic=False, bold=True)
+    lib.label(s, 728.0, 536.0, "L", size=44.0, italic=False, bold=True)
+    lib.label(s, 906.0, 620.0, "L", size=44.0, italic=False, bold=True)
+    # Three O labels along AN
+    lib.label(s, 362.0, 634.0, "O", size=44.0, italic=False, bold=True)
+    lib.label(s, 574.0, 534.0, "O", size=44.0, italic=False, bold=True)
+    lib.label(s, 730.0, 446.0, "O", size=44.0, italic=False, bold=True)
     lib.label(s, 906.0, 514.0, "R", size=46.0, italic=False, bold=True)
     lib.label(s, 386.0, 476.0, "H", size=42.0, italic=False, bold=True)
     lib.label(s, 336.0, 558.0, "H", size=42.0, italic=False, bold=True)

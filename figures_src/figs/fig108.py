@@ -24,7 +24,7 @@ def build(src_png: Path, out_svg: Path) -> None:
         "L 1348 64 Q 1348 36, 1380 36 Q 1412 36, 1412 64 "
         "L 1412 150 Q 1416 198, 1460 202 "
         "L 1978 202 Q 2070 84, 2212 78 "
-        "A 230 274 0 0 1 2420 220"
+        "C 2310 78, 2380 116, 2420 166"
     )
     s.path(d_top, stroke_width=sw)
 
@@ -65,12 +65,16 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.polygon([(1150.0, 444.0), (1522.0, 444.0), (1596.0, 398.0), (1248.0, 398.0)], fill="#ffffff", stroke_width=sw)
     s.line(1380.0, 444.0, 1380.0, 674.0, stroke_width=sw)
 
-    # Small phosphorescent scale strip on far right bulb wall
-    s.polyline([(2390.0, 146.0), (2366.0, 166.0), (2420.0, 218.0)], stroke_width=sw * 0.8)
+    # Graduated phosphorescent scale strip on far right bulb wall (upper end with ticks + lower end)
+    s.polyline([(2392.0, 140.0), (2368.0, 162.0), (2420.0, 214.0)], stroke_width=sw * 0.85)
+    s.line(2401.0, 149.0, 2391.0, 158.0, stroke_width=sw * 0.7)
+    s.line(2409.0, 157.0, 2399.0, 166.0, stroke_width=sw * 0.7)
+    s.line(2417.0, 166.0, 2404.0, 178.0, stroke_width=sw * 0.7)
+    s.polyline([(2420.0, 502.0), (2402.0, 526.0), (2420.0, 526.0)], stroke_width=sw * 0.85)
 
     # Labels
     lib.label(s, 254.0, 40.0, "+", size=66.0, italic=False, bold=True)
-    lib.label(s, 226.0, 290.0, "C", size=58.0, italic=True, bold=True)
+    lib.label(s, 226.0, 294.0, "c", size=58.0, italic=True, bold=True)
     lib.label(s, 456.0, 260.0, "A", size=64.0, italic=False, bold=True)
     lib.label(s, 716.0, 260.0, "B", size=64.0, italic=False, bold=True)
     lib.label(s, 1154.0, 242.0, "D", size=64.0, italic=False, bold=True)

@@ -31,19 +31,24 @@ def build(src_png: Path, out_svg: Path) -> None:
     )
     s.path(d_bulb, stroke_width=sw)
 
-    # Cathode disk inside bulb A & anode wire B+
+    # Cathode disk inside bulb A & anode wire B+ (with curved internal wire to lower neck electrode)
     s.line(226.0, 192.0, 260.0, 122.0, stroke_width=9.0)
     s.line(106.0, 416.0, 174.0, 286.0, stroke_width=sw * 0.85)
+    s.path("M 174 286 C 196 226, 272 206, 346 250", stroke_width=sw * 0.85)
 
     # Slit plug in neck between bulb A and main bulb
     s.polygon([(360.0, 204.0), (384.0, 184.0), (452.0, 224.0), (432.0, 246.0)], fill="#ffffff", stroke_width=sw * 0.85)
     s.polygon([(336.0, 262.0), (356.0, 238.0), (424.0, 278.0), (404.0, 302.0)], fill="#ffffff", stroke_width=sw * 0.85)
 
     # Coaxial Faraday cylinders inside lower neck
-    # Outer grounded cylinder (slit at top left)
+    # Outer grounded cylinder (distinct thick black shield with slit at top left)
     s.path(
-        "M 600 502 A 70 70 0 0 0 596 618 L 596 1180 L 684 1180 L 684 618 A 70 70 0 0 0 620 498",
-        stroke_width=sw * 1.15,
+        "M 600 502 A 70 70 0 0 0 596 618 L 596 1178",
+        stroke_width=sw * 2.3,
+    )
+    s.path(
+        "M 620 498 A 70 70 0 0 1 684 618 L 684 1178",
+        stroke_width=sw * 2.3,
     )
     # Inner Faraday cylinder + central rod to Electrometer
     s.path(
@@ -75,8 +80,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(s, 22.0, 56.0, "A", size=64.0, italic=False, bold=True)
     lib.label(s, 70.0, 422.0, "B", size=64.0, italic=False, bold=True)
     lib.label(s, 134.0, 424.0, "+", size=58.0, italic=False, bold=True)
-    lib.label(s, 260.0, 976.0, "C", size=64.0, italic=False, bold=True)
-    lib.label(s, 986.0, 916.0, "Earth", size=62.0, italic=True, bold=True)
-    lib.label(s, 634.0, 1372.0, "Electrometer", size=66.0, italic=True, bold=True)
+    lib.label(s, 254.0, 976.0, "C", size=64.0, italic=False, bold=True)
+    lib.label(s, 974.0, 916.0, "Earth", size=58.0, italic=True, bold=True)
+    lib.label(s, 634.0, 1364.0, "Electrometer", size=58.0, italic=True, bold=True)
 
     s.save(out_svg)

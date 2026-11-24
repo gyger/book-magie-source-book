@@ -71,21 +71,19 @@ def _pulley_stand(
     ]
     s.polygon(right_pts, fill="#ffffff", stroke="#000000", stroke_width=sw)
 
-    # Pulley wheel (behind front post)
-    s.circle(cx, cy, r, fill="#ffffff", stroke="#000000", stroke_width=sw)
-
-    # 3D vertical post (front face + right side face)
-    # Right side face (goes from below wheel center down to base)
-    side_top_y = cy + r * 0.55
+    # 3D vertical post — right side face (behind pulley wheel, occluded at rim)
     side_pts = [
-        (post_x2, side_top_y),
-        (post_x3, side_top_y - 16.0),
+        (post_x2, cy),
+        (post_x3, cy),
         (post_x3, post_bot_y - 18.0),
         (post_x2, post_bot_y),
     ]
     s.polygon(side_pts, fill="#ffffff", stroke="#000000", stroke_width=sw)
 
-    # Front face of post with rounded top cap
+    # Pulley wheel (occludes top of right side face; behind front post arm)
+    s.circle(cx, cy, r, fill="#ffffff", stroke="#000000", stroke_width=sw)
+
+    # Front face of post with rounded top cap (in front of pulley wheel)
     post_w = post_x2 - post_x1
     d_post = (
         f"M {post_x1:.1f} {post_bot_y:.1f} "

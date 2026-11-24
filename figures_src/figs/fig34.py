@@ -70,7 +70,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     _draw_baseline(s, x1, y1, x2, y2, tick_fracs=fracs)
     _draw_wave_envelope(s, x1, y1, x2, y2, [(0.0, 1.0, 91.0, 98.0)])
     lib.label(s, x1 + 4.0, y1 - 45.0, "A", size=58.0, italic=False, bold=True)
-    lib.label(s, x2 + 6.0, y2 - 48.0, "B", size=58.0, italic=False, bold=True)
+    lib.label(s, x2 + 6.0, y2 - 56.0, "B", size=58.0, italic=False, bold=True)
 
     # --- Row 1: Node at 1/5 (D) with dot C ---
     x1, y1 = 48.0, 449.0
@@ -87,23 +87,28 @@ def build(src_png: Path, out_svg: Path) -> None:
     node_y = y1 + (y2 - y1) * 0.2
     lib.filled_dot(s, node_x, node_y - 16.0, r=15.0)
     lib.label(s, x1 + 2.0, y1 - 45.0, "A", size=58.0, italic=False, bold=True)
-    lib.label(s, x2 + 4.0, y2 - 48.0, "B", size=58.0, italic=False, bold=True)
-    lib.label(s, node_x + 4.0, node_y - 54.0, "C", size=58.0, italic=False, bold=True)
+    lib.label(s, x2 + 4.0, y2 - 56.0, "B", size=58.0, italic=False, bold=True)
+    lib.label(s, node_x + 4.0, node_y - 60.0, "C", size=58.0, italic=False, bold=True)
     lib.label(s, node_x + 2.0, node_y + 42.0, "D", size=58.0, italic=False, bold=True)
 
     # --- Row 2: 5th harmonic (5 equal loops) ---
-    x1, y1 = 42.0, 786.0
-    x2, y2 = 1610.0, 801.0
+    x1, y1 = 40.0, 779.0
+    x2, y2 = 1610.0, 804.0
     _draw_baseline(s, x1, y1, x2, y2, tick_fracs=fracs)
     _draw_wave_envelope(
         s, x1, y1, x2, y2,
-        [(i * 0.2, (i + 1) * 0.2, 27.0, 26.0) for i in range(5)],
+        [(i * 0.2, (i + 1) * 0.2, 29.0, 28.0) for i in range(5)],
     )
     node_x = x1 + (x2 - x1) * 0.2
     node_y = y1 + (y2 - y1) * 0.2
-    lib.filled_dot(s, node_x, node_y - 16.0, r=15.0)
+    lib.filled_dot(s, node_x - 1.0, node_y - 19.0, r=15.5)
     lib.label(s, x1 + 2.0, y1 - 45.0, "A", size=58.0, italic=False, bold=True)
-    lib.label(s, x2 + 4.0, y2 - 48.0, "B", size=58.0, italic=False, bold=True)
-    lib.label(s, node_x + 4.0, node_y - 62.0, "C", size=58.0, italic=False, bold=True)
+    lib.label(s, x2 + 4.0, y2 - 56.0, "B", size=58.0, italic=False, bold=True)
+    lib.label(s, node_x - 5.0, node_y - 63.0, "C", size=58.0, italic=False, bold=True)
+    # Interior node labels D, E, F, G (partially clipped at bottom edge of scan)
+    for t, lbl in zip(fracs, ("D", "E", "F", "G")):
+        nx = x1 + (x2 - x1) * t
+        ny = y1 + (y2 - y1) * t
+        lib.label(s, nx, ny + 43.0, lbl, size=58.0, italic=False, bold=True)
 
     s.save(out_svg)

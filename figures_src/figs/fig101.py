@@ -31,14 +31,17 @@ def build(src_png: Path, out_svg: Path) -> None:
     )
     s.path(d_bulb, stroke_width=sw)
 
-    # Left cathode a (-), glass pinch, and horizontal scale e
+    # Left cathode a (-), glass pinch, curved lead wire to c, and horizontal scale e
+    s.path("M 412 462 L 420 536 C 424 568, 456 576, 514 584 C 584 592, 650 592, 710 588", stroke_width=sw)
     s.line(480.0, 408.0, 480.0, 502.0, stroke_width=10.0)
     s.line(316.0, 448.0, 466.0, 448.0, stroke_width=sw)
     s.polygon([(334.0, 434.0), (434.0, 440.0), (434.0, 458.0), (334.0, 466.0)], fill="#ffffff", stroke_width=5.5)
-    s.rect(484.0, 502.0, 236.0, 44.0, fill="#ffffff", stroke_width=5.5)
+    s.rect(484.0, 502.0, 236.0, 46.0, fill="#ffffff", stroke_width=5.5)
     for x in range(494, 718, 12):
-        tick_h = 18.0 if (x - 494) % 60 == 0 else 10.0
-        s.line(x, 502.0, x, 502.0 + tick_h, stroke_width=3.5)
+        tick_h = 15.0 if (x - 494) % 60 == 0 else 9.0
+        s.line(x, 502.0, x, 502.0 + tick_h, stroke_width=3.2)
+    for num, x in [("0", 496.0), ("5", 554.0), ("10", 614.0), ("15", 674.0)]:
+        lib.label(s, x, 532.0, num, size=27.0, italic=False, bold=True)
 
     # Vertical mica screen c (oval) and tapered phosphorescent screen f-f to scale d
     s.ellipse(712.0, 456.0, 24.0, 134.0, fill="#ffffff", stroke_width=sw * 0.9)
@@ -63,8 +66,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.line(712.0, 460.0, 1724.0, 460.0, stroke_width=sw * 0.85)
 
     # Magnetically deflected curved beam curving down to bottom of scale d
-    s.path("M 712 436 C 1020 404, 1340 442, 1724 624", stroke_width=sw * 0.85)
-    s.path("M 712 460 C 1020 434, 1340 474, 1724 666", stroke_width=sw * 0.85)
+    s.path("M 712 436 C 1060 404, 1410 428, 1724 614", stroke_width=sw * 0.85)
+    s.path("M 712 460 C 1060 432, 1410 462, 1724 656", stroke_width=sw * 0.85)
 
     # Horseshoe magnet N-S at bottom-left
     d_mag = (
@@ -79,7 +82,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Labels
     lib.label(s, 272.0, 464.0, "−", size=60.0, italic=False, bold=True)
     lib.label(s, 480.0, 384.0, "a", size=58.0, italic=True, bold=True)
-    lib.label(s, 586.0, 484.0, "e", size=56.0, italic=True, bold=True)
+    lib.label(s, 586.0, 474.0, "e", size=56.0, italic=True, bold=True)
     lib.label(s, 672.0, 326.0, "c", size=58.0, italic=True, bold=True)
     lib.label(s, 1254.0, 224.0, "f", size=58.0, italic=True, bold=True)
     lib.label(s, 1208.0, 684.0, "f", size=58.0, italic=True, bold=True)

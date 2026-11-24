@@ -40,7 +40,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Ticks along HI: (y, left_ext, right_ext, major)
     ticks = [
         (82.0, 16.0, 18.0, True),     # H (0)
-        (190.0, 14.0, 48.0, True),    # L (1)
+        (190.0, 14.0, 14.0, False),   # L (1)
         (296.5, 14.0, 14.0, False),   # 2
         (396.5, 14.0, 14.0, False),   # 3
         (498.0, 28.0, 56.0, True),    # M (4)
@@ -48,14 +48,14 @@ def build(src_png: Path, out_svg: Path) -> None:
         (704.5, 14.0, 14.0, False),   # 6
         (811.5, 14.0, 14.0, False),   # 7
         (914.5, 14.0, 14.0, False),   # 8
-        (1018.0, 28.0, 56.0, True),   # N (9)
+        (1018.0, 28.0, 20.0, True),   # N (9)
         (1122.5, 14.0, 14.0, False),  # 10
         (1230.5, 14.0, 14.0, False),  # 11
         (1337.5, 14.0, 14.0, False),  # 12
         (1445.5, 14.0, 14.0, False),  # 13
         (1552.5, 14.0, 14.0, False),  # 14
         (1656.5, 14.0, 14.0, False),  # 15
-        (1762.0, 28.0, 32.0, True),   # I (16)
+        (1762.0, 28.0, 20.0, True),   # I (16)
     ]
     for ty, ext_l, ext_r, major in ticks:
         t = (ty - hy) / (iy - hy)
@@ -65,7 +65,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Labels
     lib.label(scene, 240, 44, "A", size=58, italic=False, bold=True)
     lib.label(scene, 367, 44, "H", size=58, italic=False, bold=True)
-    lib.label(scene, 404, 174, "L", size=58, italic=False, bold=True)
+    lib.label(scene, 404, 170, "L", size=58, italic=False, bold=True)
     lib.label(scene, 174, 246, "O", size=58, italic=False, bold=True)
     lib.label(scene, 267, 210, "D", size=58, italic=False, bold=True)
     lib.label(scene, 158, 392, "P", size=58, italic=False, bold=True)
@@ -73,9 +73,9 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(scene, 402, 466, "M", size=58, italic=False, bold=True)
     lib.label(scene, 269, 530, "F", size=58, italic=False, bold=True)
     lib.label(scene, 270, 682, "G", size=58, italic=False, bold=True)
-    lib.label(scene, 398, 984, "N", size=58, italic=False, bold=True)
+    lib.label(scene, 398, 980, "N", size=58, italic=False, bold=True)
     lib.label(scene, 60, 1726, "C", size=58, italic=False, bold=True)
     lib.label(scene, 255, 1730, "B", size=58, italic=False, bold=True)
-    lib.label(scene, 381, 1734, "I", size=58, italic=False, bold=True)
+    lib.label(scene, 381, 1726, "I", size=58, italic=False, bold=True)
 
     scene.save(out_svg)

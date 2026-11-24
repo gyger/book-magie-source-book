@@ -15,9 +15,10 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     sw = 5.5
     # Upper bar magnet (3D prism)
-    s.polyline([(516.0, 20.0), (232.0, 20.0), (250.0, 50.0), (534.0, 50.0)], stroke_width=sw)
+    s.polyline([(516.0, 20.0), (232.0, 20.0), (247.0, 50.0), (534.0, 50.0)], stroke_width=sw)
     s.line(232.0, 20.0, 232.0, 118.0, stroke_width=sw)
-    s.line(250.0, 50.0, 250.0, 140.0, stroke_width=sw * 0.85)
+    s.line(247.0, 50.0, 247.0, 140.0, stroke_width=sw * 0.85)
+    s.line(250.0, 20.0, 268.0, 50.0, stroke_width=sw * 0.9)
     s.polyline([(268.0, 50.0), (268.0, 190.0), (562.0, 190.0)], stroke_width=sw)
 
     # Lower bar magnet (3D prism)
@@ -33,9 +34,9 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.path(d_rod, fill="#ffffff", stroke_width=sw)
 
     # Wire loop P-N wrapping around the iron rod
-    # Upper wire P
-    s.path("M 36 178 Q 160 170, 260 182 Q 298 188, 298 220 Q 298 242, 288 250", stroke_width=sw)
-    s.path("M 36 188 Q 160 180, 258 192 Q 288 198, 288 220 Q 288 234, 282 242", stroke_width=sw)
+    # Upper wire P (terminates cleanly on the right edge of the rod)
+    s.path("M 36 181 Q 160 174, 260 185 Q 295 191, 296 220 Q 296 238, 294 247", stroke_width=sw)
+    s.path("M 36 190 Q 160 183, 258 194 Q 287 200, 288 220 Q 289 231, 290 237", stroke_width=sw)
     # Lower wire N
     s.path("M 58 254 Q 168 256, 268 252", stroke_width=sw)
     s.path("M 58 263 Q 168 264, 272 260", stroke_width=sw)

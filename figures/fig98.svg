@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1762" viewBox="0 0 1340 1762">
-  <path d="M 122 746 L 122 158 A 188 114 0 0 1 498 158 L 498 746 Q 528 746, 528 762 Q 528 778, 498 778 L 500 1356 A 190 220 0 0 1 122 1356 C 122 1320, 74 1344, 74 1420 L 74 1742 Q 46 1762, 20 1742 L 20 1420 C 20 1330, 122 1320, 122 1280 L 122 778 Q 86 778, 86 762 Q 86 746, 122 746 Z" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 20 1762 L 20 1440 C 20 1358, 122 1350, 122 1306 L 122 778 Q 86 778, 86 762 Q 86 746, 122 746 L 122 158 A 188 114 0 0 1 498 158 L 498 746 Q 528 746, 528 762 Q 528 778, 498 778 L 500 1396 C 500 1536, 408 1584, 310 1584 C 212 1584, 152 1528, 132 1456 C 118 1406, 74 1404, 74 1460 L 74 1762" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="96" y1="762" x2="518" y2="762" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
   <rect x="188" y="750" width="118" height="12" fill="#000000" stroke="none" stroke-width="4"/>
   <rect x="318" y="750" width="118" height="12" fill="#000000" stroke="none" stroke-width="4"/>
@@ -59,14 +59,8 @@
   <path d="M 920 326 Q 1078 240, 1236 326" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 920 542 Q 1078 628, 1236 542" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
   <polygon points="1078,294 1224,434 1078,574 932,434" fill="#ffffff" stroke="#000000" stroke-width="6.5" stroke-linejoin="round"/>
-  <circle cx="1074" cy="1200" r="198" fill="none" stroke="#000000" stroke-width="6.5"/>
-  <polygon points="1146,1200 1107.26,1213.78 1124.91,1250.91 1087.78,1233.26 1074,1272 1060.22,1233.26 1023.09,1250.91 1040.74,1213.78 1002,1200 1040.74,1186.22 1023.09,1149.09 1060.22,1166.74 1074,1128 1087.78,1166.74 1124.91,1149.09 1107.26,1186.22" fill="#ffffff" stroke="#000000" stroke-width="5.52" stroke-linejoin="round"/>
-  <circle cx="1074" cy="1200" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
-  <circle cx="1056" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
-  <circle cx="1092" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
-  <circle cx="1056" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
-  <circle cx="1092" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
-  <line x1="1146" y1="1200" x2="1185" y2="1200" stroke="#000000" stroke-width="5.85" stroke-linecap="round"/>
+  <circle cx="1084" cy="1200" r="198" fill="none" stroke="#000000" stroke-width="6.5"/>
+  <line x1="1114" y1="1200" x2="1185" y2="1200" stroke="#000000" stroke-width="5.85" stroke-linecap="round"/>
   <circle cx="1308" cy="1200" r="10" fill="#ffffff" stroke="#000000" stroke-width="5.52"/>
   <polygon points="1296,1184 1190,1192 1190,1208 1296,1216" fill="#ffffff" stroke="#000000" stroke-width="5.2" stroke-linejoin="round"/>
   <line x1="1269.5" y1="1212.5" x2="1269.5" y2="1187.5" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
@@ -74,17 +68,23 @@
   <line x1="1234.52" y1="1210.52" x2="1234.52" y2="1189.48" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
   <line x1="1217.56" y1="1209.56" x2="1217.56" y2="1190.44" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
   <line x1="1202.72" y1="1208.72" x2="1202.72" y2="1191.28" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="1155.9,1196.23 1117.94,1212.02 1137.51,1248.18 1099.5,1232.49 1087.77,1271.9 1071.98,1233.94 1035.82,1253.51 1051.51,1215.5 1012.1,1203.77 1050.06,1187.98 1030.49,1151.82 1068.5,1167.51 1080.23,1128.1 1096.02,1166.06 1132.18,1146.49 1116.49,1184.5" fill="#ffffff" stroke="#000000" stroke-width="5.52" stroke-linejoin="round"/>
+  <circle cx="1084" cy="1200" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1066" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1102" cy="1182" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1066" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
+  <circle cx="1102" cy="1218" r="6.5" fill="#000000" stroke="none" stroke-width="4"/>
   <text x="242" y="214" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
   <text x="360" y="224" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
   <text x="304" y="480" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
-  <text x="148" y="738" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <text x="146" y="728" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
   <text x="404" y="796" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
   <text x="310" y="1164" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
-  <text x="244" y="1412" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
-  <text x="368" y="1474" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">h</text>
+  <text x="244" y="1396" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
+  <text x="368" y="1462" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">h</text>
   <text x="916" y="382" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
   <text x="1226" y="382" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
   <text x="1076" y="444" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
-  <text x="1096" y="694" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of a, b</text>
-  <text x="1088" y="1456" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of c and d</text>
+  <text x="1096" y="694" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="normal" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of <tspan font-style="italic" font-weight="bold">a, b</tspan></text>
+  <text x="1088" y="1442" font-size="56" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="normal" text-anchor="middle" dominant-baseline="central" fill="#000000">Plan of <tspan font-style="italic" font-weight="bold">c</tspan> and <tspan font-style="italic" font-weight="bold">d</tspan></text>
 </svg>

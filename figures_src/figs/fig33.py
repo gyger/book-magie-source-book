@@ -41,7 +41,7 @@ def _draw_string(
             if pos == "above":
                 lib.label(s, tx, y - 42.0, txt, size=54.0, italic=False, bold=True)
             else:
-                lib.label(s, tx, y + 48.0, txt, size=60.0, italic=True, bold=True)
+                lib.label(s, tx, y + 42.0, txt, size=60.0, italic=True, bold=True)
 
 
 def build(src_png: Path, out_svg: Path) -> None:
@@ -51,10 +51,10 @@ def build(src_png: Path, out_svg: Path) -> None:
     # 1: A - C
     _draw_string(s, 187.0, 1446.0, 50.5, left_label="A", right_label="C")
 
-    # 2: a - gamma (midpoint beta)
+    # 2: alpha - gamma (midpoint beta)
     _draw_string(
         s, 194.0, 1450.0, 183.5,
-        left_label="a", right_label="γ",
+        left_label="α", right_label="γ",
         left_italic=True, right_italic=True,
         ticks=[(824.5, "β", "below")],
     )
@@ -62,10 +62,10 @@ def build(src_png: Path, out_svg: Path) -> None:
     # 3: A - D
     _draw_string(s, 200.0, 1456.0, 355.5, left_label="A", right_label="D")
 
-    # 4: a - delta (thirds beta, gamma)
+    # 4: alpha - delta (thirds beta, gamma)
     _draw_string(
         s, 204.0, 1458.0, 497.5,
-        left_label="a", right_label="δ",
+        left_label="α", right_label="δ",
         left_italic=True, right_italic=True,
         ticks=[(622.0, "β", "below"), (1046.5, "γ", "below")],
     )
@@ -73,10 +73,10 @@ def build(src_png: Path, out_svg: Path) -> None:
     # 5: A - E
     _draw_string(s, 204.0, 1458.0, 666.5, left_label="A", right_label="E")
 
-    # 6: a - epsilon (quarters beta, gamma, delta)
+    # 6: alpha - epsilon (quarters beta, gamma, delta)
     _draw_string(
         s, 208.0, 1458.0, 808.5,
-        left_label="a", right_label="ε",
+        left_label="α", right_label="ε",
         left_italic=True, right_italic=True,
         ticks=[(522.5, "β", "below"), (833.5, "γ", "below"), (1148.5, "δ", "below")],
     )
@@ -88,10 +88,10 @@ def build(src_png: Path, out_svg: Path) -> None:
         ticks=[(833.0, "D", "above")],
     )
 
-    # 8: a - eta (thirds gamma, epsilon)
+    # 8: alpha - eta (thirds gamma, epsilon)
     _draw_string(
         s, 209.0, 1460.0, 1118.5,
-        left_label="a", right_label="η",
+        left_label="α", right_label="η",
         left_italic=True, right_italic=True,
         ticks=[(630.5, "γ", "below"), (1051.5, "ε", "below")],
     )

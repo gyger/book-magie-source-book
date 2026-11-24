@@ -11,13 +11,13 @@
   <line x1="256" y1="2762" x2="357" y2="2768" stroke="#000000" stroke-width="5.5" stroke-dasharray="12,7" stroke-linecap="round"/>
   <line x1="212" y1="3280" x2="312" y2="3286" stroke="#000000" stroke-width="5.5" stroke-dasharray="12,7" stroke-linecap="round"/>
   <text x="117" y="36" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
-  <text x="44" y="348" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g′</text>
+  <text x="44" y="348" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g&#x27;</text>
   <text x="44" y="608" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
   <text x="346" y="1945" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
-  <text x="46" y="2588" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b′</text>
+  <text x="46" y="2588" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b&#x27;</text>
   <text x="44" y="2756" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
-  <text x="412" y="2588" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e′</text>
-  <text x="392" y="2762" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
+  <text x="412" y="2588" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e&#x27;</text>
+  <text x="390" y="2750" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
   <text x="356" y="3266" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
   <text x="265" y="3538" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
 </svg>

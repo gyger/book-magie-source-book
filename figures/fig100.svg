@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2340" height="713" viewBox="0 0 2340 713">
   <defs>
-    <clipPath id="clip_sh100"><polygon points="858,282 858,370 296,224 364,180"/></clipPath>
+    <clipPath id="clip_sh100"><path d="M 858 282 L 858 370 Q 550 356, 296 224 L 364 180 Z"/></clipPath>
   </defs>
-  <path d="M 110 318 L 194 314 C 310 214, 520 76, 756 76 C 990 76, 1180 206, 1296 312 L 1378 320 C 1424 326, 1424 402, 1378 408 L 1296 416 C 1180 524, 990 644, 756 644 C 520 644, 310 510, 194 410 L 110 404 C 66 398, 66 324, 110 318 Z" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110 318 L 194 314 C 310 214, 520 84, 756 84 C 990 84, 1175 198, 1288 294 C 1322 318, 1368 320, 1398 338 C 1422 352, 1422 384, 1398 398 C 1368 416, 1322 418, 1288 442 C 1175 538, 990 644, 756 644 C 520 644, 310 510, 194 410 L 110 404 C 66 398, 66 324, 110 318 Z" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="36" y="300" width="440" height="128" fill="none" stroke="#000000" stroke-width="4.8" stroke-dasharray="20,12"/>
   <line x1="42" y1="300" x2="42" y2="326" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
   <line x1="42" y1="398" x2="42" y2="428" stroke="#000000" stroke-width="3.5" stroke-linecap="round"/>
@@ -37,7 +37,7 @@
   <line x1="184" y1="366" x2="858" y2="366" stroke="#000000" stroke-width="5.1" stroke-dasharray="36,12,8,12" stroke-linecap="round"/>
   <line x1="858" y1="282" x2="858" y2="370" stroke="#000000" stroke-width="6.6" stroke-linecap="round"/>
   <g clip-path="url(#clip_sh100)"><line x1="280" y1="160" x2="150" y2="390" stroke="#000000" stroke-width="4"/><line x1="302" y1="160" x2="172" y2="390" stroke="#000000" stroke-width="4"/><line x1="324" y1="160" x2="194" y2="390" stroke="#000000" stroke-width="4"/><line x1="346" y1="160" x2="216" y2="390" stroke="#000000" stroke-width="4"/><line x1="368" y1="160" x2="238" y2="390" stroke="#000000" stroke-width="4"/><line x1="390" y1="160" x2="260" y2="390" stroke="#000000" stroke-width="4"/><line x1="412" y1="160" x2="282" y2="390" stroke="#000000" stroke-width="4"/><line x1="434" y1="160" x2="304" y2="390" stroke="#000000" stroke-width="4"/><line x1="456" y1="160" x2="326" y2="390" stroke="#000000" stroke-width="4"/><line x1="478" y1="160" x2="348" y2="390" stroke="#000000" stroke-width="4"/><line x1="500" y1="160" x2="370" y2="390" stroke="#000000" stroke-width="4"/><line x1="522" y1="160" x2="392" y2="390" stroke="#000000" stroke-width="4"/><line x1="544" y1="160" x2="414" y2="390" stroke="#000000" stroke-width="4"/><line x1="566" y1="160" x2="436" y2="390" stroke="#000000" stroke-width="4"/><line x1="588" y1="160" x2="458" y2="390" stroke="#000000" stroke-width="4"/><line x1="610" y1="160" x2="480" y2="390" stroke="#000000" stroke-width="4"/><line x1="632" y1="160" x2="502" y2="390" stroke="#000000" stroke-width="4"/><line x1="654" y1="160" x2="524" y2="390" stroke="#000000" stroke-width="4"/><line x1="676" y1="160" x2="546" y2="390" stroke="#000000" stroke-width="4"/><line x1="698" y1="160" x2="568" y2="390" stroke="#000000" stroke-width="4"/><line x1="720" y1="160" x2="590" y2="390" stroke="#000000" stroke-width="4"/><line x1="742" y1="160" x2="612" y2="390" stroke="#000000" stroke-width="4"/><line x1="764" y1="160" x2="634" y2="390" stroke="#000000" stroke-width="4"/><line x1="786" y1="160" x2="656" y2="390" stroke="#000000" stroke-width="4"/><line x1="808" y1="160" x2="678" y2="390" stroke="#000000" stroke-width="4"/><line x1="830" y1="160" x2="700" y2="390" stroke="#000000" stroke-width="4"/><line x1="852" y1="160" x2="722" y2="390" stroke="#000000" stroke-width="4"/><line x1="874" y1="160" x2="744" y2="390" stroke="#000000" stroke-width="4"/><line x1="896" y1="160" x2="766" y2="390" stroke="#000000" stroke-width="4"/><line x1="918" y1="160" x2="788" y2="390" stroke="#000000" stroke-width="4"/><line x1="940" y1="160" x2="810" y2="390" stroke="#000000" stroke-width="4"/></g>
-  <polygon points="858,282 858,370 296,224 364,180" fill="none" stroke="#000000" stroke-width="5.1" stroke-linejoin="round"/>
+  <path d="M 858 282 L 858 370 Q 550 356, 296 224 L 364 180 Z" fill="none" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 858 282 Q 620 242, 456 144" fill="none" stroke="#000000" stroke-width="4.8" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 858 282 Q 670 228, 528 116" fill="none" stroke="#000000" stroke-width="4.8" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="680" cy="220" r="30" fill="#ffffff" stroke="#000000" stroke-width="5"/>
@@ -49,18 +49,19 @@
   <circle cx="708" cy="386" r="30" fill="#ffffff" stroke="#000000" stroke-width="5"/>
   <text x="708" y="386" font-size="48" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">i</text>
   <circle cx="598" cy="412" r="30" fill="#ffffff" stroke="#000000" stroke-width="5"/>
-  <text x="598" y="412" font-size="48" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">J</text>
+  <text x="598" y="412" font-size="48" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">j</text>
   <ellipse cx="1214" cy="336" rx="16" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.5"/>
-  <path d="M 1508 668 C 1490 618, 1502 578, 1554 570 C 1640 554, 1730 480, 1810 434 C 1900 386, 1990 374, 2070 368" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1508 668 C 1490 618, 1502 578, 1554 570 C 1640 554, 1730 480, 1810 438 C 1900 398, 1990 388, 2070 382" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="1594" y1="626" x2="2264" y2="626" stroke="#000000" stroke-width="5.1" stroke-dasharray="36,12,8,12" stroke-linecap="round"/>
   <line x1="1598" y1="598" x2="1598" y2="646" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
   <rect x="1504" y="614" width="74" height="22" fill="#ffffff" stroke="#000000" stroke-width="4.5" rx="8"/>
   <line x1="2264" y1="544" x2="2264" y2="626" stroke="#000000" stroke-width="6.6" stroke-linecap="round"/>
   <line x1="2264" y1="544" x2="1768" y2="464" stroke="#000000" stroke-width="4.8" stroke-dasharray="28,12" stroke-linecap="round"/>
-  <path d="M 2264 544 Q 2017.0 510.0, 1850 416" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 2264 544 Q 2039.0 502.0, 1894 400" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 2264 544 Q 2060.0 497.0, 1936 390" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 2264 544 Q 2080.0 492.0, 1976 380" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2264 544 Q 2016.0 512.0, 1848 420" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2264 544 Q 2033.0 506.0, 1882 408" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2264 544 Q 2051.0 501.0, 1918 398" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2264 544 Q 2069.0 498.0, 1954 392" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2264 544 Q 2086.0 496.0, 1988 388" fill="none" stroke="#000000" stroke-width="4.5" stroke-dasharray="16,10" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 2036 626 Q 1860 600, 1698 514" fill="none" stroke="#000000" stroke-width="4.8" stroke-dasharray="22,12" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="18" y="360" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">+</text>
   <text x="210" y="386" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
@@ -81,10 +82,10 @@
   <text x="1696" y="548" font-size="52" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">p</text>
   <text x="1750" y="444" font-size="52" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">o</text>
   <text x="1854" y="510" font-size="52" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
-  <text x="1844" y="394" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">1</text>
-  <text x="1878" y="382" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">2</text>
-  <text x="1916" y="374" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">3</text>
-  <text x="1952" y="366" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">4</text>
-  <text x="1984" y="360" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">5</text>
+  <text x="1844" y="390" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">1</text>
+  <text x="1878" y="378" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">2</text>
+  <text x="1916" y="368" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">3</text>
+  <text x="1952" y="360" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">4</text>
+  <text x="1984" y="354" font-size="44" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">5</text>
   <text x="2292" y="588" font-size="54" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
 </svg>

@@ -86,35 +86,47 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     # --- 1. Vector-traced Sun woodcut (top-left) + shaded prism & screen (bottom-right) ---
     yy, xx = np.ogrid[:h, :w]
-    in_sun = (xx < 395) & (yy < 395)
-    in_prism_screen = (xx >= 425) & (yy >= 525) & (
-        ((yy <= 835) & (xx <= 840))  # prism body
-        | ((xx >= 795) & (yy >= 800))  # vertical black screen on right
+    # Elliptical sun mask so no thick raster ray stubs protrude outside the sun corona
+    in_sun = ((xx - 200.5) / 168.0) ** 2 + ((yy - 225.5) / 163.0) ** 2 <= 1.0
+    # Prism triangle bounded strictly below/right of its hypotenuse (excludes ray crossing above prism)
+    in_prism = (
+        (yy >= 530)
+        & (yy <= 836)
+        & (xx >= 425)
+        & (xx <= 835)
+        & (xx >= 824.0 - 1.44 * (yy - 533.0) - 6.0)
     )
-    woodcut = arr & (in_sun | in_prism_screen)
+    in_screen = (xx >= 798) & (yy >= 800)
+    woodcut = arr & (in_sun | in_prism | in_screen)
     d_wood = _trace_mask_svg_path(woodcut, step=2, eps=0.9)
     if d_wood:
         s.path(d_wood, fill="#000000", stroke="none", fill_rule="evenodd")
 
     # --- 2. Crisp optical rays from Sun through prism aperture DE to screen H, G, F ---
-    # Incident rays from Sun rim to prism entry & aperture DE
-    s.line(316.0, 304.0, 505.0, 775.0, stroke_width=sw)
-    s.line(230.0, 372.0, 535.0, 775.0, stroke_width=sw)
-    s.line(276.0, 342.0, 520.0, 775.0, stroke_width=5.0, dash="14,10")
+    # Incident rays from Sun rim crossing above prism to prism entry face
+    s.line(329.0, 310.0, 504.0, 765.0, stroke_width=sw)                 # right -> left
+    s.line(222.0, 370.0, 534.0, 755.0, stroke_width=sw)                 # left -> right
+    s.line(288.0, 350.0, 514.0, 765.0, stroke_width=5.2, dash="12,10")  # middle dashed
 
-    # Refracted rays from aperture DE (x~530..570, y~815) to screen (x~800)
-    s.line(580.0, 815.0, 800.0, 965.0, stroke_width=sw)               # -> H
-    s.line(550.0, 815.0, 800.0, 1022.0, stroke_width=5.5, dash="10,10")  # -> G (dotted)
-    s.line(520.0, 815.0, 800.0, 1098.0, stroke_width=sw)              # -> F
+    # Refracted rays from aperture DE (y~820) to screen (x~804)
+    s.line(596.0, 820.0, 804.0, 965.0, stroke_width=sw)                 # -> H
+    s.line(566.0, 820.0, 804.0, 1048.0, stroke_width=5.5, dash="10,10") # -> G (dotted)
+    s.line(544.0, 820.0, 804.0, 1125.0, stroke_width=sw)                # -> F
+
+    # Small white halos behind labels adjacent to refracted rays so rays don't cut through text
+    s.rect(638.0, 838.0, 52.0, 52.0, fill="#ffffff", stroke="none")  # behind E
+    s.rect(750.0, 922.0, 50.0, 54.0, fill="#ffffff", stroke="none")  # behind H
+    s.rect(746.0, 1022.0, 50.0, 48.0, fill="#ffffff", stroke="none") # behind G
+    s.rect(752.0, 1078.0, 46.0, 48.0, fill="#ffffff", stroke="none") # behind F
 
     # Labels
-    lib.label(s, 808.0, 504.0, "M", size=54.0, italic=False, bold=True)
-    lib.label(s, 390.0, 815.0, "N", size=54.0, italic=False, bold=True)
-    lib.label(s, 514.0, 864.0, "D", size=48.0, italic=False, bold=True)
-    lib.label(s, 666.0, 864.0, "E", size=48.0, italic=False, bold=True)
-    lib.label(s, 772.0, 864.0, "P", size=48.0, italic=False, bold=True)
-    lib.label(s, 775.0, 950.0, "H", size=48.0, italic=False, bold=True)
-    lib.label(s, 770.0, 1042.0, "G", size=48.0, italic=False, bold=True)
-    lib.label(s, 772.0, 1104.0, "F", size=48.0, italic=False, bold=True)
+    lib.label(s, 806.0, 506.0, "M", size=54.0, italic=False, bold=True)
+    lib.label(s, 390.0, 812.0, "N", size=54.0, italic=False, bold=True)
+    lib.label(s, 513.0, 861.0, "D", size=48.0, italic=False, bold=True)
+    lib.label(s, 664.0, 864.0, "E", size=48.0, italic=False, bold=True)
+    lib.label(s, 767.0, 861.0, "P", size=48.0, italic=False, bold=True)
+    lib.label(s, 775.0, 949.0, "H", size=48.0, italic=False, bold=True)
+    lib.label(s, 770.0, 1046.0, "G", size=48.0, italic=False, bold=True)
+    lib.label(s, 775.0, 1102.0, "F", size=48.0, italic=False, bold=True)
 
     s.save(out_svg)

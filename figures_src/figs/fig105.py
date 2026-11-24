@@ -29,6 +29,35 @@ def _helix(s: draw.Scene, x1: float, y1: float, x2: float, y2: float, turns: int
     s.polyline(pts, stroke_width=sw)
 
 
+def _curved_helix(
+    s: draw.Scene,
+    x1: float, y1: float,
+    cx: float, cy: float,
+    x2: float, y2: float,
+    turns: int, amp: float, sw: float,
+) -> None:
+    """Draw a coiled helical wire along a quadratic Bezier curve."""
+    pts = []
+    steps = turns * 16
+    for i in range(steps + 1):
+        t = i / steps
+        mt = 1.0 - t
+        bx = mt * mt * x1 + 2.0 * mt * t * cx + t * t * x2
+        by = mt * mt * y1 + 2.0 * mt * t * cy + t * t * y2
+        tx = 2.0 * mt * (cx - x1) + 2.0 * t * (x2 - cx)
+        ty = 2.0 * mt * (cy - y1) + 2.0 * t * (y2 - cy)
+        L = math.hypot(tx, ty)
+        if L < 1e-6:
+            continue
+        ux, uy = tx / L, ty / L
+        nx, ny = -uy, ux
+        ang = t * turns * 2.0 * math.pi
+        px = bx + ux * (amp * 0.45 * math.sin(ang)) + nx * (amp * math.cos(ang))
+        py = by + uy * (amp * 0.45 * math.sin(ang)) + ny * (amp * math.cos(ang))
+        pts.append((px, py))
+    s.polyline(pts, stroke_width=sw)
+
+
 def build(src_png: Path, out_svg: Path) -> None:
     w, h = Image.open(src_png).size
     s = draw.Scene(w, h)
@@ -69,7 +98,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Cathode N on right and curved lead wire + helical coil
     s.line(2066.0, 228.0, 2066.0, 382.0, stroke_width=12.0)
     s.path("M 2066 294 L 2145 294 Q 2210 294, 2246 238", stroke_width=sw)
-    _helix(s, 2242.0, 232.0, 2002.0, 82.0, turns=13, amp=16.0, sw=4.5)
+    _curved_helix(s, 2238.0, 232.0, 2150.0, 110.0, 2000.0, 82.0, turns=13, amp=16.0, sw=4.5)
 
     # Labels
     lib.label(s, 1100.0, 100.0, "Sol.", size=52.0, italic=True, bold=True)
@@ -77,7 +106,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(s, 1268.0, 224.0, "F", size=54.0, italic=False, bold=True)
     lib.label(s, 1272.0, 392.0, "G", size=54.0, italic=False, bold=True)
     lib.label(s, 328.0, 404.0, "H", size=54.0, italic=False, bold=True)
-    lib.label(s, 422.0, 266.0, "γ", size=54.0, italic=True, bold=True)
+    lib.label(s, 422.0, 240.0, "γ", size=54.0, italic=True, bold=True)
     lib.label(s, 478.0, 272.0, "S", size=54.0, italic=False, bold=True)
     lib.label(s, 608.0, 274.0, "A", size=54.0, italic=False, bold=True)
     lib.label(s, 608.0, 330.0, "D", size=54.0, italic=False, bold=True)

@@ -29,18 +29,18 @@ def build(src_png: Path, out_svg: Path) -> None:
     scene.line(ax, ay, 342.0, 290.0, stroke_width=sw)
 
     # Circles F (pulley), G (weight on plane), H (hanging weight)
-    fx, fy, fr = 143.0, 502.0, 35.0
-    gx, gy, gr = 331.0, 574.0, 36.0
-    hx, hy, hr = 110.0, 710.0, 40.0
+    fx, fy, fr = 141.0, 502.0, 34.0
+    gx, gy, gr = 331.0, 577.0, 33.5
+    hx, hy, hr = 103.0, 717.0, 33.0
 
     # Inclined plane AF tangent to underside of G and F
     scene.line(ax, ay, 132.0, 532.0, stroke_width=sw)
 
     # Dashed cord from top of F to top of G
-    scene.line(fx + 14.0, fy - fr + 5.0, gx + 14.0, gy - gr + 5.0, stroke_width=sw_dash, dash="22,14")
+    scene.line(fx + 16.0, fy - fr + 8.0, gx + 4.0, gy - gr + 13.0, stroke_width=sw_dash, dash="22,14")
 
     # Dashed cord from left side of F straight down to top of H
-    scene.line(110.0, fy + 4.0, 110.0, hy - hr, stroke_width=sw_dash, dash="22,14")
+    scene.line(105.0, fy + 4.0, 105.0, hy - hr, stroke_width=sw_dash, dash="22,14")
 
     # Dashed vertical projection from F down to C on AC
     scene.line(150.0, fy + fr, 150.0, 831.0, stroke_width=sw_dash, dash="22,14")
@@ -56,7 +56,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(scene, 302, 260, "E", size=60, italic=False, bold=True)
     lib.label(scene, 98, 442, "F", size=60, italic=False, bold=True)
     lib.label(scene, 396, 576, "G", size=60, italic=False, bold=True)
-    lib.label(scene, 38, 708, "H", size=60, italic=False, bold=True)
+    lib.label(scene, 32, 710, "H", size=60, italic=False, bold=True)
     lib.label(scene, 142, 874, "C", size=60, italic=False, bold=True)
     lib.label(scene, 900, 842, "A", size=60, italic=False, bold=True)
 

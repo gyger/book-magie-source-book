@@ -15,12 +15,12 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     sw = 6.0
     # Glass jar base foot (elliptical base)
-    s.ellipse(189.0, 1368.0, 178.0, 62.0, fill="#ffffff", stroke_width=sw * 1.1)
-    s.ellipse(189.0, 1368.0, 106.0, 34.0, fill="#ffffff", stroke_width=sw * 0.85)
+    s.ellipse(189.0, 1380.0, 178.0, 74.0, fill="#ffffff", stroke_width=sw * 1.1)
+    s.ellipse(189.0, 1387.0, 106.0, 23.0, fill="#ffffff", stroke_width=sw * 0.85)
 
     # Glass jar vertical walls
-    s.line(83.0, 566.0, 83.0, 1368.0, stroke_width=sw)
-    s.line(295.0, 566.0, 295.0, 1368.0, stroke_width=sw)
+    s.line(83.0, 566.0, 83.0, 1387.0, stroke_width=sw)
+    s.line(295.0, 566.0, 295.0, 1387.0, stroke_width=sw)
 
     # Top rim ellipse
     s.ellipse(189.0, 566.0, 106.0, 34.0, fill="none", stroke_width=sw)
@@ -36,9 +36,9 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.circle(123.0, 1030.0, 15.0, fill="#000000", stroke="none")
 
     # Inclined glass tube A with coiled heating wire
-    # Top center (281, 440), bottom center (114, 1366)
+    # Top center (281, 440), bottom center (112, 1382)
     x_top, y_top = 281.0, 440.0
-    x_bot, y_bot = 114.0, 1366.0
+    x_bot, y_bot = 112.0, 1382.0
     dx, dy = x_bot - x_top, y_bot - y_top
     L = (dx * dx + dy * dy) ** 0.5
     nx, ny = -dy / L, dx / L  # unit normal
@@ -74,7 +74,7 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     # Labels
     lib.label(s, 84.0, 214.0, "T", size=72.0, italic=False, bold=True)
-    lib.label(s, 282.0, 404.0, "A", size=72.0, italic=False, bold=True)
+    lib.label(s, 282.0, 386.0, "A", size=72.0, italic=False, bold=True)
     lib.label(s, 318.0, 962.0, "B", size=72.0, italic=False, bold=True)
 
     s.save(out_svg)

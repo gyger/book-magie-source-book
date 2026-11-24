@@ -76,24 +76,59 @@ def _trace_mask_svg_path(mask: np.ndarray, step: int = 2, eps: float = 1.0) -> s
     return " ".join(parts)
 
 
+def _near_seg(
+    xx: np.ndarray,
+    yy: np.ndarray,
+    x1: float,
+    y1: float,
+    x2: float,
+    y2: float,
+    tol: float,
+) -> np.ndarray:
+    dx, dy = x2 - x1, y2 - y1
+    l2 = dx * dx + dy * dy
+    if l2 < 1e-9:
+        return (xx - x1) ** 2 + (yy - y1) ** 2 <= tol * tol
+    t = np.clip(((xx - x1) * dx + (yy - y1) * dy) / l2, 0.0, 1.0)
+    px = x1 + t * dx
+    py = y1 + t * dy
+    return (xx - px) ** 2 + (yy - py) ** 2 <= tol * tol
+
+
 def build(src_png: Path, out_svg: Path) -> None:
     im = Image.open(src_png).convert("L")
     w, h = im.size
     arr = np.asarray(im) < 180
     s = draw.Scene(w, h)
 
-    sw = 6.0
-    sw_thin = 4.2
+    sw = 7.0
+    sw_thin = 4.6
 
-    cx, cy, r = 1094.0, 440.0, 326.0
+    # Glass sphere matching original scan rim
+    cx, cy, r = 1091.0, 435.5, 338.0
+
+    # Key optical coordinates fitted to original scan
+    ax, ay = 138.0, 436.0
+    dx_pt, dy_pt = 901.0, 163.0
+    ux_out, uy_out = 1393.0, 286.0
+    bx_pt, by_pt = 859.0, 679.5
+    lx_out, ly_out = 1397.0, 591.0
 
     # --- 1. Vector-traced candlestick (left) + table base (bottom) + sphere woodcut shading ---
     yy, xx = np.ogrid[:h, :w]
-    in_candle = (xx >= 70) & (xx <= 198) & (yy >= 375) & (yy <= 780)
-    in_table = (yy >= 770) & (yy <= h - 1)
-    # Inner shading strokes of glass sphere (strictly inside sphere)
+    in_candle = (
+        ((xx >= 55) & (xx <= 198) & (yy >= 468) & (yy <= 770))
+        | ((xx >= 90) & (xx <= 143) & (yy >= 375) & (yy < 468))
+    )
+    in_table = (yy >= 762) & (yy <= h - 1)
+    # Inner shading strokes of glass sphere (strictly inside sphere, excluding internal rays & raster 'B')
     dist_c = np.sqrt((xx - cx) ** 2 + (yy - cy) ** 2)
     in_sphere_shade = dist_c < (r - 12)
+    in_sphere_shade &= ~_near_seg(xx, yy, dx_pt, dy_pt, ux_out, uy_out, 11.0)
+    in_sphere_shade &= ~_near_seg(xx, yy, cx - r, ay, cx + r, ay, 11.0)
+    in_sphere_shade &= ~_near_seg(xx, yy, bx_pt, by_pt, lx_out, ly_out, 11.0)
+    in_sphere_shade &= ~((xx >= 842) & (xx <= 895) & (yy >= 594) & (yy <= 654))
+
     woodcut = arr & (in_candle | in_table | in_sphere_shade)
     d_wood = _trace_mask_svg_path(woodcut, step=2, eps=0.9)
     if d_wood:
@@ -102,38 +137,34 @@ def build(src_png: Path, out_svg: Path) -> None:
     # --- 2. Crisp geometric optical diagram ---
     s.circle(cx, cy, r, stroke_width=sw)
 
-    # Candle flame origin A
-    ax, ay = 148.0, 434.0
     # Upper ray A -> D on sphere -> refracted through sphere -> exit
-    dx_pt, dy_pt = 900.0, 178.0
     s.line(ax, ay, dx_pt, dy_pt, stroke_width=sw_thin)
-    s.line(dx_pt, dy_pt, 1396.0, 308.0, stroke_width=sw_thin)
-    s.line(1396.0, 308.0, w - 4.0, 386.0, stroke_width=sw_thin)
+    s.line(dx_pt, dy_pt, ux_out, uy_out, stroke_width=sw_thin)
+    s.line(ux_out, uy_out, w - 2.0, 386.0, stroke_width=sw_thin)
 
     # Central horizontal ray A -> C -> straight through sphere
-    s.line(ax, ay, w - 4.0, ay, stroke_width=sw_thin)
+    s.line(ax, ay, w - 2.0, ay, stroke_width=sw_thin)
 
     # Lower ray A -> B on sphere -> refracted through sphere -> exit
-    bx_pt, by_pt = 884.0, 690.0
     s.line(ax, ay, bx_pt, by_pt, stroke_width=sw_thin)
-    s.line(bx_pt, by_pt, 1378.0, 608.0, stroke_width=sw_thin)
-    s.line(1378.0, 608.0, w - 4.0, 524.0, stroke_width=sw_thin)
+    s.line(bx_pt, by_pt, lx_out, ly_out, stroke_width=sw_thin)
+    s.line(lx_out, ly_out, w - 2.0, 526.0, stroke_width=sw_thin)
 
     # Tangent lines at D (K-D-I), C (G-C-H), and B (E-B-F)
-    s.line(744.0, 294.0, 1020.0, 72.0, stroke_width=sw_thin)   # K-D-I
-    s.line(768.0, 318.0, 768.0, 578.0, stroke_width=sw_thin)   # G-C-H
-    s.line(744.0, 586.0, 960.0, 770.0, stroke_width=sw_thin)   # E-B-F
+    s.line(744.0, 274.0, 1012.0, 66.0, stroke_width=sw_thin)   # K-D-I
+    s.line(751.0, 332.0, 748.0, 546.0, stroke_width=sw_thin)   # G-C-H
+    s.line(744.0, 580.0, 936.0, 760.0, stroke_width=sw_thin)   # E-B-F
 
     # Labels
-    lib.label(s, 72.0, 444.0, "A", size=54.0, italic=False, bold=True)
-    lib.label(s, 966.0, 70.0, "I", size=50.0, italic=False, bold=True)
-    lib.label(s, 858.0, 154.0, "D", size=50.0, italic=False, bold=True)
-    lib.label(s, 720.0, 298.0, "K", size=50.0, italic=False, bold=True)
-    lib.label(s, 730.0, 368.0, "G", size=50.0, italic=False, bold=True)
-    lib.label(s, 726.0, 468.0, "C", size=50.0, italic=False, bold=True)
-    lib.label(s, 728.0, 530.0, "H", size=50.0, italic=False, bold=True)
-    lib.label(s, 726.0, 588.0, "E", size=50.0, italic=False, bold=True)
-    lib.label(s, 868.0, 668.0, "B", size=50.0, italic=False, bold=True)
-    lib.label(s, 845.0, 758.0, "F", size=50.0, italic=False, bold=True)
+    lib.label(s, 70.0, 459.0, "A", size=54.0, italic=False, bold=True)
+    lib.label(s, 958.0, 52.0, "I", size=50.0, italic=False, bold=True)
+    lib.label(s, 851.0, 129.0, "D", size=50.0, italic=False, bold=True)
+    lib.label(s, 712.0, 280.0, "K", size=50.0, italic=False, bold=True)
+    lib.label(s, 714.0, 365.0, "G", size=50.0, italic=False, bold=True)
+    lib.label(s, 711.0, 466.0, "C", size=50.0, italic=False, bold=True)
+    lib.label(s, 714.0, 519.0, "H", size=50.0, italic=False, bold=True)
+    lib.label(s, 721.0, 583.0, "E", size=50.0, italic=False, bold=True)
+    lib.label(s, 868.0, 624.0, "B", size=50.0, italic=False, bold=True)
+    lib.label(s, 842.0, 734.0, "F", size=50.0, italic=False, bold=True)
 
     s.save(out_svg)

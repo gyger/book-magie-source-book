@@ -16,10 +16,12 @@ def build(src_png: Path, out_svg: Path) -> None:
     sw = 6.0
     # === Left: Plan view of tube ===
     d_plan = (
-        "M 110 318 L 194 314 C 310 214, 520 76, 756 76 "
-        "C 990 76, 1180 206, 1296 312 "
-        "L 1378 320 C 1424 326, 1424 402, 1378 408 "
-        "L 1296 416 C 1180 524, 990 644, 756 644 "
+        "M 110 318 L 194 314 C 310 214, 520 84, 756 84 "
+        "C 990 84, 1175 198, 1288 294 "
+        "C 1322 318, 1368 320, 1398 338 "
+        "C 1422 352, 1422 384, 1398 398 "
+        "C 1368 416, 1322 418, 1288 442 "
+        "C 1175 538, 990 644, 756 644 "
         "C 520 644, 310 510, 194 410 "
         "L 110 404 C 66 398, 66 324, 110 318 Z"
     )
@@ -43,18 +45,18 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Screen e
     s.line(858.0, 282.0, 858.0, 370.0, stroke_width=sw * 1.1)
 
-    # Hatched shadow band from screen e to wall f-l
-    poly_shadow = [(858.0, 282.0), (858.0, 370.0), (296.0, 224.0), (364.0, 180.0)]
+    # Hatched shadow band from screen e to wall f-l (curved lower edge)
+    d_shadow = "M 858 282 L 858 370 Q 550 356, 296 224 L 364 180 Z"
     s.add_def(
-        '<clipPath id="clip_sh100">'
-        '<polygon points="858,282 858,370 296,224 364,180"/>'
-        '</clipPath>'
+        f'<clipPath id="clip_sh100">'
+        f'<path d="{d_shadow}"/>'
+        f'</clipPath>'
     )
     hatch = []
     for x in range(280, 960, 22):
         hatch.append(f'<line x1="{x}" y1="160" x2="{x - 130}" y2="390" stroke="#000000" stroke-width="4"/>')
     s.raw('<g clip-path="url(#clip_sh100)">' + "".join(hatch) + "</g>")
-    s.polygon(poly_shadow, fill="none", stroke_width=sw * 0.85)
+    s.path(d_shadow, fill="none", stroke_width=sw * 0.85)
 
     # Deflected shadow curves m and o
     s.path("M 858 282 Q 620 242, 456 144", stroke_width=sw * 0.8, dash="18,12")
@@ -63,7 +65,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Circled markers k, q, h, i, J
     for cx, cy, txt in [
         (680.0, 220.0, "k"), (588.0, 284.0, "q"),
-        (660.0, 300.0, "h"), (708.0, 386.0, "i"), (598.0, 412.0, "J"),
+        (660.0, 300.0, "h"), (708.0, 386.0, "i"), (598.0, 412.0, "j"),
     ]:
         s.circle(cx, cy, 30.0, fill="#ffffff", stroke_width=5.0)
         lib.label(s, cx, cy, txt, size=48.0, italic=True, bold=True)
@@ -73,7 +75,7 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     # === Right: Diagram A ===
     # Bulb wall arc
-    s.path("M 1508 668 C 1490 618, 1502 578, 1554 570 C 1640 554, 1730 480, 1810 434 C 1900 386, 1990 374, 2070 368", stroke_width=sw)
+    s.path("M 1508 668 C 1490 618, 1502 578, 1554 570 C 1640 554, 1730 480, 1810 438 C 1900 398, 1990 388, 2070 382", stroke_width=sw)
     # Axis g-e
     s.line(1594.0, 626.0, 2264.0, 626.0, stroke_width=sw * 0.85, dash="36,12,8,12")
     s.line(1598.0, 598.0, 1598.0, 646.0, stroke_width=sw)
@@ -82,7 +84,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.line(2264.0, 544.0, 2264.0, 626.0, stroke_width=sw * 1.1)
     # Fan of dashed deflection curves from top of e to o, 1, 2, 3, 4, 5
     s.line(2264.0, 544.0, 1768.0, 464.0, stroke_width=sw * 0.8, dash="28,12")
-    for tx, ty in [(1850, 416), (1894, 400), (1936, 390), (1976, 380)]:
+    for tx, ty in [(1848, 420), (1882, 408), (1918, 398), (1954, 392), (1988, 388)]:
         s.path(f"M 2264 544 Q {(2264 + tx) * 0.5 - 40:.1f} {(544 + ty) * 0.5 + 30:.1f}, {tx} {ty}", stroke_width=sw * 0.75, dash="16,10")
     # Lower curved ray to p
     s.path("M 2036 626 Q 1860 600, 1698 514", stroke_width=sw * 0.8, dash="22,12")
@@ -108,11 +110,11 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(s, 1696.0, 548.0, "p", size=52.0, italic=True, bold=True)
     lib.label(s, 1750.0, 444.0, "o", size=52.0, italic=True, bold=True)
     lib.label(s, 1854.0, 510.0, "f", size=52.0, italic=True, bold=True)
-    lib.label(s, 1844.0, 394.0, "1", size=44.0, italic=True, bold=True)
-    lib.label(s, 1878.0, 382.0, "2", size=44.0, italic=True, bold=True)
-    lib.label(s, 1916.0, 374.0, "3", size=44.0, italic=True, bold=True)
-    lib.label(s, 1952.0, 366.0, "4", size=44.0, italic=True, bold=True)
-    lib.label(s, 1984.0, 360.0, "5", size=44.0, italic=True, bold=True)
+    lib.label(s, 1844.0, 390.0, "1", size=44.0, italic=True, bold=True)
+    lib.label(s, 1878.0, 378.0, "2", size=44.0, italic=True, bold=True)
+    lib.label(s, 1916.0, 368.0, "3", size=44.0, italic=True, bold=True)
+    lib.label(s, 1952.0, 360.0, "4", size=44.0, italic=True, bold=True)
+    lib.label(s, 1984.0, 354.0, "5", size=44.0, italic=True, bold=True)
     lib.label(s, 2292.0, 588.0, "e", size=54.0, italic=True, bold=True)
 
     s.save(out_svg)

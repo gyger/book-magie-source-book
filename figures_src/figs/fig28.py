@@ -19,31 +19,21 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Main horizontal roof beam
     s.rect(206.0, 52.0, 2060.0, 92.0, fill="#000000", stroke="none")
 
-    # Left vertical wall (with window opening at y=1140..1206 and shelf slot at y=1254..1270)
-    s.rect(206.0, 20.0, 132.0, 1126.0, fill="#000000", stroke="none")
-    # Slanted window gap in left wall
+    # Left vertical wall (with slanted window opening at y=1147..1226 and shelf slot at y=1254..1272)
+    s.rect(206.0, 20.0, 132.0, 1234.0, fill="#000000", stroke="none")
+    # Slanted window gap in left wall (both upper and lower edges sloped)
     s.polygon(
-        [(206.0, 1140.0), (338.0, 1172.0), (338.0, 1218.0), (206.0, 1186.0)],
+        [(204.0, 1147.0), (340.0, 1182.0), (340.0, 1226.0), (204.0, 1191.0)],
         fill="#ffffff",
-        stroke="none",
-    )
-    s.polygon(
-        [(206.0, 1186.0), (338.0, 1218.0), (338.0, 1254.0), (206.0, 1254.0)],
-        fill="#000000",
         stroke="none",
     )
     s.rect(206.0, 1272.0, 132.0, 268.0, fill="#000000", stroke="none")
 
-    # Right vertical wall (with window opening and shelf slot)
-    s.rect(2134.0, 32.0, 138.0, 1110.0, fill="#000000", stroke="none")
+    # Right vertical wall (with slanted window opening and shelf slot)
+    s.rect(2134.0, 32.0, 138.0, 1222.0, fill="#000000", stroke="none")
     s.polygon(
-        [(2134.0, 1172.0), (2272.0, 1134.0), (2272.0, 1178.0), (2134.0, 1216.0)],
+        [(2132.0, 1173.0), (2274.0, 1132.0), (2274.0, 1180.0), (2132.0, 1218.0)],
         fill="#ffffff",
-        stroke="none",
-    )
-    s.polygon(
-        [(2134.0, 1216.0), (2272.0, 1178.0), (2272.0, 1254.0), (2134.0, 1254.0)],
-        fill="#000000",
         stroke="none",
     )
     s.rect(2134.0, 1272.0, 138.0, 268.0, fill="#000000", stroke="none")
@@ -77,6 +67,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.circle(1591.0, 484.0, 20.0, fill="#000000", stroke="none")
 
     # --- 4) Torsion-wire adjustment shaft K ---
+    # Horizontal shaft extends left to connect seamlessly with central top pin above F-F
+    s.rect(1224.0, 524.0, 42.0, 14.0, fill="#000000", stroke="none")
     s.rect(1262.0, 524.0, 1020.0, 26.0, fill="#000000", stroke="none")
     # Small crank/handle K on outside of right wall
     s.path(
@@ -88,24 +80,56 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.circle(2318.0, 531.0, 14.0, fill="#000000", stroke="none")
 
     # --- 5) Central torsion wire housing F-F-E-E and horizontal mahogany case A-A ---
-    # Top finial knob & cap at F-F
-    s.circle(1222.0, 514.0, 14.0, fill="#000000", stroke="none")
-    s.rect(1196.0, 530.0, 54.0, 18.0, fill="#000000", stroke="none")
+    # Hatching pattern for double-walled wooden housing A-E-F
+    s.add_def(
+        '<pattern id="wood_hatch" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+        '<rect width="11" height="11" fill="#ffffff"/>'
+        '<line x1="0" y1="0" x2="0" y2="11" stroke="#000000" stroke-width="2.6"/>'
+        "</pattern>"
+    )
 
-    # Tapered vertical casing walls F-E
-    s.line(1200.0, 548.0, 1152.0, 1170.0, stroke_width=12.0)
-    s.line(1248.0, 548.0, 1280.0, 1170.0, stroke_width=12.0)
+    # Top finial pin, collar & cap at F-F (connected to horizontal shaft K)
+    s.rect(1217.0, 500.0, 14.0, 44.0, fill="#000000", stroke="none")
+    s.circle(1224.0, 504.0, 8.0, fill="#000000", stroke="none")
+    s.rect(1208.0, 520.0, 34.0, 18.0, fill="#000000", stroke="none")
+    s.rect(1196.0, 540.0, 58.0, 14.0, fill="#000000", stroke="none")
+
+    # Double-walled hatched wooden housing: left wall A-E-F and right wall F-E-A
+    s.polygon(
+        [
+            (638.0, 1245.0),
+            (1152.0, 1165.0),
+            (1197.0, 550.0),
+            (1210.0, 550.0),
+            (1166.0, 1177.0),
+            (642.0, 1258.0),
+        ],
+        fill="url(#wood_hatch)",
+        stroke="#000000",
+        stroke_width=4.5,
+    )
+    s.polygon(
+        [
+            (1252.0, 550.0),
+            (1292.0, 1165.0),
+            (1796.0, 1245.0),
+            (1792.0, 1258.0),
+            (1278.0, 1177.0),
+            (1239.0, 550.0),
+        ],
+        fill="url(#wood_hatch)",
+        stroke="#000000",
+        stroke_width=4.5,
+    )
 
     # Central torsion wire l -> g -> m
-    s.line(1222.0, 548.0, 1218.0, 1188.0, stroke_width=4.0)
-    s.circle(1218.0, 1188.0, 12.0, fill="#ffffff", stroke="#000000", stroke_width=5.0)
-    s.line(1218.0, 1200.0, 1218.0, 1272.0, stroke_width=4.0)
+    s.line(1224.0, 552.0, 1222.0, 1188.0, stroke_width=4.0)
+    s.circle(1222.0, 1188.0, 12.0, fill="#ffffff", stroke="#000000", stroke_width=5.0)
+    s.line(1222.0, 1200.0, 1222.0, 1272.0, stroke_width=4.0)
 
-    # Pitched top walls of mahogany box A-E and E-A (double-lined wood wall)
-    s.line(638.0, 1252.0, 1152.0, 1170.0, stroke_width=14.0)
-    s.line(1796.0, 1252.0, 1280.0, 1170.0, stroke_width=14.0)
-    s.line(654.0, 1264.0, 1206.0, 1188.0, stroke_width=5.0)
-    s.line(1780.0, 1264.0, 1230.0, 1188.0, stroke_width=5.0)
+    # Interior torsion-arm suspension brace wires from g to ends of arm
+    s.line(654.0, 1264.0, 1210.0, 1188.0, stroke_width=5.0)
+    s.line(1780.0, 1264.0, 1234.0, 1188.0, stroke_width=5.0)
 
     # Horizontal torsion arm & bottom of mahogany box
     s.line(664.0, 1270.0, 1768.0, 1270.0, stroke_width=5.0)

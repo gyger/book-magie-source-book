@@ -115,13 +115,13 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     # Labels
     lib.label(s, 117.0, 36.0, "a", size=58.0, italic=True, bold=True)
-    lib.label(s, 44.0, 348.0, "g′", size=58.0, italic=True, bold=True)
+    lib.label(s, 44.0, 348.0, "g'", size=58.0, italic=True, bold=True)
     lib.label(s, 44.0, 608.0, "g", size=58.0, italic=True, bold=True)
     lib.label(s, 346.0, 1945.0, "f", size=58.0, italic=True, bold=True)
-    lib.label(s, 46.0, 2588.0, "b′", size=58.0, italic=True, bold=True)
+    lib.label(s, 46.0, 2588.0, "b'", size=58.0, italic=True, bold=True)
     lib.label(s, 44.0, 2756.0, "b", size=58.0, italic=True, bold=True)
-    lib.label(s, 412.0, 2588.0, "e′", size=58.0, italic=True, bold=True)
-    lib.label(s, 392.0, 2762.0, "e", size=58.0, italic=True, bold=True)
+    lib.label(s, 412.0, 2588.0, "e'", size=58.0, italic=True, bold=True)
+    lib.label(s, 390.0, 2750.0, "e", size=58.0, italic=True, bold=True)
     lib.label(s, 356.0, 3266.0, "d", size=58.0, italic=True, bold=True)
     lib.label(s, 265.0, 3538.0, "c", size=58.0, italic=True, bold=True)
 

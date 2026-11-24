@@ -22,17 +22,18 @@ def build(src_png: Path, out_svg: Path) -> None:
         f'<clipPath id="tank"><rect x="{x0:.1f}" y="{y0:.1f}" width="{fw:.1f}" height="{fh:.1f}"/></clipPath>'
     )
 
-    # Two point sources A and B on left edge
-    ax, ay = x0, 268.0
-    bx, by = x0, 778.0
+    # Two point sources A and B on left edge (matched to scan centers)
+    ax, ay = 111.5, 291.0
+    bx, by = 103.0, 795.0
 
-    # Wavelength spacing ~ 53.5 px (thick concentric circular crests)
-    lam = 53.5
+    # Wavelength spacing ~ 55.95 px (thick concentric circular crests)
+    lam = 55.95
+    r0 = 57.35
     r_max = 2400.0
     ring_sw = 14.5
 
     s.raw('<g clip-path="url(#tank)">')
-    r = lam
+    r = r0
     while r <= r_max:
         s.circle(ax, ay, r, fill="none", stroke="#000000", stroke_width=ring_sw)
         s.circle(bx, by, r, fill="none", stroke="#000000", stroke_width=ring_sw)
@@ -43,11 +44,11 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.rect(x0, y0, fw, fh, stroke_width=6.0)
 
     # Labels A, B (left) and C, D, E, F (right, marking destructive interference nodes)
-    lib.label(s, 54.0, ay, "A", size=54.0, italic=False, bold=True)
-    lib.label(s, 54.0, by, "B", size=54.0, italic=False, bold=True)
+    lib.label(s, 54.0, 291.0, "A", size=54.0, italic=False, bold=True)
+    lib.label(s, 54.0, 795.0, "B", size=54.0, italic=False, bold=True)
     lib.label(s, 2340.0, 168.0, "C", size=54.0, italic=False, bold=True)
     lib.label(s, 2340.0, 392.0, "D", size=54.0, italic=False, bold=True)
-    lib.label(s, 2340.0, 694.0, "E", size=54.0, italic=False, bold=True)
-    lib.label(s, 2340.0, 916.0, "F", size=54.0, italic=False, bold=True)
+    lib.label(s, 2340.0, 694.0 + 14.0, "E", size=54.0, italic=False, bold=True)
+    lib.label(s, 2340.0, 916.0 + 14.0, "F", size=54.0, italic=False, bold=True)
 
     s.save(out_svg)

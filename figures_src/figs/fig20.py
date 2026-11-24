@@ -1,4 +1,4 @@
-"""Figure 20: Solid segment F'P with dotted triangle PCp and vertical fCp."""
+"""Figure 20: Solid segment FP with dotted triangle PCp and vertical fCp."""
 
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     C = (426.5, 639.0)
     p_bot = (427.6, 768.0)
 
-    # Solid line F'P
+    # Solid line FP
     s.line(*F_pt, *P, stroke_width=8.5)
 
     # Dotted vertical f-C-p (wide dot spacing matching scan)
@@ -28,7 +28,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.line(*P, *C, stroke_width=7.5, dash="1,22", linecap="round")
     s.line(*P, *p_bot, stroke_width=7.5, dash="1,20", linecap="round")
 
-    lib.label(s, 86, 72, "F'", size=58, italic=False, bold=True)
+    lib.label(s, 86, 70, "F", size=58, italic=False, bold=True)
     lib.label(s, 426, 104, "f", size=62, italic=True, bold=True)
     lib.label(s, 170, 638, "P", size=58, italic=False, bold=True)
     lib.label(s, 464, 642, "C", size=56, italic=False, bold=True)

@@ -84,8 +84,9 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     lib.label(s, 566.0, 560.0, "K", size=62.0, italic=True, bold=True)
     lib.label(s, 510.0, 718.0, "r", size=64.0, italic=True, bold=True)
-    lib.label(s, 678.0, 706.0, "d", size=64.0, italic=True, bold=True)
-    lib.label(s, 668.0, 844.0, "b⁻", size=64.0, italic=True, bold=True)
+    lib.label(s, 663.0, 706.0, "d", size=46.0, italic=True, bold=True)
+    lib.label(s, 644.0, 844.0, "b", size=62.0, italic=True, bold=True)
+    lib.label(s, 671.0, 826.0, "−", size=38.0, italic=False, bold=True)
     lib.label(s, 614.0, 1406.0, "+", size=58.0, italic=False, bold=True)
     lib.label(s, 568.0, 1444.0, "a", size=64.0, italic=True, bold=True)
     lib.label(s, 554.0, 1516.0, "Fig. 2", size=54.0, italic=False, bold=True)

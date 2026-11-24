@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="590" height="377" viewBox="0 0 590 377">
-  <polyline points="516,20 232,20 250,50 534,50" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="516,20 232,20 247,50 534,50" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="232" y1="20" x2="232" y2="118" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
-  <line x1="250" y1="50" x2="250" y2="140" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <line x1="247" y1="50" x2="247" y2="140" stroke="#000000" stroke-width="4.67" stroke-linecap="round"/>
+  <line x1="250" y1="20" x2="268" y2="50" stroke="#000000" stroke-width="4.95" stroke-linecap="round"/>
   <polyline points="268,50 268,190 562,190" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <polyline points="588,250 332,250 350,286 588,286" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="332" y1="250" x2="332" y2="326" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
   <line x1="350" y1="286" x2="350" y2="376" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
   <path d="M 204 98 Q 214 84, 230 88 L 346 376 L 322 376 L 204 98 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 36 178 Q 160 170, 260 182 Q 298 188, 298 220 Q 298 242, 288 250" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 36 188 Q 160 180, 258 192 Q 288 198, 288 220 Q 288 234, 282 242" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 36 181 Q 160 174, 260 185 Q 295 191, 296 220 Q 296 238, 294 247" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 36 190 Q 160 183, 258 194 Q 287 200, 288 220 Q 289 231, 290 237" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 58 254 Q 168 256, 268 252" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 58 263 Q 168 264, 272 260" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="96" y1="160" x2="174" y2="160" stroke="#000000" stroke-width="6" stroke-linecap="round"/>

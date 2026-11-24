@@ -29,6 +29,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Perforated iron diaphragm blocks (a, a) with central canal slit
     s.rect(2.0, 420.0, 180.0, 100.0, fill="#ffffff", stroke_width=sw)
     s.rect(204.0, 420.0, 174.0, 100.0, fill="#ffffff", stroke_width=sw)
+    s.line(182.0, 420.0, 204.0, 420.0, stroke_width=sw)
+    s.line(182.0, 520.0, 204.0, 520.0, stroke_width=sw)
 
     # Lower glass tube b (semicircular bottom centered at (188, 1126), r=61)
     d_lower = (
@@ -49,12 +51,12 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.line(188.0, 1150.0, 188.0, 1230.0, stroke_width=sw * 1.1)
 
     # Labels
-    lib.label(s, 184.0, 146.0, "C", size=64.0, italic=True, bold=True)
-    lib.label(s, 58.0, 350.0, "S", size=64.0, italic=True, bold=True)
-    lib.label(s, 340.0, 350.0, "N", size=64.0, italic=True, bold=True)
-    lib.label(s, 108.0, 472.0, "a", size=60.0, italic=True, bold=True)
-    lib.label(s, 298.0, 472.0, "a", size=60.0, italic=True, bold=True)
-    lib.label(s, 190.0, 804.0, "b", size=64.0, italic=True, bold=True)
+    lib.label(s, 180.0, 134.0, "c", size=68.0, italic=True, bold=True)
+    lib.label(s, 52.0, 350.0, "S", size=64.0, italic=True, bold=True)
+    lib.label(s, 332.0, 350.0, "N", size=64.0, italic=True, bold=True)
+    lib.label(s, 96.0, 472.0, "a", size=60.0, italic=True, bold=True)
+    lib.label(s, 290.0, 472.0, "a", size=60.0, italic=True, bold=True)
+    lib.label(s, 186.0, 804.0, "b", size=64.0, italic=True, bold=True)
     lib.label(s, 180.0, 1258.0, "A", size=68.0, italic=True, bold=True)
 
     s.save(out_svg)

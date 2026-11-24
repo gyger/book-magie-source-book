@@ -15,16 +15,16 @@
   <rect x="916" y="914" width="212" height="86" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
   <polygon points="916,914 990,846 1202,846 1128,914" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <polygon points="1128,914 1202,846 1202,932 1128,1000" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <polygon points="1036,686 1058,686 1058,874 1036,892" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <circle cx="1013.8" cy="686" r="72" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
-  <polygon points="1036,725.6 1058,709.6 1058,874 1036,892" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <path d="M 1014.0 892.0 L 1014.0 683.0 A 11.0 11.0 0 0 1 1036.0 683.0 L 1036.0 892.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="1083.8" y1="686" x2="1083.8" y2="764" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
   <path d="M 1083.8 764.0 C 1092.8 775.2, 1104.8 795.0, 1103.8 802.4 C 1103.4 822.3, 1092.8 826.0, 1083.8 826.0 C 1074.8 826.0, 1064.2 822.3, 1063.8 802.4 C 1062.8 795.0, 1074.8 775.2, 1083.8 764.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="1242" y="904" width="208" height="96" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
   <polygon points="1242,904 1324,840 1532,840 1450,904" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <polygon points="1450,904 1532,840 1532,936 1450,1000" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <polygon points="1374,225 1398,225 1398,860 1374,878" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <circle cx="1351" cy="225" r="90.5" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
-  <polygon points="1374,274.77 1398,258.77 1398,860 1374,878" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <path d="M 1340.0 878.0 L 1340.0 231.0 A 17.0 17.0 0 0 1 1374.0 231.0 L 1374.0 878.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="1439.5" y1="225" x2="1439.5" y2="480" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
   <path d="M 1439.5 480.0 C 1453.5 496.2, 1472.0 525.0, 1470.5 535.8 C 1469.9 564.6, 1453.5 570.0, 1439.5 570.0 C 1425.5 570.0, 1409.1 564.6, 1408.5 535.8 C 1407.0 525.0, 1425.5 496.2, 1439.5 480.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>

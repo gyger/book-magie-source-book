@@ -71,20 +71,32 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Winding lines across solenoid
     for x in range(254, 916, 16):
         s.line(x, 1308.0, x - 6.0, 1456.0, stroke_width=3.5, dash="18,12")
-    # Two binding posts on far left
+    # Two binding posts on far left (with thumbscrews on top)
     s.rect(100.0, 1368.0, 86.0, 34.0, fill="#ffffff", stroke_width=5.5, rx=6.0)
+    for bx in (122.0, 164.0):
+        s.rect(bx - 4.0, 1357.0, 8.0, 11.0, fill="#ffffff", stroke_width=4.0)
+        s.rect(bx - 10.0, 1349.0, 20.0, 8.0, fill="#ffffff", stroke_width=4.0, rx=3.0)
     s.rect(108.0, 1494.0, 92.0, 34.0, fill="#ffffff", stroke_width=5.5, rx=6.0)
+    for bx in (130.0, 174.0):
+        s.rect(bx - 4.0, 1483.0, 8.0, 11.0, fill="#ffffff", stroke_width=4.0)
+        s.rect(bx - 10.0, 1475.0, 20.0, 8.0, fill="#ffffff", stroke_width=4.0, rx=3.0)
     s.path("M 186 1384 Q 214 1384, 224 1326 Q 232 1300, 250 1304", stroke_width=sw * 0.85)
     s.path("M 200 1510 Q 230 1510, 238 1456", stroke_width=sw * 0.85)
-    # Curved arrow near S
-    s.path("M 992 1350 Q 1002 1382, 990 1414", stroke_width=5.5)
+    # Curved downward arrow near S (with arrowhead)
+    s.path("M 992 1350 Q 1002 1382, 991 1410", stroke_width=5.5)
+    s.polygon(
+        [(987.0, 1422.0), (1000.0, 1405.0), (985.0, 1400.0)],
+        fill="#000000",
+        stroke="#000000",
+        stroke_width=1.5,
+    )
 
     # Labels
     lib.label(s, 704.0, 1114.0, "+", size=64.0, italic=False, bold=True)
     lib.label(s, 922.0, 1114.0, "a", size=62.0, italic=True, bold=True)
     lib.label(s, 1396.0, 1192.0, "d", size=62.0, italic=True, bold=True)
     lib.label(s, 1586.0, 1196.0, "e", size=62.0, italic=True, bold=True)
-    lib.label(s, 1940.0, 932.0, "c", size=62.0, italic=True, bold=True)
+    lib.label(s, 1956.0, 916.0, "c", size=62.0, italic=True, bold=True)
     lib.label(s, 2002.0, 1114.0, "b", size=62.0, italic=True, bold=True)
     lib.label(s, 2224.0, 1114.0, "−", size=64.0, italic=False, bold=True)
     lib.label(s, 1030.0, 1388.0, "S", size=64.0, italic=True, bold=True)

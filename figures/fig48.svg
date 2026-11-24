@@ -42,7 +42,11 @@
   <line x1="1072" y1="774.84" x2="986.84" y2="860" stroke="#000000" stroke-width="3.6" stroke-linecap="round"/>
   <line x1="1072" y1="807.34" x2="1019.34" y2="860" stroke="#000000" stroke-width="3.6" stroke-linecap="round"/>
   <line x1="1072" y1="839.84" x2="1051.84" y2="860" stroke="#000000" stroke-width="3.6" stroke-linecap="round"/>
-  <circle cx="594.5" cy="446.5" r="384" fill="none" stroke="#000000" stroke-width="6.5"/>
+  <rect x="898" y="667" width="50" height="56" fill="#ffffff" stroke="none" stroke-width="4"/>
+  <rect x="531" y="728" width="54" height="56" fill="#ffffff" stroke="none" stroke-width="4"/>
+  <rect x="790" y="770" width="36" height="52" fill="#ffffff" stroke="none" stroke-width="4"/>
+  <path d="M 210.51 443.77 A 384 384 0 0 1 978.49 449.23" fill="none" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 978.49 449.23 A 384 384 0 0 1 210.51 443.77" fill="none" stroke="#000000" stroke-width="6.5" stroke-dasharray="28,18" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="594.5" y1="62.5" x2="594.5" y2="830.5" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
   <line x1="102" y1="37" x2="895" y2="696.5" stroke="#000000" stroke-width="6.5" stroke-linecap="round"/>
   <line x1="299" y1="200.5" x2="299" y2="444.62" stroke="#000000" stroke-width="4.2" stroke-linecap="round"/>

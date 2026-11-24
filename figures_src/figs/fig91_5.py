@@ -28,13 +28,13 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.path(d_oblique, fill="#ffffff", stroke_width=sw * 0.85)
 
     # Outer dashed magnetic curve arching around pole
-    d_arc_top = "M 312 24 C 190 -24, 30 34, 4 162"
+    d_arc_top = "M 312 24 C 188 -30, 26 28, 4 162"
     d_arc_bot = "M 4 272 C 42 400, 150 442, 272 412"
     s.path(d_arc_top, stroke_width=sw, dash="30,18")
     s.path(d_arc_bot, stroke_width=sw, dash="30,18")
-    # Arrowheads on outer curve
+    # Arrowheads on outer curve (all clockwise)
     lib.arrow(s, 140.0, 8.0, 170.0, 4.0, stroke_width=1.0, head_len=24.0, head_w=16.0)
-    lib.arrow(s, 12.0, 134.0, 4.0, 156.0, stroke_width=1.0, head_len=24.0, head_w=16.0)
+    lib.arrow(s, 4.0, 150.0, 14.0, 122.0, stroke_width=1.0, head_len=24.0, head_w=16.0)
     lib.arrow(s, 118.0, 404.0, 92.0, 392.0, stroke_width=1.0, head_len=24.0, head_w=16.0)
 
     # Inner dashed magnetic loop emerging from pole
@@ -47,5 +47,6 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(s, 372.0, 72.0, "N′", size=72.0, italic=False, bold=True)
     lib.label(s, 368.0, 354.0, "P′", size=72.0, italic=False, bold=True)
     lib.label(s, 178.0, 302.0, "P", size=72.0, italic=False, bold=True)
+    lib.label(s, 306.0, 526.0, "N", size=72.0, italic=False, bold=True)
 
     s.save(out_svg)

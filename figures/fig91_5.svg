@@ -5,12 +5,12 @@
   <ellipse cx="154" cy="204" rx="18" ry="48" fill="none" stroke="#000000" stroke-width="4.2"/>
   <rect x="322" y="68" width="12" height="316" fill="#ffffff" stroke="#000000" stroke-width="5.1" rx="4"/>
   <path d="M 214 294 L 224 290 L 356 515 L 342 515 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 312 24 C 190 -24, 30 34, 4 162" fill="none" stroke="#000000" stroke-width="6" stroke-dasharray="30,18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 312 24 C 188 -30, 26 28, 4 162" fill="none" stroke="#000000" stroke-width="6" stroke-dasharray="30,18" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 4 272 C 42 400, 150 442, 272 412" fill="none" stroke="#000000" stroke-width="6" stroke-dasharray="30,18" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="140" y1="8" x2="170" y2="4" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
   <polygon points="170,4 147.27,15.1 145.15,-0.76" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
-  <line x1="12" y1="134" x2="4" y2="156" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
-  <polygon points="4,156 4.68,130.71 19.72,136.18" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="4" y1="150" x2="14" y2="122" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
+  <polygon points="14,122 13.46,147.29 -1.61,141.91" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
   <line x1="118" y1="404" x2="92" y2="392" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
   <polygon points="92,392 117.14,394.79 110.44,409.32" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
   <path d="M 244 174 C 120 168, 2 184, 2 212 C 2 238, 120 250, 320 246" fill="none" stroke="#000000" stroke-width="6" stroke-dasharray="28,16" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,4 +21,5 @@
   <text x="372" y="72" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N′</text>
   <text x="368" y="354" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">P′</text>
   <text x="178" y="302" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">P</text>
+  <text x="306" y="526" font-size="72" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>
 </svg>

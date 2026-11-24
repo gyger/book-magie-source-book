@@ -35,19 +35,21 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     sw = 6.5
     # === Left vertical Crookes tube ===
-    # Upper section + central diaphragm flange + lower section + exhaust tail
+    # Upper section + central diaphragm flange + lower section + open exhaust tail
     d_tube = (
-        "M 122 746 L 122 158 "
+        f"M 20 {h} L 20 1440 "
+        "C 20 1358, 122 1350, 122 1306 "
+        "L 122 778 "
+        "Q 86 778, 86 762 Q 86 746, 122 746 "
+        "L 122 158 "
         "A 188 114 0 0 1 498 158 "
         "L 498 746 "
         "Q 528 746, 528 762 Q 528 778, 498 778 "
-        "L 500 1356 "
-        "A 190 220 0 0 1 122 1356 "
-        "C 122 1320, 74 1344, 74 1420 "
-        "L 74 1742 Q 46 1762, 20 1742 L 20 1420 "
-        "C 20 1330, 122 1320, 122 1280 "
-        "L 122 778 "
-        "Q 86 778, 86 762 Q 86 746, 122 746 Z"
+        "L 500 1396 "
+        "C 500 1536, 408 1584, 310 1584 "
+        "C 212 1584, 152 1528, 132 1456 "
+        "C 118 1406, 74 1404, 74 1460 "
+        f"L 74 {h}"
     )
     s.path(d_tube, stroke_width=sw)
 
@@ -92,36 +94,47 @@ def build(src_png: Path, out_svg: Path) -> None:
     ], fill="#ffffff", stroke_width=sw)
 
     # === Bottom-right: Plan of c and d ===
-    cx2, cy2 = 1074.0, 1200.0
+    cx2, cy2 = 1084.0, 1200.0
     s.circle(cx2, cy2, 198.0, fill="none", stroke_width=sw)
+    # Side stem and pinch seal on right (drawn before star so star cleanly occludes stem tip)
+    s.line(cx2 + 30.0, cy2, 1185.0, cy2, stroke_width=sw * 0.9)
+    _pinch_seal(s, 1308.0, cy2, -1.0, 0.0, 118.0, sw)
     # 8-pointed star at center
     star_pts = []
     for i in range(16):
-        ang = math.radians(i * 22.5)
+        ang = math.radians(i * 22.5 - 3.0)
         r = 72.0 if i % 2 == 0 else 36.0
         star_pts.append((cx2 + r * math.cos(ang), cy2 + r * math.sin(ang)))
     s.polygon(star_pts, fill="#ffffff", stroke_width=sw * 0.85)
     # Small holes in star
     for dx, dy in [(0, 0), (-18, -18), (18, -18), (-18, 18), (18, 18)]:
         lib.filled_dot(s, cx2 + dx, cy2 + dy, r=6.5)
-    # Side stem and pinch seal on right
-    s.line(cx2 + 72.0, cy2, 1185.0, cy2, stroke_width=sw * 0.9)
-    _pinch_seal(s, 1308.0, cy2, -1.0, 0.0, 118.0, sw)
 
     # Labels
     lib.label(s, 242.0, 214.0, "e", size=58.0, italic=True, bold=True)
     lib.label(s, 360.0, 224.0, "f", size=58.0, italic=True, bold=True)
     lib.label(s, 304.0, 480.0, "c", size=58.0, italic=True, bold=True)
-    lib.label(s, 148.0, 738.0, "a", size=58.0, italic=True, bold=True)
+    lib.label(s, 146.0, 728.0, "a", size=58.0, italic=True, bold=True)
     lib.label(s, 404.0, 796.0, "b", size=58.0, italic=True, bold=True)
     lib.label(s, 310.0, 1164.0, "d", size=58.0, italic=True, bold=True)
-    lib.label(s, 244.0, 1412.0, "g", size=58.0, italic=True, bold=True)
-    lib.label(s, 368.0, 1474.0, "h", size=58.0, italic=True, bold=True)
+    lib.label(s, 244.0, 1396.0, "g", size=58.0, italic=True, bold=True)
+    lib.label(s, 368.0, 1462.0, "h", size=58.0, italic=True, bold=True)
 
     lib.label(s, 916.0, 382.0, "a", size=60.0, italic=True, bold=True)
     lib.label(s, 1226.0, 382.0, "a", size=60.0, italic=True, bold=True)
     lib.label(s, 1076.0, 444.0, "b", size=64.0, italic=True, bold=True)
-    lib.label(s, 1096.0, 694.0, "Plan of a, b", size=56.0, italic=True, bold=True)
-    lib.label(s, 1088.0, 1456.0, "Plan of c and d", size=56.0, italic=True, bold=True)
+
+    font_family = "New Computer Modern, Latin Modern Roman, Georgia, serif"
+    s.raw(
+        f'<text x="1096" y="694" font-size="56" font-family="{font_family}" '
+        f'font-style="normal" font-weight="normal" text-anchor="middle" dominant-baseline="central" fill="#000000">'
+        f'Plan of <tspan font-style="italic" font-weight="bold">a, b</tspan></text>'
+    )
+    s.raw(
+        f'<text x="1088" y="1442" font-size="56" font-family="{font_family}" '
+        f'font-style="normal" font-weight="normal" text-anchor="middle" dominant-baseline="central" fill="#000000">'
+        f'Plan of <tspan font-style="italic" font-weight="bold">c</tspan> and '
+        f'<tspan font-style="italic" font-weight="bold">d</tspan></text>'
+    )
 
     s.save(out_svg)

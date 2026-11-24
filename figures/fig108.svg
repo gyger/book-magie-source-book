@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2420" height="676" viewBox="0 0 2420 676">
-  <path d="M 0 330 Q 48 290, 96 248 Q 140 218, 190 198 L 190 100 Q 190 76, 218 76 Q 248 76, 256 122 L 266 196 Q 320 226, 400 298 L 764 296 Q 820 220, 916 202 L 1300 202 Q 1344 198, 1348 150 L 1348 64 Q 1348 36, 1380 36 Q 1412 36, 1412 64 L 1412 150 Q 1416 198, 1460 202 L 1978 202 Q 2070 84, 2212 78 A 230 274 0 0 1 2420 220" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 0 330 Q 48 290, 96 248 Q 140 218, 190 198 L 190 100 Q 190 76, 218 76 Q 248 76, 256 122 L 266 196 Q 320 226, 400 298 L 764 296 Q 820 220, 916 202 L 1300 202 Q 1344 198, 1348 150 L 1348 64 Q 1348 36, 1380 36 Q 1412 36, 1412 64 L 1412 150 Q 1416 198, 1460 202 L 1978 202 Q 2070 84, 2212 78 C 2310 78, 2380 116, 2420 166" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 0 392 Q 52 444, 118 486 Q 178 514, 252 508 Q 332 496, 386 420 Q 402 412, 424 412 L 764 412 Q 824 486, 916 498 L 1300 498 Q 1344 504, 1348 548 L 1348 640 Q 1348 672, 1380 672 Q 1412 672, 1412 640 L 1412 548 Q 1416 504, 1460 498 L 1978 498 Q 2070 618, 2212 630 Q 2338 634, 2420 554" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="0" y1="355" x2="216" y2="355" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <ellipse cx="226" cy="355" rx="9" ry="42" fill="#ffffff" stroke="#000000" stroke-width="7"/>
@@ -14,9 +14,13 @@
   <line x1="1380" y1="20" x2="1380" y2="248" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
   <polygon points="1150,444 1522,444 1596,398 1248,398" fill="#ffffff" stroke="#000000" stroke-width="7" stroke-linejoin="round"/>
   <line x1="1380" y1="444" x2="1380" y2="674" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-  <polyline points="2390,146 2366,166 2420,218" fill="none" stroke="#000000" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="2392,140 2368,162 2420,214" fill="none" stroke="#000000" stroke-width="5.95" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="2401" y1="149" x2="2391" y2="158" stroke="#000000" stroke-width="4.9" stroke-linecap="round"/>
+  <line x1="2409" y1="157" x2="2399" y2="166" stroke="#000000" stroke-width="4.9" stroke-linecap="round"/>
+  <line x1="2417" y1="166" x2="2404" y2="178" stroke="#000000" stroke-width="4.9" stroke-linecap="round"/>
+  <polyline points="2420,502 2402,526 2420,526" fill="none" stroke="#000000" stroke-width="5.95" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="254" y="40" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">+</text>
-  <text x="226" y="290" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
+  <text x="226" y="294" font-size="58" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
   <text x="456" y="260" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
   <text x="716" y="260" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
   <text x="1154" y="242" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>

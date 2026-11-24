@@ -94,9 +94,9 @@ def build(src_png: Path, out_svg: Path) -> None:
     in_player = (xx < 595) & (((xx - cx) ** 2 + (yy - cy) ** 2) > (r + 12) ** 2)
     in_bush = (xx >= 500) & (xx <= 670) & (yy >= 530) & (yy <= 642) & (((xx - cx) ** 2 + (yy - cy) ** 2) < (r - 12) ** 2)
     in_cloth = (yy >= 638) & (yy <= 738) & (xx >= 75) & (xx <= w - 15)
-    # Exclude the incident ray above player for x > 410
-    ray_y = 116.0 + (646.0 - 116.0) * (xx - 365.0) / (879.0 - 365.0)
-    on_ray = (xx > 415) & (np.abs(yy - ray_y) < 18)
+    # Exclude the original woodcut incident ray between player's shoulder and A
+    wood_ray_y = 114.0 + (366.0 - 114.0) * (xx - 395.0) / (618.0 - 395.0)
+    on_ray = (xx > 406) & (xx < 618) & (np.abs(yy - wood_ray_y) < 16)
     woodcut = arr & (in_player | in_bush | in_cloth) & (~on_ray)
     d_wood = _trace_mask_svg_path(woodcut, step=2, eps=0.9)
     if d_wood:
@@ -120,8 +120,10 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Vertical AC
     s.line(ax, ay, ax, 646.0, stroke_width=sw_thin)
 
-    # Incident ray from racket (365, 116) through A to B
-    s.line(365.0, 116.0, cx, cy, stroke_width=sw_thin)
+    # Incident ray from player's shoulder through A (618, 372) to B (879, 646)
+    x_ray0 = 398.0
+    y_ray0 = ay + (cy - ay) * (x_ray0 - ax) / (cx - ax)
+    s.line(x_ray0, y_ray0, cx, cy, stroke_width=sw_thin)
     # Dashed straight continuation B -> D -> beyond
     s.line(cx, cy, 1345.0, 1152.0, stroke_width=sw_thin, dash="14,12")
     # Refracted ray B -> I -> beyond

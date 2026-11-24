@@ -59,6 +59,7 @@
   <path d="M 232 332 L 892 332 A 18 37 0 0 1 892 406 L 232 406 A 18 37 0 0 1 232 332 Z" fill="#ffffff" stroke="#000000" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
   <ellipse cx="232" cy="369" rx="18" ry="37" fill="#ffffff" stroke="#000000" stroke-width="6.5"/>
   <path d="M 438 238 Q 480 250, 514 300 L 574 388 Q 574 400, 560 396 L 438 238 Z" fill="#ffffff" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="565" cy="389" r="5" fill="#ffffff" stroke="#000000" stroke-width="3.5"/>
   <text x="294" y="374" font-size="68" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
   <text x="864" y="368" font-size="68" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
   <text x="422" y="276" font-size="66" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">N</text>

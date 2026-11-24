@@ -4,18 +4,18 @@
   <line x1="868.5" y1="835.5" x2="614" y2="116" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="868.5" y1="835.5" x2="342" y2="290" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
   <line x1="868.5" y1="835.5" x2="132" y2="532" stroke="#000000" stroke-width="8.5" stroke-linecap="round"/>
-  <line x1="157" y1="472" x2="345" y2="543" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
-  <line x1="110" y1="506" x2="110" y2="670" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
-  <line x1="150" y1="537" x2="150" y2="831" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
-  <circle cx="143" cy="502" r="35" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
-  <circle cx="331" cy="574" r="36" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
-  <circle cx="110" cy="710" r="40" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
+  <line x1="157" y1="476" x2="335" y2="556.5" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
+  <line x1="105" y1="506" x2="105" y2="684" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
+  <line x1="150" y1="536" x2="150" y2="831" stroke="#000000" stroke-width="6.5" stroke-dasharray="22,14" stroke-linecap="round"/>
+  <circle cx="141" cy="502" r="34" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
+  <circle cx="331" cy="577" r="33.5" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
+  <circle cx="103" cy="717" r="33" fill="#ffffff" stroke="#000000" stroke-width="8.5"/>
   <text x="862" y="46" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">B</text>
   <text x="575" y="90" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">D</text>
   <text x="302" y="260" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">E</text>
   <text x="98" y="442" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">F</text>
   <text x="396" y="576" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">G</text>
-  <text x="38" y="708" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">H</text>
+  <text x="32" y="710" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">H</text>
   <text x="142" y="874" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">C</text>
   <text x="900" y="842" font-size="60" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">A</text>
 </svg>

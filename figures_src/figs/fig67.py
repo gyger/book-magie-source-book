@@ -18,53 +18,66 @@ def build(src_png: Path, out_svg: Path) -> None:
     sw_thin = 5.0
 
     # Observation point F inside shadow
-    fx, fy = 900.0, 1044.0
+    fx, fy = 913.0, 1040.0
 
-    # Opaque screen edge A-G (horizontal at y = 92)
-    ax, ay = 482.0, 92.0
-    gx, gy = 824.0, 92.0
+    # Opaque screen edge A-G (horizontal solid line at y = 93)
+    ax, ay = 487.0, 93.0
+    gx, gy = 828.0, 93.0
     s.line(ax, ay, gx, gy, stroke_width=sw)
 
-    # Dashed extension of edge left to B and C
-    bx, by = 434.0, 92.0
-    cx, cy = 356.0, 92.0
-    s.line(cx, cy, ax, ay, stroke_width=sw_thin, dash="18,14")
-
-    # Wavefront curve C'' - C' - C - A
+    # Wavefront curve C'' - C' - C - B - A (dashed)
+    c1x, c1y = 246.0, 88.0
+    cx, cy = 338.5, 92.0
+    bx, by = 419.5, 93.0
     lib.smooth_curve(
         s,
-        [(34.0, 38.0), (156.0, 68.0), (254.0, 84.0), (356.0, 92.0), (482.0, 92.0)],
+        [(32.0, 50.0), (100.0, 69.0), (175.0, 81.0), (c1x, c1y), (cx, cy), (bx, by), (ax, ay)],
         stroke_width=sw,
+        dash="20,12",
     )
 
-    # Point C' on wavefront
-    c1x, c1y = 254.0, 84.0
-    # Point E above A on ray F-E
-    ex, ey = 456.0, 32.0
+    # Unit vector along F -> A (extending above A to top edge y = 0)
+    fa_len = math.hypot(ax - fx, ay - fy)
+    ux, uy = (ax - fx) / fa_len, (ay - fy) / fa_len
 
-    # Rays from F to A, B, C, C', and E (actually F-A extends up-left through E!)
-    s.line(fx, fy, ex, ey, stroke_width=sw)       # F -> A -> E
-    s.line(fx, fy, bx, by, stroke_width=sw_thin)  # F -> B
-    s.line(fx, fy, cx, cy, stroke_width=sw_thin)  # F -> C
+    # Point E on dashed extension of FA at distance FC from F
+    r_fc = math.hypot(cx - fx, cy - fy)
+    ex, ey = fx + ux * r_fc, fy + uy * r_fc
+
+    # Top of dashed extension of FA at y = 2
+    t_top = (2.0 - fy) / uy
+    top_x, top_y = fx + ux * t_top, 2.0
+
+    # Solid rays from F to A, B, C, C'
+    s.line(fx, fy, ax, ay, stroke_width=sw)         # F -> A
+    s.line(fx, fy, bx, by, stroke_width=sw_thin)    # F -> B
+    s.line(fx, fy, cx, cy, stroke_width=sw_thin)    # F -> C
     s.line(fx, fy, c1x, c1y, stroke_width=sw_thin)  # F -> C'
 
-    # Circular arc E-C centered at F with radius FC (passing through C and E)
-    r_fc = math.hypot(cx - fx, cy - fy)
+    # Dashed extension of FA above A through E to top edge
+    s.line(ax, ay, top_x, top_y, stroke_width=sw_thin, dash="16,10")
+
+    # Dashed circular arc C-E centered at F with radius FC, terminating cleanly at C and E
     ang_c = math.degrees(math.atan2(cy - fy, cx - fx))
     ang_e = math.degrees(math.atan2(ey - fy, ex - fx))
-    s.arc(fx, fy, r_fc, ang_c - 6.0, ang_e + 6.0, stroke_width=sw_thin, sweep=1)
+    s.arc(fx, fy, r_fc, ang_c, ang_e, stroke_width=sw_thin, dash="16,10", sweep=1)
 
-    # Dashed chord/arc continuation from C' up-right to (356, 30)
-    s.line(c1x, c1y, 356.0, 30.0, stroke_width=sw_thin, dash="16,12")
+    # Dashed construction arc/line from C' up-right to top edge
+    lib.smooth_curve(
+        s,
+        [(c1x, c1y), (294.0, 52.0), (332.0, 26.0), (368.0, 2.0)],
+        stroke_width=sw_thin,
+        dash="16,10",
+    )
 
     # Labels
-    lib.label(s, 146.0, 44.0, "C\u2033", size=50.0, italic=False, bold=True)
-    lib.label(s, 232.0, 48.0, "C\u2032", size=50.0, italic=False, bold=True)
-    lib.label(s, 316.0, 64.0, "C", size=50.0, italic=False, bold=True)
-    lib.label(s, 478.0, 46.0, "E", size=50.0, italic=False, bold=True)
-    lib.label(s, 504.0, 74.0, "A", size=50.0, italic=False, bold=True)
-    lib.label(s, 384.0, 128.0, "B", size=50.0, italic=False, bold=True)
-    lib.label(s, 845.0, 84.0, "G", size=50.0, italic=False, bold=True)
-    lib.label(s, 856.0, 1044.0, "F", size=54.0, italic=False, bold=True)
+    lib.label(s, 162.0, 44.0, "C\u2033", size=50.0, italic=False, bold=True)
+    lib.label(s, 236.0, 56.0, "C\u2032", size=50.0, italic=False, bold=True)
+    lib.label(s, 322.0, 62.0, "C", size=50.0, italic=False, bold=True)
+    lib.label(s, 494.0, 26.0, "E", size=50.0, italic=False, bold=True)
+    lib.label(s, 514.0, 68.0, "A", size=50.0, italic=False, bold=True)
+    lib.label(s, 398.0, 128.0, "B", size=50.0, italic=False, bold=True)
+    lib.label(s, 866.0, 86.0, "G", size=50.0, italic=False, bold=True)
+    lib.label(s, 866.0, 1036.0, "F", size=54.0, italic=False, bold=True)
 
     s.save(out_svg)

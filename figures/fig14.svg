@@ -13,8 +13,8 @@
   <rect x="834" y="855" width="226" height="99" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
   <polygon points="834,855 912,787 1138,787 1060,855" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <polygon points="1060,855 1138,787 1138,886 1060,954" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
+  <polygon points="962,170 990,170 990,816 962,834" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <circle cx="956" cy="170" r="90" fill="#ffffff" stroke="#000000" stroke-width="5.5"/>
-  <polygon points="962,216.8 990,198.8 990,816 962,834" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linejoin="round"/>
   <path d="M 936.0 834.0 L 936.0 161.0 A 13.0 13.0 0 0 1 962.0 161.0 L 962.0 834.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
   <line x1="1044" y1="170" x2="1044" y2="446" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
   <path d="M 1044.0 446.0 C 1058.0 466.2, 1076.5 494.8, 1075.0 505.8 C 1074.4 532.5, 1058.0 538.0, 1044.0 538.0 C 1030.0 538.0, 1013.6 532.5, 1013.0 505.8 C 1011.5 494.8, 1030.0 466.2, 1044.0 446.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>

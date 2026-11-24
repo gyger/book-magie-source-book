@@ -60,11 +60,13 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.filled_dot(s, 616.0, 1796.0, r=9.0)
 
     # Labels
-    lib.label(s, 405.0, 76.0, "b\u2081", size=50.0, italic=True, bold=True)
+    lib.label(s, 398.0, 74.0, "b", size=50.0, italic=True, bold=True)
+    lib.label(s, 421.0, 90.0, "1", size=32.0, italic=True, bold=True)
     lib.label(s, 560.0, 76.0, "b", size=50.0, italic=True, bold=True)
     lib.label(s, 62.0, 1474.0, "s", size=52.0, italic=True, bold=True)
     lib.label(s, 412.0, 1432.0, "a", size=50.0, italic=True, bold=True)
-    lib.label(s, 656.0, 1506.0, "a\u2081", size=50.0, italic=True, bold=True)
+    lib.label(s, 646.0, 1498.0, "a", size=50.0, italic=True, bold=True)
+    lib.label(s, 672.0, 1514.0, "1", size=32.0, italic=True, bold=True)
     lib.label(s, 1874.0, 1510.0, "c", size=50.0, italic=True, bold=True)
     lib.label(s, 694.0, 1606.0, "d", size=50.0, italic=True, bold=True)
     lib.label(s, 612.0, 1844.0, "e", size=48.0, italic=True, bold=True)

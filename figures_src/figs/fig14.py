@@ -114,13 +114,20 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.polygon([(bx1, by1), (bx1 + bdx, by1 + bdy), (bx2 + bdx, by1 + bdy), (bx2, by1)], fill="#ffffff", stroke="#000000", stroke_width=sw)
     s.polygon([(bx2, by1), (bx2 + bdx, by1 + bdy), (bx2 + bdx, by2 + bdy), (bx2, by2)], fill="#ffffff", stroke="#000000", stroke_width=sw)
 
-    # Pulley wheel
-    s.circle(F_cx, F_cy, F_r, fill="#ffffff", stroke="#000000", stroke_width=sw)
-
-    # 3D vertical post
+    # 3D vertical post — right side face (behind pulley wheel, occluded at rim)
     px1, px2, px3 = 936.0, 962.0, 990.0
     ptop, pbot = 148.0, 834.0
-    s.polygon([(px2, F_cy + F_r * 0.52), (px3, F_cy + F_r * 0.52 - 18), (px3, pbot - 18), (px2, pbot)], fill="#ffffff", stroke="#000000", stroke_width=sw)
+    s.polygon(
+        [(px2, F_cy), (px3, F_cy), (px3, pbot - 18), (px2, pbot)],
+        fill="#ffffff",
+        stroke="#000000",
+        stroke_width=sw,
+    )
+
+    # Pulley wheel (occludes top of right side face; behind front post arm)
+    s.circle(F_cx, F_cy, F_r, fill="#ffffff", stroke="#000000", stroke_width=sw)
+
+    # Front face of post with rounded top cap (in front of pulley wheel)
     pw = px2 - px1
     d_post = (
         f"M {px1:.1f} {pbot:.1f} "

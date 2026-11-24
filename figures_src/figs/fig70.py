@@ -86,8 +86,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     sw_thin = 4.5
 
     # Sun A center and Earth orbit circle
-    ax, ay = 381.0, 1062.0
-    r_earth = 355.0
+    ax, ay = 385.0, 1059.0
+    r_earth = 356.5
 
     # Vector-trace only the classical Sun woodcut around A (radius < 110)
     yy, xx = np.ogrid[:h, :w]
@@ -112,8 +112,8 @@ def build(src_png: Path, out_svg: Path) -> None:
     # Jupiter disk (white fill to cover shadow lines inside disk)
     s.circle(bx, by, r_jup, fill="#ffffff", stroke="#000000", stroke_width=sw_thin)
 
-    # Central vertical axis from B down through H, A to E
-    s.line(bx, by + r_jup, ax, ay - 95.0, stroke_width=sw_thin)
+    # Central vertical axis passing through B down through H, A to E
+    s.line(bx, by - r_jup, ax, ay - 95.0, stroke_width=sw_thin)
     s.line(ax, ay + 95.0, ax, ay + r_earth, stroke_width=sw_thin)
 
     # Tangent rays from D (347, 124) -> L -> K (40, 1158) and C (405, 124) -> G -> F (726, 1158)

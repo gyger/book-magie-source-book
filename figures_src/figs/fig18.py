@@ -27,7 +27,7 @@ def build(src_png: Path, out_svg: Path) -> None:
     lib.label(s, 224, 108, "E", size=56, italic=False, bold=True)
     lib.label(s, 866, 108, "H", size=56, italic=False, bold=True)
     lib.label(s, 42, 488, "F", size=56, italic=False, bold=True)
-    lib.label(s, 1018, 488, "I", size=56, italic=False, bold=True)
+    lib.label(s, 1032, 488, "I", size=56, italic=False, bold=True)
     lib.label(s, 212, 850, "G", size=56, italic=False, bold=True)
     lib.label(s, 842, 862, "K", size=56, italic=False, bold=True)
 

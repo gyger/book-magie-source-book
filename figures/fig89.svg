@@ -1,24 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1313" height="1836" viewBox="0 0 1313 1836">
-  <path d="M 18 1444 C 120 1444, 240 1540, 320 1630 C 400 1710, 470 1756, 524 1806 C 580 1834, 650 1824, 710 1796 L 764 1764 C 810 1788, 880 1786, 940 1754 L 1064 1676 C 1130 1704, 1240 1686, 1252 1626 C 1256 1584, 1200 1560, 1130 1574 C 1000 1554, 860 1510, 720 1466 C 620 1434, 480 1420, 350 1446 C 240 1446, 130 1420, 60 1378" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 20 1486 C 130 1492, 230 1590, 310 1674 C 390 1754, 460 1796, 514 1834 M 640 1834 L 764 1808 C 820 1828, 888 1824, 946 1790 L 1070 1714 C 1140 1740, 1244 1720, 1252 1662" fill="none" stroke="#000000" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <ellipse cx="44" cy="1356" rx="36" ry="18" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
-  <rect x="34" y="1374" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="582" cy="1732" rx="36" ry="18" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
-  <rect x="572" y="1750" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="1196" cy="1546" rx="36" ry="18" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
-  <rect x="1186" y="1564" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="518" cy="1632" rx="86" ry="40" fill="#ffffff" stroke="#000000" stroke-width="6"/>
-  <ellipse cx="518" cy="1612" rx="66" ry="28" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
-  <line x1="468" y1="1166" x2="468" y2="1596" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <line x1="566" y1="1166" x2="566" y2="1596" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <path d="M 468 1344 C 420 1320, 300 1280, 250 1324 C 218 1354, 260 1408, 344 1408 C 400 1408, 434 1390, 468 1384" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <ellipse cx="518" cy="1364" rx="74" ry="34" fill="#ffffff" stroke="#000000" stroke-width="6"/>
-  <rect x="298" y="1086" width="16" height="202" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="306" cy="1296" rx="28" ry="14" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <path d="M 280.0 1298 Q 292.0 1336, 306.0 1340 Q 320.0 1336, 332.0 1298" fill="#ffffff" stroke="#000000" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="354" y="1086" width="16" height="202" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="362" cy="1296" rx="28" ry="14" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <path d="M 336.0 1298 Q 348.0 1336, 362.0 1340 Q 376.0 1336, 388.0 1298" fill="#ffffff" stroke="#000000" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 0 1428 C 26 1454, 62 1456, 88 1444 L 230 1564 C 282 1638, 344 1690, 430 1720 L 536 1790 C 520 1816, 540 1836, 582 1836 C 624 1836, 644 1816, 628 1792 L 764 1738 C 836 1788, 922 1768, 996 1688 L 1132 1644 C 1178 1678, 1248 1662, 1252 1618 C 1254 1584, 1200 1566, 1132 1610 L 858 1574 C 786 1502, 686 1458, 566 1452 L 466 1452 C 414 1454, 370 1466, 344 1484 L 106 1438 C 90 1416, 60 1398, 20 1404" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 0 1476 C 28 1500, 62 1502, 88 1492 L 230 1612 C 282 1684, 344 1736, 430 1766 L 530 1834 M 634 1834 L 764 1786 C 836 1834, 922 1814, 996 1736 L 1132 1692 C 1180 1724, 1250 1708, 1252 1664 L 1252 1618" fill="none" stroke="#000000" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="88" y1="1444" x2="88" y2="1490" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="230" y1="1564" x2="230" y2="1610" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="430" y1="1720" x2="430" y2="1766" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="628" y1="1792" x2="628" y2="1838" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="764" y1="1738" x2="764" y2="1784" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="996" y1="1688" x2="996" y2="1734" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="1132" y1="1644" x2="1132" y2="1690" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <rect x="32" y="1362" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="42" cy="1352" rx="34" ry="16" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <ellipse cx="42" cy="1342" rx="36" ry="17" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <rect x="572" y="1752" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="582" cy="1742" rx="34" ry="16" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <ellipse cx="582" cy="1732" rx="36" ry="17" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <rect x="1182" y="1570" width="20" height="56" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="1192" cy="1560" rx="34" ry="16" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <ellipse cx="1192" cy="1550" rx="36" ry="17" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <ellipse cx="514" cy="1636" rx="86" ry="38" fill="#ffffff" stroke="#000000" stroke-width="6"/>
+  <path d="M 442 1628 Q 460 1606, 462 1574 L 566 1574 Q 568 1606, 586 1628 A 72 28 0 0 1 442 1628 Z" fill="#ffffff" stroke="#000000" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="514" cy="1574" rx="56" ry="22" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
+  <rect x="466" y="1164" width="96" height="412" fill="#ffffff" stroke="none" stroke-width="4"/>
+  <line x1="466" y1="1164" x2="466" y2="1574" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <line x1="562" y1="1164" x2="562" y2="1574" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 450 1378 C 414 1396, 376 1412, 326 1412 C 254 1412, 232 1374, 240 1344 L 240 1328 C 244 1362, 266 1396, 326 1396 C 376 1396, 412 1380, 444 1356 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 464 1330 C 424 1308, 300 1280, 250 1316 C 226 1340, 254 1396, 326 1396 C 380 1396, 416 1378, 446 1358" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 442 1348 L 442 1408 A 70 24 0 0 0 582 1408 L 582 1348 Z" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="512" cy="1348" rx="70" ry="24" fill="#ffffff" stroke="#000000" stroke-width="6"/>
+  <ellipse cx="512" cy="1344" rx="50" ry="16" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <rect x="468" y="1164" width="92" height="180" fill="#ffffff" stroke="none" stroke-width="4"/>
+  <line x1="466" y1="1164" x2="466" y2="1344" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <line x1="562" y1="1164" x2="562" y2="1344" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <rect x="580" y="1372" width="18" height="14" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <path d="M 598 1374 C 598 1354, 608 1340, 620 1344 C 628 1348, 626 1368, 616 1378 C 624 1388, 624 1408, 614 1412 C 602 1416, 596 1400, 598 1384 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="598" cy="1379" r="5" fill="#ffffff" stroke="#000000" stroke-width="4.2"/>
+  <line x1="610" y1="1354" x2="614" y2="1368" stroke="#000000" stroke-width="3.6" stroke-linecap="round"/>
+  <line x1="608" y1="1392" x2="612" y2="1404" stroke="#000000" stroke-width="3.6" stroke-linecap="round"/>
+  <ellipse cx="302" cy="1324" rx="28" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <path d="M 282.0 1322.0 Q 292.0 1314.0, 292.0 1304.0 L 312.0 1304.0 Q 312.0 1314.0, 322.0 1322.0" fill="#ffffff" stroke="#000000" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 272.0 1276.0 Q 278.0 1302.0, 292.0 1306.0 L 312.0 1306.0 Q 326.0 1302.0, 332.0 1276.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="302" cy="1274" rx="30" ry="11" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <rect x="294" y="1086" width="16" height="190" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="358" cy="1338" rx="28" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <path d="M 338.0 1336.0 Q 348.0 1328.0, 348.0 1318.0 L 368.0 1318.0 Q 368.0 1328.0, 378.0 1336.0" fill="#ffffff" stroke="#000000" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 328.0 1290.0 Q 334.0 1316.0, 348.0 1320.0 L 368.0 1320.0 Q 382.0 1316.0, 388.0 1290.0 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="358" cy="1288" rx="30" ry="11" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <rect x="350" y="1072" width="16" height="218" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
   <path d="M 254 960 L 254 1076 A 256 116 0 0 0 766 1076 L 766 960" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   <ellipse cx="510" cy="954" rx="256" ry="118" fill="#ffffff" stroke="#000000" stroke-width="6"/>
   <ellipse cx="510" cy="954" rx="222" ry="98" fill="none" stroke="#000000" stroke-width="5.1"/>
@@ -38,13 +65,43 @@
   <ellipse cx="510" cy="150" rx="96" ry="48" fill="#ffffff" stroke="#000000" stroke-width="6"/>
   <rect x="494" y="110" width="34" height="44" fill="#ffffff" stroke="#000000" stroke-width="5.1"/>
   <ellipse cx="510" cy="106" rx="38" ry="20" fill="#ffffff" stroke="#000000" stroke-width="6"/>
-  <line x1="508" y1="308" x2="508" y2="932" stroke="#000000" stroke-width="4.8" stroke-linecap="round"/>
-  <line x1="376" y1="934" x2="694" y2="934" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
-  <ellipse cx="416" cy="934" rx="16" ry="24" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <ellipse cx="618" cy="934" rx="16" ry="24" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
-  <path d="M 412 868 C 300 906, 300 996, 412 1034" fill="none" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="740,962 826,962 840,1198 800,1198 796,978 740,978" fill="#ffffff" stroke="#000000" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 316 1044 C 480 1168, 700 1252, 948 1280 L 948 1488 L 976 1492 L 976 1262 L 832 962 L 806 962 L 932 1260 C 696 1236, 480 1152, 338 1044" fill="#ffffff" stroke="#000000" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="402.14,1023.17 388.5,1018.83 375.7,1013.98 363.83,1008.64 352.96,1002.86 343.19,996.67 334.57,990.12 327.18,983.25 321.05,976.13 316.24,968.78 312.78,961.28 310.7,953.67 310,946 310.7,938.33 312.78,930.72 316.24,923.22 321.05,915.87 327.18,908.75 334.57,901.88 343.19,895.33 352.96,889.14 363.83,883.36 375.7,878.02 388.5,873.17 402.14,868.83 418.03,881.55 406.48,885.17 395.64,889.23 385.59,893.69 376.39,898.52 368.11,903.68 360.81,909.15 354.55,914.89 349.36,920.84 345.29,926.97 342.36,933.24 340.59,939.6 340,946 340.59,952.4 342.36,958.76 345.29,965.03 349.36,971.16 354.55,977.11 360.81,982.85 368.11,988.32 376.39,993.48 385.59,998.31 395.64,1002.77 406.48,1006.83 418.03,1010.45" fill="#ffffff" stroke="#000000" stroke-width="4.68" stroke-linejoin="round"/>
+  <line x1="404.26" y1="1006.05" x2="396.9" y2="1010.79" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="391.52" y1="1001.04" x2="383.25" y2="1005.38" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="379.96" y1="995.46" x2="370.85" y2="999.36" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="369.69" y1="989.37" x2="359.84" y2="992.8" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="360.81" y1="982.85" x2="344.55" y2="987.35" stroke="#000000" stroke-width="3.3" stroke-linecap="round"/>
+  <line x1="353.42" y1="975.94" x2="342.39" y2="978.3" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="347.6" y1="968.73" x2="336.15" y2="970.52" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="343.39" y1="961.28" x2="331.64" y2="962.49" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="340.85" y1="953.68" x2="328.91" y2="954.29" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="340" y1="946" x2="321.4" y2="946" stroke="#000000" stroke-width="3.3" stroke-linecap="round"/>
+  <line x1="340.85" y1="938.32" x2="328.91" y2="937.71" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="343.39" y1="930.72" x2="331.64" y2="929.51" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="347.6" y1="923.27" x2="336.15" y2="921.48" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="353.42" y1="916.06" x2="342.39" y2="913.7" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="360.81" y1="909.15" x2="344.55" y2="904.65" stroke="#000000" stroke-width="3.3" stroke-linecap="round"/>
+  <line x1="369.69" y1="902.63" x2="359.84" y2="899.2" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="379.96" y1="896.54" x2="370.85" y2="892.64" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="391.52" y1="890.96" x2="383.25" y2="886.62" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="404.26" y1="885.95" x2="396.9" y2="881.21" stroke="#000000" stroke-width="2.52" stroke-linecap="round"/>
+  <line x1="302" y1="954" x2="728" y2="962" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="508" y1="308" x2="508" y2="922" stroke="#000000" stroke-width="4.8" stroke-linecap="round"/>
+  <rect x="424" y="922" width="174" height="10" fill="#ffffff" stroke="#000000" stroke-width="4.5"/>
+  <path d="M 374 920 C 344 914, 322 926, 314 946 L 324 948 C 330 934, 348 926, 374 932 Z" fill="#ffffff" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="424" cy="927" rx="9" ry="16" fill="#ffffff" stroke="#000000" stroke-width="4.5"/>
+  <rect x="378" y="916" width="46" height="22" fill="#ffffff" stroke="#000000" stroke-width="4.5"/>
+  <ellipse cx="378" cy="927" rx="10" ry="19" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="674" cy="927" rx="13" ry="10" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <ellipse cx="652" cy="927" rx="10" ry="19" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <rect x="598" y="916" width="54" height="22" fill="#ffffff" stroke="#000000" stroke-width="4.5"/>
+  <ellipse cx="598" cy="927" rx="10" ry="19" fill="#ffffff" stroke="#000000" stroke-width="4.8"/>
+  <polygon points="726,956 824,956 824,1196 796,1196 786,1190 786,974 726,974" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linejoin="round"/>
+  <line x1="796" y1="974" x2="796" y2="1196" stroke="#000000" stroke-width="4.5" stroke-linecap="round"/>
+  <polygon points="806,956 836,956 950,1276 946,1492 920,1492 904,1484 906,1282 906,1258" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linejoin="round"/>
+  <polyline points="816,956 926,1276 922,1492" fill="none" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 310 1038 C 468 1152, 684 1236, 914 1260 L 914 1284 C 680 1262, 462 1174, 304 1054 Z" fill="#ffffff" stroke="#000000" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 308 1046 C 466 1162, 682 1248, 914 1272" fill="none" stroke="#000000" stroke-width="3.9" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="512" y="38" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">q</text>
   <text x="388" y="126" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">r</text>
   <text x="638" y="134" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">r</text>
@@ -60,22 +117,26 @@
   <text x="126" y="766" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">l</text>
   <text x="56" y="996" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">k</text>
   <text x="166" y="1002" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
-  <text x="710" y="1054" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
-  <text x="420" y="846" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">u</text>
+  <text x="708" y="1056" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">f</text>
+  <text x="414" y="846" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">u</text>
   <text x="448" y="1024" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">u</text>
-  <text x="442" y="898" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">t</text>
-  <text x="626" y="898" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">t</text>
-  <text x="362" y="986" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
-  <text x="306" y="1056" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
-  <text x="806" y="932" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
-  <text x="832" y="1232" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
-  <text x="994" y="1258" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b′</text>
-  <text x="966" y="1524" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a′</text>
+  <text x="442" y="892" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">t</text>
+  <text x="626" y="892" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">t</text>
+  <text x="352" y="976" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="292" y="1066" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="804" y="926" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <text x="812" y="1218" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
   <text x="264" y="1222" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
-  <text x="402" y="1222" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d′</text>
-  <text x="234" y="1296" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">m</text>
-  <text x="428" y="1296" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">m′</text>
-  <text x="524" y="1236" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
+  <text x="232" y="1288" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">m</text>
+  <text x="524" y="1228" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">g</text>
   <text x="520" y="1542" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">h</text>
   <text x="1280" y="1656" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">i</text>
+  <text x="974" y="1266" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
+  <path d="M 1003.6 1236.9 L 995.6 1256.9" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="936" y="1524" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
+  <path d="M 965.6 1494.9 L 957.6 1514.9" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="394" y="1222" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
+  <path d="M 423.6 1192.9 L 415.6 1212.9" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="420" y="1286" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">m</text>
+  <path d="M 458.3 1256.9 L 450.3 1276.9" fill="none" stroke="#000000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -83,6 +83,8 @@ def build(src_png: Path, out_svg: Path) -> None:
         "L 438 238 Z"
     )
     s.path(d_blade, fill="#ffffff", stroke_width=sw_mag * 0.85)
+    # Small circular pivot dot inside the lower (P) end of the blade
+    s.circle(565.0, 389.0, 5.0, fill="#ffffff", stroke_width=3.5)
 
     # Labels
     lib.label(s, 294.0, 374.0, "A", size=68.0, italic=False, bold=True)

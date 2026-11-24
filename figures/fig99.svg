@@ -68,15 +68,24 @@
   <line x1="894" y1="1308" x2="888" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
   <line x1="910" y1="1308" x2="904" y2="1456" stroke="#000000" stroke-width="3.5" stroke-dasharray="18,12" stroke-linecap="round"/>
   <rect x="100" y="1368" width="86" height="34" fill="#ffffff" stroke="#000000" stroke-width="5.5" rx="6"/>
+  <rect x="118" y="1357" width="8" height="11" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <rect x="112" y="1349" width="20" height="8" fill="#ffffff" stroke="#000000" stroke-width="4" rx="3"/>
+  <rect x="160" y="1357" width="8" height="11" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <rect x="154" y="1349" width="20" height="8" fill="#ffffff" stroke="#000000" stroke-width="4" rx="3"/>
   <rect x="108" y="1494" width="92" height="34" fill="#ffffff" stroke="#000000" stroke-width="5.5" rx="6"/>
+  <rect x="126" y="1483" width="8" height="11" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <rect x="120" y="1475" width="20" height="8" fill="#ffffff" stroke="#000000" stroke-width="4" rx="3"/>
+  <rect x="170" y="1483" width="8" height="11" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <rect x="164" y="1475" width="20" height="8" fill="#ffffff" stroke="#000000" stroke-width="4" rx="3"/>
   <path d="M 186 1384 Q 214 1384, 224 1326 Q 232 1300, 250 1304" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 200 1510 Q 230 1510, 238 1456" fill="none" stroke="#000000" stroke-width="5.52" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 992 1350 Q 1002 1382, 990 1414" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 992 1350 Q 1002 1382, 991 1410" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="987,1422 1000,1405 985,1400" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
   <text x="704" y="1114" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">+</text>
   <text x="922" y="1114" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">a</text>
   <text x="1396" y="1192" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">d</text>
   <text x="1586" y="1196" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">e</text>
-  <text x="1940" y="932" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
+  <text x="1956" y="916" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">c</text>
   <text x="2002" y="1114" font-size="62" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">b</text>
   <text x="2224" y="1114" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="normal" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">−</text>
   <text x="1030" y="1388" font-size="64" font-family="New Computer Modern, Latin Modern Roman, Georgia, serif" font-style="italic" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="#000000">S</text>

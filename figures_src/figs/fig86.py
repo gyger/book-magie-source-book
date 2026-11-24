@@ -50,21 +50,65 @@ def build(src_png: Path, out_svg: Path) -> None:
     s.rect(406.0, 976.0, 980.0, 10.0, fill="#ffffff", stroke_width=sw * 0.75)
     s.rect(438.0, 1106.0, 926.0, 12.0, fill="#ffffff", stroke_width=sw * 0.75)
 
-    # Vertical posts A (left) and B (right)
-    s.rect(422.0, 960.0, 12.0, 174.0, fill="#ffffff", stroke_width=sw * 0.8)
-    s.ellipse(428.0, 1152.0, 32.0, 16.0, fill="#ffffff", stroke_width=sw * 0.85)
-    s.rect(1356.0, 960.0, 12.0, 174.0, fill="#ffffff", stroke_width=sw * 0.8)
-    s.ellipse(1362.0, 1152.0, 32.0, 16.0, fill="#ffffff", stroke_width=sw * 0.85)
+    # Helper for flared conical interior pedestals (M, I, N, J)
+    def _pedestal(cx: float, base_y: float, collar_y: float, rx_base: float = 34.0, rx_collar: float = 17.0) -> None:
+        # Base disk (bottom thickness + top oval)
+        s.ellipse(cx, base_y + 4.0, rx_base, 14.0, fill="#ffffff", stroke_width=sw * 0.85)
+        s.ellipse(cx, base_y, rx_base, 13.0, fill="#ffffff", stroke_width=sw * 0.8)
+        # Flared conical body rising from base to top collar
+        s.path(
+            f"M {cx - rx_base + 4} {base_y - 2} "
+            f"Q {cx - rx_collar - 4} {(base_y + collar_y) * 0.5 + 4}, {cx - rx_collar + 2} {collar_y} "
+            f"L {cx + rx_collar - 2} {collar_y} "
+            f"Q {cx + rx_collar + 4} {(base_y + collar_y) * 0.5 + 4}, {cx + rx_base - 4} {base_y - 2} "
+            f"A {rx_base - 4} 11 0 0 1 {cx - rx_base + 4} {base_y - 2} Z",
+            fill="#ffffff",
+            stroke_width=sw * 0.85,
+        )
+        # Top collar ring
+        s.ellipse(cx, collar_y, rx_collar, 7.5, fill="#ffffff", stroke_width=sw * 0.8)
 
-    # === Outer conductor support rods P (left) and Q (right) ===
+    # === Outer conductor support rods P (left) and Q (right) with pedestals I and J ===
+    _pedestal(482.0, 1106.0, 1072.0, rx_base=36.0, rx_collar=17.0)
+    _pedestal(1418.0, 1106.0, 1072.0, rx_base=36.0, rx_collar=17.0)
     # Left rod P curving to pivot X
-    s.path("M 476 1080 L 476 382 Q 476 350, 514 350 L 620 350", stroke_width=sw * 0.85)
-    s.path("M 488 1080 L 488 388 Q 488 362, 518 362 L 620 362", stroke_width=sw * 0.85)
-    s.ellipse(482.0, 1104.0, 28.0, 14.0, fill="#ffffff", stroke_width=sw * 0.85)
+    s.path("M 476 1072 L 476 382 Q 476 350, 514 350 L 620 350", stroke_width=sw * 0.85)
+    s.path("M 488 1072 L 488 388 Q 488 362, 518 362 L 620 362", stroke_width=sw * 0.85)
     # Right rod Q curving to pivot Y
-    s.path("M 1412 1080 L 1412 388 Q 1412 362, 1380 362 L 1280 362", stroke_width=sw * 0.85)
-    s.path("M 1424 1080 L 1424 382 Q 1424 350, 1386 350 L 1280 350", stroke_width=sw * 0.85)
-    s.ellipse(1418.0, 1104.0, 28.0, 14.0, fill="#ffffff", stroke_width=sw * 0.85)
+    s.path("M 1412 1072 L 1412 388 Q 1412 362, 1380 362 L 1280 362", stroke_width=sw * 0.85)
+    s.path("M 1424 1072 L 1424 382 Q 1424 350, 1386 350 L 1280 350", stroke_width=sw * 0.85)
+
+    # Diagonal connecting straps M-I and N-J on interior base
+    s.line(446.0, 1140.0, 474.0, 1114.0, stroke_width=sw * 0.9)
+    s.line(1380.0, 1140.0, 1408.0, 1114.0, stroke_width=sw * 0.9)
+
+    # Vertical posts A (left) and B (right) with pedestals M and N
+    _pedestal(428.0, 1156.0, 1122.0, rx_base=34.0, rx_collar=17.0)
+    s.rect(422.0, 960.0, 12.0, 162.0, fill="#ffffff", stroke_width=sw * 0.8)
+    _pedestal(1362.0, 1156.0, 1122.0, rx_base=34.0, rx_collar=17.0)
+    s.rect(1356.0, 960.0, 12.0, 162.0, fill="#ffffff", stroke_width=sw * 0.8)
+
+    # === Four connecting wires from mercury cups R, S, T, U over/under frame rim to terminals M, I, N, J ===
+    wsw = sw * 0.78
+    # Wire from cup R (front-left) -> over rim -> to post A / terminal M
+    s.path("M 206 1106 L 206 1060 Q 206 1054, 214 1054 L 242 1054 Q 248 1054, 248 1062 L 248 1148", stroke_width=wsw)
+    s.line(248.0, 1148.0, 308.0, 1148.0, stroke_width=wsw * 0.9, dash="14,10")
+    s.path("M 308 1148 L 308 1062 Q 308 1054, 316 1054 L 340 1054 Q 348 1054, 348 1046 L 422 1046", stroke_width=wsw)
+
+    # Wire from cup S (back-left) -> over rim -> to rod P / terminal I
+    s.path("M 272 1040 L 272 1002 Q 272 996, 280 996 L 318 996 Q 324 996, 324 1004 L 324 1084", stroke_width=wsw)
+    s.line(324.0, 1084.0, 374.0, 1084.0, stroke_width=wsw * 0.9, dash="14,10")
+    s.path("M 374 1084 L 374 998 Q 374 990, 382 990 L 404 990 L 476 990", stroke_width=wsw)
+
+    # Wire from cup T (front-right) -> over rim -> to post B / terminal N
+    s.path("M 1578 1102 L 1578 1066 Q 1578 1058, 1570 1058 L 1528 1058 Q 1522 1058, 1522 1066 L 1522 1138", stroke_width=wsw)
+    s.line(1522.0, 1138.0, 1474.0, 1138.0, stroke_width=wsw * 0.9, dash="14,10")
+    s.path("M 1474 1138 L 1474 1054 Q 1474 1046, 1466 1046 L 1368 1046", stroke_width=wsw)
+
+    # Wire from cup U (back-right) -> over rim -> to rod Q / terminal J
+    s.path("M 1648 1040 L 1648 994 Q 1648 986, 1640 986 L 1598 986 Q 1592 986, 1592 994 L 1592 1066", stroke_width=wsw)
+    s.line(1592.0, 1066.0, 1538.0, 1066.0, stroke_width=wsw * 0.9, dash="14,10")
+    s.path("M 1538 1066 L 1538 992 Q 1538 984, 1530 984 L 1424 984", stroke_width=wsw)
 
     # === Movable rectangular conductor C-D suspended from axle E-O-G-Z-F ===
     # Horizontal axle bar E-F
@@ -99,13 +143,25 @@ def build(src_png: Path, out_svg: Path) -> None:
 
     # === Right-margin detail drawings (suspension & needle a-b-c-d-e-f) ===
     # Upper detail
-    s.line(1736.0, 38.0, 1736.0, 356.0, stroke_width=sw)
-    s.rect(1720.0, 198.0, 32.0, 34.0, fill="#ffffff", stroke_width=sw * 0.8)
-    s.line(1724.0, 166.0, 1724.0, 260.0, stroke_width=sw * 0.8)
-    # Lower detail (compass needle)
-    s.polygon([(1740.0, 496.0), (1764.0, 646.0), (1740.0, 804.0), (1716.0, 646.0)], fill="#ffffff", stroke_width=sw * 0.9)
-    s.rect(1728.0, 610.0, 24.0, 72.0, fill="#ffffff", stroke_width=sw * 0.8)
-    s.circle(1692.0, 648.0, 9.0, fill="#ffffff", stroke_width=sw * 0.8)
+    s.line(1734.0, 38.0, 1734.0, 356.0, stroke_width=sw)
+    s.rect(1718.0, 198.0, 32.0, 34.0, fill="#ffffff", stroke_width=sw * 0.8)
+    s.line(1722.0, 166.0, 1722.0, 260.0, stroke_width=sw * 0.8)
+    # Lower detail (compass needle with waisted central sleeve and horizontal pin e-f)
+    s.polygon([(1738.0, 488.0), (1760.0, 642.0), (1742.0, 796.0), (1718.0, 642.0)], fill="#ffffff", stroke_width=sw * 0.9)
+    # Waisted central sleeve inside the needle
+    s.path(
+        "M 1728 600 L 1752 600 Q 1746 622, 1752 642 Q 1746 660, 1752 678 "
+        "L 1728 678 Q 1734 660, 1728 642 Q 1734 622, 1728 600 Z",
+        fill="#ffffff",
+        stroke_width=sw * 0.8,
+    )
+    # Horizontal pin/rod from circle e through the central sleeve to pointed tip near f
+    s.line(1702.0, 642.0, 1788.0, 642.0, stroke_width=sw * 0.9)
+    s.polygon([(1778.0, 636.0), (1796.0, 642.0), (1778.0, 648.0)], fill="#000000", stroke="none")
+    s.circle(1740.0, 642.0, 6.0, fill="#ffffff", stroke_width=sw * 0.7)
+    s.circle(1690.0, 642.0, 11.0, fill="#ffffff", stroke_width=sw * 0.85)
+    # Small dashed leader line from c to lower sleeve
+    s.line(1704.0, 668.0, 1732.0, 665.0, stroke_width=sw * 0.65, dash="8,6")
 
     # Labels
     for x, y, txt, it in [
@@ -124,8 +180,8 @@ def build(src_png: Path, out_svg: Path) -> None:
         (42, 1212, "m", True), (1682, 1200, "n", True),
         (1736, 18, "b", True), (1696, 152, "d", True), (1768, 178, "e", True),
         (1706, 262, "c", True), (1772, 240, "f", True), (1742, 382, "a", True),
-        (1740, 464, "b", True), (1788, 588, "d", True), (1692, 618, "e", True),
-        (1696, 698, "c", True), (1812, 646, "f", True), (1748, 826, "a", True),
+        (1740, 464, "b", True), (1786, 582, "d", True), (1686, 610, "e", True),
+        (1694, 694, "c", True), (1814, 642, "f", True), (1748, 822, "a", True),
     ]:
         lib.label(s, float(x), float(y), txt, size=54.0, italic=it, bold=True)
 

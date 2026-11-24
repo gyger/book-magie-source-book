@@ -51,8 +51,15 @@ def build(src_png: Path, out_svg: Path) -> None:
             s.line(xt, yt, xb, yb, stroke_width=3.6)
         c += step
 
-    # Main circle
-    s.circle(cx, cy, r, stroke_width=sw)
+    # White knockout masks over hatching behind labels D, G, I (before drawing circle/lines)
+    s.rect(898.0, 667.0, 50.0, 56.0, fill="#ffffff", stroke="none")  # behind D
+    s.rect(531.0, 728.0, 54.0, 56.0, fill="#ffffff", stroke="none")  # behind G
+    s.rect(790.0, 770.0, 36.0, 52.0, fill="#ffffff", stroke="none")  # behind I
+
+    # Main circle: solid upper semicircle above interface, dashed lower semicircle below interface
+    surf_deg = math.degrees(math.atan2(8.5, w))
+    s.arc(cx, cy, r, 180.0 + surf_deg, 360.0 + surf_deg, stroke_width=sw, sweep=1)
+    s.arc(cx, cy, r, surf_deg, 180.0 + surf_deg, stroke_width=sw, dash="28,18", sweep=1)
 
     # Vertical diameter through B (H-B-G)
     s.line(cx, cy - r, cx, cy + r, stroke_width=sw)

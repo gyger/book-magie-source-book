@@ -28,19 +28,19 @@ def build(src_png: Path, out_svg: Path) -> None:
     dx, dy, dr = 366.0, 282.0, 62.0
     ex, ey, er = 992.0, 314.0, 40.0
 
-    # Cord from D over F to E
-    scene.polyline([(dx, dy), (fx, fy), (ex, ey)], stroke_width=sw)
-
-    # Balls drawn on top with white fill so cord terminates cleanly at rims
+    # Balls drawn first with white fill, then cord on top so cord extends to centers
     scene.circle(dx, dy, dr, fill="#ffffff", stroke="#000000", stroke_width=sw)
     scene.circle(ex, ey, er, fill="#ffffff", stroke="#000000", stroke_width=sw)
 
+    # Cord from center of D over F to center of E
+    scene.polyline([(dx, dy), (fx, fy), (ex, ey)], stroke_width=sw)
+
     # Labels (excluding clipped caption fragments at very bottom)
     lib.label(scene, 56, 548, "A", size=54, italic=False, bold=True)
-    lib.label(scene, 830, 160, "B", size=54, italic=False, bold=True)
+    lib.label(scene, 830, 152, "B", size=54, italic=False, bold=True)
     lib.label(scene, 1034, 548, "C", size=54, italic=False, bold=True)
-    lib.label(scene, 266, 286, "D", size=54, italic=False, bold=True)
-    lib.label(scene, 1066, 316, "E", size=54, italic=False, bold=True)
+    lib.label(scene, 258, 278, "D", size=54, italic=False, bold=True)
+    lib.label(scene, 1066, 308, "E", size=54, italic=False, bold=True)
     lib.label(scene, 838, 22, "F", size=54, italic=False, bold=True)
 
     scene.save(out_svg)

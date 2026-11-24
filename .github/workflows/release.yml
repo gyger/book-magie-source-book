@@ -1,0 +1,42 @@
+name: Release
+
+# Build the book and publish the PDF when a version tag is pushed.
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: typst-community/setup-typst@v4
+
+      # Annotated tag: tagger date. Lightweight tag: commit date.
+      - name: Read tag date
+        id: tag
+        run: |
+          date=$(git for-each-ref --format='%(creatordate:short)' "refs/tags/${GITHUB_REF_NAME}")
+          echo "date=${date}" >> "$GITHUB_OUTPUT"
+
+      - name: Build PDF
+        run: |
+          typst compile main.typ "Magie-Source-Book-${GITHUB_REF_NAME}.pdf" \
+            --input "version=${GITHUB_REF_NAME}" \
+            --input "tag-date=${{ steps.tag.outputs.date }}"
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            "Magie-Source-Book-${GITHUB_REF_NAME}.pdf" \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes

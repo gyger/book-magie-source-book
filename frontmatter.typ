@@ -28,6 +28,10 @@
       #text(weight: "bold")[Digital Edition Note] \
       #v(0.3em)
       This digital Typst edition of _A Source Book in Physics_ (William Francis Magie, Harvard University Press, 1935) was transcribed from high-resolution page scans using large language models (LLMs) with iterative review and feedback from multiple models. All diagrams were reconstructed programmatically as vector SVGs and verified pixel-by-pixel against the original scans.
+
+      #text(weight: "bold")[Copyright Status] \
+      #v(0.3em)
+      William Francis Magie died in 1943. His text is in the public domain in the European Union and in other countries with a term of life plus 70 years or less. In the United States the 1935 copyright was renewed in 1962 and runs until the end of 2030. Translations and editorial matter by other authors may be protected for longer. This note is not legal advice.
     ]
     #v(0.6em)
     #text(size: 8.5pt)[#edition_version — #edition_tag_date]

@@ -46,7 +46,7 @@ _To Michelangelo Ricci in Rome._
 
 #align(right)[
   Your devoted and obliged Servant, \
-  _E. Torricelli._
+  _V. Torricelli._
 ]
 
 == Pascal
@@ -71,7 +71,7 @@ We therefore met on that day at eight o'clock in the morning in the garden of th
 
 First, I poured into a vessel sixteen pounds of quicksilver, which I had purified during the three preceding days; and taking two tubes of glass of equal size, each about four feet long, hermetically sealed at one end and open at the other, I made with each of them the ordinary experiment of the vacuum in the same vessel, and when I brought the two tubes near each other without lifting them out of the vessel, it was found that the quicksilver which remained in each of them was at the same level, and that it stood in each of them above the quicksilver in the vessel twenty-six inches three lines and a half. I repeated this experiment twice in the same place, with the same tubes, with the same quicksilver and in the same vessel; and found always that the quicksilver in the tubes was still at the same level and the same height as I found it the first time.
 
-When this had been done, I left one of the two tubes in the vessel, for continual observation: I marked on the glass the height of the quicksilver, and leaving the tube in its place, I begged the Rev. Father Chastin, one of the inmates of the house, a man as pious as he is capable, who thinks very clearly in matters of this sort, to take the trouble to observe it from time to time during the day, so as to see if any change occurred. And with the other tube and a part of the same quicksilver, I ascended with all these gentlemen to the top of the Puy-de-Dôme, which is higher than the Minimes by about five hundred toises, where, when we made the same experiments in the same way as I had at the Minimes, it was found that there remained in the tube no more than twenty-three inches two lines of quicksilver, whereas at the Minimes there was found in the same tube a height of twenty-six inches, three lines and a half; and so there was between the heights of the quicksilver in these experiments a difference of three inches one line and a half: this result so filled us with admiration and astonishment, and so much surprised us that for our own satisfaction we wished to repeat it. I therefore tried the same thing five times more, with great accuracy, at different places on the top of the mountain, once under cover in the little chapel which is there, once exposed, once in a shelter, once in the wind, once in good weather, and once during the rain, and the mists which came over us sometimes, having taken care to get rid of the air in the tube every time; and in all these trials there was found the same height of the quicksilver, twenty-three inches two lines, which makes a difference of three inches one line and a half from the twenty-six inches three lines and a half which were found at the Minimes; this result fully satisfied us.
+When this had been done, I left one of the two tubes in the vessel, for continual observation: I marked on the glass the height of the quicksilver, and leaving the tube in its place, I begged the Rev. Father Chastin, one of the inmates of the house, a man as pious as he is capable, who thinks very clearly in matters of this sort, to take the trouble to observe it from time to time during the day, so as to see if any change occurred. And with the other tube and a part of the same quicksilver, I ascended with all these gentlemen to the top of the Puy-de-Dôme, which is higher than the Minimes by about five hundred toises, where, when we made the same experiments in the same way as I had at the Minimes, it was found that there remained in the tube no more than twenty-three inches two lines of quicksilver, whereas at the Minimes there was found in the same tube a height of twenty-six inches, three lines and a half; and so there was between the heights of the quicksilver in these experiments a difference of three inches one line and a half: this result so filled us with admiration and astonishment, and so much surprised us that for our own satisfaction we wished to repeat it. I therefore tried the same thing five times more, with great accuracy, at different places on the top of the mountain, once under cover in the little chapel which is there, once exposed, once in a shelter, once in the wind, once in good weather, and once during the rain and the mists which came over us sometimes, having taken care to get rid of the air in the tube every time; and in all these trials there was found the same height of the quicksilver, twenty-three inches two lines, which makes a difference of three inches one line and a half from the twenty-six inches three lines and a half which were found at the Minimes; this result fully satisfied us.
 
 _The rest of the letter relates to other experiments made during the descent and reports that the height of the quicksilver in the stationary tube had not changed during the day. It also reports that the height of the quicksilver was found to be slightly lower by ascending to the top of the Cathedral in Clermont._
 
@@ -116,7 +116,7 @@ If different liquids are placed in the tubes, such as water in the one and quick
 
 And even when the tube full of water is one hundred times narrower than that in which the quicksilver is, this little thread of water will hold in equilibrium all the great mass of quicksilver, provided that it is fourteen times as high.
 
-All that we have said up to this point about tubes can be applied to any vessel whatever, regular or not; for the same equilibrium occurs in any case: so that, if, in place of these two tubes that we have represented at the two openings, there are two vessels used, which are applied also to these openings but which are large in some places, narrow in others, and indeed entirely irregular in all their extent; when liquids have been poured in to the heights which we have described, these liquids will also be in equilibrium in these irregular tubes, just as they were in the uniform tubes, because the weight of liquids is measured only by their heights and not by their sizes.
+All that we have said up to this point about tubes can be applied to any vessel whatever, regular or not; for the same equilibrium occurs in any case: so that, if, in place of these two tubes that we have represented at the two openings, there are two vessels used; which are applied also to these openings but which are large in some places, narrow in others, and indeed entirely irregular in all their extent; when liquids have been poured in to the heights which we have described, these liquids will also be in equilibrium in these irregular tubes, just as they were in the uniform tubes, because the weight of liquids is measured only by their heights and not by their sizes.
 
 _Chapter IV deals with equilibrium between a column of water and a block of copper which is placed as a piston in the lower end of a vertical tube that projects above the surface of the water. The experiment shows that the copper is in equilibrium when it is so far below the surface of the water that the water column of the same cross-section weighs as much as the copper block does. Another experiment shows that the pressure of the water may also be exerted downward on a block of wood used as a piston in a recurved tube._
 
@@ -212,7 +212,7 @@ We were hindered from prosecuting the trial at that time by the casual breaking 
     table(
       columns: 6,
       stroke: none,
-      inset: (x: 3.5pt, y: 1.8pt),
+      inset: (x: 3.5pt, y: 3pt),
       align: (right, left, left, center, left, left),
       [$A$], [$A$], [$B$], [$C$], [$D$], [$E$],
       [48], [12], [00], table.cell(rowspan: 25, align: center + horizon)[#rotate(-90deg, reflow: true)[Added to $29 1/8$ makes]], [$29 2/16$], [$29 2/16$],
@@ -284,7 +284,7 @@ Now, if to what we have thus delivered concerning the compression of the air, we
     table(
       columns: 5,
       stroke: none,
-      inset: (x: 3.5pt, y: 1.8pt),
+      inset: (x: 3.5pt, y: 3pt),
       align: (left, left, center, left, left),
       [$A$], [$B$], [$C$], [$D$], [$E$],
       [1], [$00 0/8$], table.cell(rowspan: 19, align: center + horizon)[#rotate(-90deg, reflow: true)[Subtracted from $29 3/4$ leaves]], [$29 3/4$], [$29 3/4$],
@@ -344,9 +344,7 @@ We then pour mercury into the tube little by little, taking care that the shock 
 
 If we again pour in mercury until it rises to 6 inches in the small branch, so that there remains only 6 inches of air, the mercury in the other branch will be higher by 28 inches than the height of these six inches; which is what ought to happen according to the same hypothesis: for then the enclosed air will be loaded with 28 inches of mercury and with the weight of the atmosphere, which is also 28, the sum of which 56 is twice 28 as the first extent of 12 inches of air is twice that of the 6 inches which remain; and when as we continue to pour mercury into the long branch it rises in the small branch to a height of 8 inches, there will be 56 inches of mercury above it in the long branch, which makes again the same proportion.
 
-If we wish to carry the experiment further we may pour in still more mercury, until the air in the small branch is reduced to 3 inches; and we shall see that in the other branch the mercury will be raised to 84 inches above it, which with the 28 of the weight
-
-of the atmosphere makes 112, a number four times 28, just as the first extent of 12 inches is four times the last extent of 3 inches.
+If we wish to carry the experiment further we may pour in still more mercury, until the air in the small branch is reduced to 3 inches; and we shall see that in the other branch the mercury will be raised to 84 inches above it, which with the 28 of the weight of the atmosphere makes 112, a number four times 28, just as the first extent of 12 inches is four times the last extent of 3 inches.
 
 To carry out these experiments successfully the small branch should have a section which is uniformly the same; but it is not necessary that the section of the long branch should be precisely the same in all its length.
 
@@ -386,11 +384,15 @@ The same will be found, if trial be made, with a piece of dry wood that will ben
 
 The manner of trying the same thing upon a body of air, whether it be for the rarefaction or for the compression thereof I did about fourteen years since publish in my _Micrographia_, and therefore I shall not need to add any further description thereof.
 
+#align(center)[. . . . . . . . . . . . . . .]
+
 == Young
 
 The following extract contains the contribution of Thomas Young (p. 59) to the subject of elasticity. In it he introduces the name _modulus_ and the definition of it which is now generally used. The extract is taken from Lecture XIII of his _Lectures on Natural Philosophy_, published in 1807.
 
 === Modulus of Elasticity
+
+#align(center)[. . . . . . . . . . . . . . .]
 
 Extension and compression follow so nearly the same laws, that they may be best understood by comparison with each other. The cohesive and repulsive forces which resist these effects, depend almost as much on the solidity or rigidity of the substances, as on the attractions and repulsions which are their immediate causes: for a substance perfectly liquid, although its particles are in full possession of their attractive and repulsive powers, may be extended or compressed by the smallest force that can be applied to it. It is not indeed certain that the actual distances of the particles of all bodies are increased when they are extended, or diminished when they are compressed: for these changes are generally accompanied by contrary changes in other parts of the same substance, although probably in a smaller degree. We may easily observe that if we compress a piece of elastic gum in any direction, it extends itself in other directions; and if we extend it in length, its breadth and thickness are diminished.
 
@@ -586,7 +588,7 @@ By a mean of the experiments made with the wire first used, the density of the e
 
 Another objection perhaps may be made to these experiments, namely, that it is uncertain whether, in these small distances, the force of gravity follows exactly the same law as in greater distances. There is no reason however to think that any irregularity of this kind takes place, until the bodies come within the action of what is called the attraction of cohesion, and which seems to extend only to very minute distances. With a view to see whether the result could be affected by this attraction, I made the 9th, 10th, 11th, and 15th experiments, in which the balls were made to rest as close to the sides of the case as they could; but there is no difference to be depended on, between the results under that circumstance, and when the balls are placed in any other part of the case.
 
-According to the experiments made by Dr. Maskelyne, on the attraction of the hill Schehallian, (See _A Source Book in Astronomy_, p. 133.) the density of the earth is $4 1/2$ times that of water; which differs rather more from the preceding determination than I should have expected. But I forbear entering into any consideration of which determination is most to be depended on, till I have examined more carefully how much of the preceding determination is affected by irregularities whose quantity I cannot measure.
+According to the experiments made by Dr. Maskelyne, on the attraction of the hill Schehallian, (_See_ A Source Book in Astronomy, p. 133.) the density of the earth is $4 1/2$ times that of water; which differs rather more from the preceding determination than I should have expected. But I forbear entering into any consideration of which determination is most to be depended on, till I have examined more carefully how much of the preceding determination is affected by irregularities whose quantity I cannot measure.
 
 == Torricelli
 
@@ -641,4 +643,4 @@ The short extract from the _Bibliothèque Universelle, Sciences et Arts_, Vol. 6
 
 The principle upon which these ideas are founded is the distinction that M. Ampère has for some time maintained between _particles_, _molecules_, and _atoms_. He gives the name _particle_ to an infinitely small portion of a body of the same nature as the body, so that a particle of a solid body is solid, that of a liquid, liquid and that of a gas, is in the gaseous condition.
 
-The particles are made up of _molecules_ held apart from each other, 1. by that which remains at this distance of the attractive and repulsive forces which belong to the atoms, 2. by the repulsion which is set up between them by the vibratory motion of the interposed ether, 3. by the attraction in the direct ratio of the masses and in the inverse ratio of the squares of their distances. He gives the name _molecule_ to an assemblage of _atoms_ kept apart by attractive and repulsive forces belonging to each atom, forces which he conceives so much greater than the former ones that these may be considered relatively completely insensible. The name _atom_ is given to the material points from which these attractive and repulsive forces proceed.
+The particles are made up of _molecules_ held apart from each other, 1. by that which remains at this distance of the attractive and repulsive forces which belong to the atoms, 2. by the repulsion which is set up between them by the vibratory motion of the interposed ether, 3. by the attraction in the direct ratio of the masses and in the inverse ratio of the squares of their distances. He gives the name _molecule_ to an assemblage of atoms kept apart by attractive and repulsive forces belonging to each atom, forces which he conceives so much greater than the former ones that these may be considered relatively completely insensible. The name _atom_ is given to the material points from which these attractive and repulsive forces proceed.

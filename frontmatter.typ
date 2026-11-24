@@ -39,7 +39,7 @@
 #align(center)[
   #text(size: 8.5pt)[
     Original edition copyright 1935, 1963 by the President and Fellows of Harvard College. \
-    Tenth Printing, 1969 — Library of Congress Catalog Card Number 63-21307.
+    Eighth Printing —Library of Congress Catalog Card Number 63-21307.
   ]
 ]
 
